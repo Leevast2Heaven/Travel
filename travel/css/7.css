@@ -1,0 +1,7617 @@
+.fL {
+	float: left
+}
+
+.fR {
+	float: right
+}
+
+.tB {
+	font-weight: 700
+}
+
+.tN {
+	font-weight: 400
+}
+
+.aL {
+	text-align: left
+}
+
+.aC {
+	text-align: center
+}
+
+.aR {
+	text-align: right
+}
+
+.clr,.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
+
+.clrfix,.clr_after {
+	zoom: 1
+}
+
+.clrfix:after,.clr_after:after {
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	content: "."
+}
+
+.cOrange {
+	color: #f60
+}
+
+.cBlue {
+	color: #0069ca
+}
+
+.cGreen {
+	color: #84be3c
+}
+
+.hide {
+	display: none
+}
+
+.hidden {
+	visibility: hidden
+}
+
+.qn_page {
+	font: normal 12px/1.5 arial,sans-serif;
+	margin: 0 auto;
+	width: 980px;
+	background-color: #fff;
+	padding: 5px 0
+}
+
+.qn_page_left {
+	background-color: #f3f3f3;
+	width: 1000px;
+	padding: 0;
+	text-align: left
+}
+
+.autowidth {
+	width: auto!important;
+	min-width: 979px
+}
+
+.qad_btitle {
+	display: none
+}
+
+.qad_btitle .t3 {
+	margin: 0 3px;
+	height: 1px;
+	background-color: #f0f0f0;
+	overflow: hidden
+}
+
+.qad_btitle .t2 {
+	margin: 0 2px;
+	height: 1px;
+	background-color: #f0f0f0;
+	overflow: hidden
+}
+
+.qad_btitle .t1 {
+	margin: 0 1px;
+	height: 1px;
+	background-color: #f0f0f0;
+	overflow: hidden
+}
+
+.qad_btitle .hd {
+	padding: 0 6px;
+	border-bottom: 1px solid #ccc;
+	font: normal 14px/27px Arial,sans-serif;
+	background-color: #f0f0f0;
+	color: #555
+}
+
+.qad_btitle_lite .hd {
+	border-bottom: 0;
+	line-height: 24px
+}
+
+.un_hd {
+	position: relative;
+	border-top: 1px solid #20abae;
+	background-color: #f7fdfb;
+	color: #555;
+	font: bold 14px/18px Tahoma,Geneva,sans-serif;
+	padding: 7px 0 7px 10px
+}
+
+.un_hd .more {
+	position: absolute;
+	top: 7px;
+	right: 15px;
+	font-size: 12px;
+	font-weight: 100
+}
+
+.un_ct {
+	border-left: 6px solid #f7fdfb;
+	border-right: 6px solid #f7fdfb;
+	padding: 0 5px;
+	margin-top: -1px
+}
+
+.hn_dl dt {
+	float: left;
+	height: 64px;
+	margin: 0 0 5px 0;
+	overflow: hidden;
+	width: 64px;
+	border: 1px solid #ddd
+}
+
+.hn_dl {
+	padding: 5px 0;
+	border-top: 1px dotted #ddd
+}
+
+.hn_dl dt a {
+	text-decoration: none;
+	font: bold 14px Arial,sans-serif;
+	color: #1b66c3
+}
+
+.hn_dl dd {
+	color: #888;
+	margin-left: 70px
+}
+
+.hn_dl .hn_d2 {
+	color: #1b66c3;
+	font: bold 12px/16px Arial,sans-serif
+}
+
+.hn_dl .hn_d3 {
+	color: #888
+}
+
+.hn_dl dd a {
+	color: #f60;
+	text-decoration: none;
+	line-height: 20px
+}
+
+.un_dl {
+	padding: 5px 0;
+	border-top: 1px dotted #ddd
+}
+
+.un_dl dt a {
+	text-decoration: none;
+	font: bold 14px Arial,sans-serif;
+	color: #1b66c3
+}
+
+.un_dl dd {
+	color: #888
+}
+
+.un_dl dd a {
+	color: #f60;
+	text-decoration: none;
+	line-height: 20px
+}
+
+.clr {
+	clear: both
+}
+
+.un_ft {
+	margin-top: -2px;
+	border-bottom: 1px solid #eaeceb
+}
+
+.un_ft .ftbg {
+	background-color: #f5fefb;
+	height: 6px;
+	overflow: hidden
+}
+
+.mt10 {
+	margin-top: 10px
+}
+
+.mt20 {
+	margin-top: 20px
+}
+
+.pt10 {
+	padding-top: 10px
+}
+
+.pt20 {
+	padding-top: 20px
+}
+
+.iconfont {
+	font-family: "travel_web"!important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: .2px;
+	-moz-osx-font-smoothing: grayscale
+}
+
+@font-face {
+	font-family:'travel_web';src:url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.eot');src:url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.eot?#iefix') format('embedded-opentype'),url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.woff') format('woff'),url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.ttf') format('truetype'),url('//s.qunarzz.com/travel/fonts/travel_web/0.0.10/travel_web.svg#travel_web') format('svg')
+}
+
+.clearfix {
+	overflow: hidden;
+	_zoom: 1
+}
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	content: "."
+}
+
+.rmb {
+	font-family: Arial;
+	font-style: normal
+}
+
+.e_comment_star_box .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/star_v3.jpg") no-repeat 0 -20px;
+	float: left;
+	display: inline;
+	width: 82px;
+	height: 14px;
+	line-height: 0;
+	font-size: 0;
+	margin-top: 2px;
+	overflow: hidden
+}
+
+.e_comment_star_box .total_star .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/star_v3.jpg") no-repeat 0 0;
+	float: left;
+	display: inline;
+	width: 82px;
+	height: 14px;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden
+}
+
+.e_comment_star_box .total_star .star_4 {
+	width: 80%
+}
+
+.e_comment_star_box .total_star .star_3 {
+	width: 60%
+}
+
+.e_comment_star_box .total_star .star_2 {
+	width: 40%
+}
+
+.e_comment_star_box .total_star .star_1 {
+	width: 20%
+}
+
+.e_comment_star_box .total_star .star_0 {
+	width: 0
+}
+
+.b_detail_section .e_title_box .e_title_content {
+	color: #1badb6;
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	line-height: 20px;
+	margin-bottom: 10px
+}
+
+.b_detail_section .e_title_box .e_title_content .num {
+	font-size: 12px;
+	margin-left: 8px
+}
+
+#idSubTagBox .line {
+	display: inline
+}
+
+.tangram-suggestion-main {
+	z-index: 9999999;
+	background: #fff
+}
+
+.js_scroll_cnt {
+	margin-right: 10px
+}
+
+.m_mark {
+	bottom: 0;
+	height: 1px;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	word-break: break-all
+}
+
+.qn_main_box {
+	font: normal 12px/1.5 arial,sans-serif;
+	clear: both;
+	background-color: #fff;
+	width: 100%;
+	color: #555;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%
+}
+
+.qn_main_box .qn_main {
+	width: 1000px;
+	margin: 0 auto;
+	clear: both
+}
+
+.qn_main_box .qn_main_ct {
+	clear: both
+}
+
+.qn_main_box .qn_main_ct_l,.qn_main_box .main_leftbox {
+	float: left;
+	display: inline;
+	width: 720px;
+	padding-right: 10px
+}
+
+.qn_main_box .qn_main_ct_r,.qn_main_box .main_rightbox {
+	float: right;
+	display: inline;
+	width: 250px
+}
+
+.qn_main_box .mt_60 {
+	margin-top: 60px
+}
+
+.qn_main_box .qn_main_expand {
+	width: 100%;
+	margin: 0 auto
+}
+
+.qn_main_box a {
+	color: #0069ca
+}
+
+.qn_main_box a:hover {
+	color: #f60
+}
+
+.b_crumbs,.item {
+	position: relative
+}
+
+.b_crumbs {
+	height: 46px;
+	z-index: 999;
+	width: 100%;
+	color: #666;
+	font-size: 12px;
+	font-family: tahoma
+}
+
+.b_crumbs .item {
+	float: left;
+	display: inline;
+	line-height: 46px;
+	padding-right: 10px;
+	margin-right: 5px
+}
+
+.b_crumbs .item .e_pull_arrow,.b_crumbs .item .e_arrow {
+	position: absolute
+}
+
+.b_crumbs .item .e_pull_arrow {
+	right: 7px;
+	top: 20px;
+	width: 9px;
+	height: 9px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat 0 -287px;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat 0 -287px
+}
+
+.b_crumbs .item .e_arrow {
+	right: 0;
+	top: 1px;
+	font-family: simsun
+}
+
+.b_crumbs .item .e_pull_ct {
+	display: none;
+	position: absolute;
+	left: -10px;
+	top: 35px;
+	z-index: 1000;
+	border: 1px solid #a8dde0;
+	background: #fff
+}
+
+.b_crumbs .item .e_pull_ct .tit,.b_crumbs .item .e_pull_ct .ct_list {
+	display: block;
+	white-space: nowrap;
+	line-height: 22px;
+	padding: 0 10px;
+	color: #666
+}
+
+.b_crumbs .item .e_pull_ct .tit {
+	font-weight: bold
+}
+
+.b_crumbs .item .e_pull_ct .ct_list:hover {
+	background: #e6fafa;
+	color: #1badb6
+}
+
+.b_crumbs .item .e_pull_ct .more_city {
+	display: block;
+	line-height: 22px;
+	text-align: right;
+	padding-right: 9px;
+	white-space: nowrap
+}
+
+.b_crumbs .pull {
+	padding-right: 20px
+}
+
+.b_crumbs .hover .e_pull_arrow {
+	right: 5px;
+	top: 17px;
+	width: 12px;
+	height: 12px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat 0 -309px;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat 0 -309px
+}
+
+.b_crumbs .hover .e_pull_ct {
+	display: block
+}
+
+.b_paging {
+	padding: 20px 0;
+	color: #666;
+	font: 14px tahoma,Arial;
+	text-align: right;
+	line-height: 28px
+}
+
+.b_paging a,.b_paging em {
+	display: inline-block;
+	height: 28px;
+	padding: 0 10px;
+	border: 1px solid #e0e0e0;
+	color: #666;
+	margin-right: 6px;
+	cursor: pointer;
+	vertical-align: middle;
+	text-align: center
+}
+
+.b_paging a:hover {
+	color: #fff;
+	border: 1px solid #1badb6;
+	background-color: #1badb6
+}
+
+.b_paging .cur {
+	color: #fff;
+	border: 1px solid #1badb6;
+	background-color: #1badb6;
+	font-weight: bold
+}
+
+.b_paging .dot {
+	cursor: default
+}
+
+.b_paging .disable,.b_paging .disable:hover {
+	border: 1px solid #ececec;
+	background-color: #ececec;
+	color: #aaa;
+	cursor: default
+}
+
+.b_paging .disable span {
+	cursor: default
+}
+
+.b_link_ad {
+	zoom: 1
+}
+
+.b_link_ad .q_ad_235 .q_ad_title {
+	padding: 0;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "microsoft yahei";
+	line-height: 2em;
+	border-bottom: 1px solid #e0e0e0
+}
+
+.b_link_ad .q_ad_235 .q_ad_title .q_ad_more {
+	margin-top: 7px
+}
+
+.b_link_ad .q_ad_holder ul {
+	padding: 0
+}
+
+.b_link_ad .q_ad_holder li {
+	width: 250px;
+	border: 0
+}
+
+.b_link_ad .q_ad_info {
+	float: none;
+	width: auto
+}
+
+.b_link_ad .q_ad_235 {
+	width: 250px
+}
+
+.b_link_ad .q_ad_holder {
+	overflow: visible
+}
+
+.b_link_ad .q_ad_725 {
+	width: 750px
+}
+
+.b_link_ad .q_ad_725 .q_ad_holder {
+	width: 100%;
+	padding: 0
+}
+
+.b_link_ad .q_ad_725 .q_ad_holder li {
+	width: 240px;
+	margin-right: 10px;
+	padding-right: 0;
+	margin-bottom: 10px
+}
+
+.b_sidetool {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	_position: absolute;
+	_overflow: hidden;
+	_bottom: auto;
+	z-index: 5100;
+	width: 50px
+}
+
+.b_sidetool .sidetool_inner {
+	position: relative;
+	padding-left: 50px;
+	width: 0
+}
+
+.b_sidetool .e_tool {
+	background-color: #fff;
+	width: 49px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: inline;
+	border-top: solid 1px #dfdfdf;
+	border-left: solid 1px #dfdfdf
+}
+
+.b_sidetool .e_tool .e_handler_share,.b_sidetool .e_tool .e_handler_collect,.b_sidetool .e_tool .e_handler_gotop {
+	float: left;
+	display: inline;
+	background: url("//source.qunarzz.com/site/images/travel/finish/finish3nd/right_tool_v2.png") -48px -153px no-repeat;
+	width: 48px;
+	height: 50px;
+	border-bottom: solid 1px #dfdfdf;
+	border-right: solid 1px #dfdfdf
+}
+
+.b_sidetool .e_tool .e_handler_collect {
+	text-align: right;
+	padding-right: 2px;
+	width: 46px
+}
+
+.feedbackwrap {
+	width: 612px;
+	padding: 10px 0 0
+}
+
+.feedbackwrap .e_dialog_hd {
+	border: 0
+}
+
+.feedbackwrap .e_dialog_hd {
+	padding: 0 10px
+}
+
+.feedbackwrap .feedback_innerbox {
+	fonts-size: 12px
+}
+
+.feedbackwrap .feedback_innerbox .feedback_con {
+	background: #fbfaf7;
+	border: 1px solid #f0ede5;
+	border-width: 1px 0
+}
+
+.feedbackwrap .feedback_innerbox .pack {
+	width: 530px;
+	margin: 0 auto
+}
+
+.feedbackwrap .feedback_innerbox .e_dialog_type {
+	margin: 12px auto 5px
+}
+
+.feedbackwrap .feedback_innerbox .e_dialog_type input {
+	line-height: 13px;
+	margin-top: 0
+}
+
+.feedbackwrap .feedback_innerbox .e_dialog_type .em_txt {
+	margin: 0 25px 0 15px
+}
+
+.feedbackwrap .feedback_innerbox .backcon_pack {
+	padding: 10px 0 0
+}
+
+.feedbackwrap .feedback_innerbox .backcon_pack_type {
+	display: none
+}
+
+.feedbackwrap .feedback_innerbox textarea {
+	width: 510px;
+	height: 75px;
+	padding: 10px;
+	border: 1px solid #e2e1d6;
+	resize: none;
+	font-size: 12px;
+	overflow: auto
+}
+
+.feedbackwrap .feedback_innerbox textarea.gray {
+	color: #b5b5b5
+}
+
+.feedbackwrap .feedback_innerbox textarea.gray_error {
+	color: #b5b5b5;
+	display: none
+}
+
+.feedbackwrap .feedback_innerbox .userinfo_pack {
+	height: 90px
+}
+
+.feedbackwrap .feedback_innerbox .userinfo_pack p {
+	padding: 13px 0
+}
+
+.feedbackwrap .feedback_innerbox .userinfo_pack .f_tel {
+	float: left;
+	width: 100%;
+	height: 30px
+}
+
+.feedbackwrap .feedback_innerbox .userinfo_pack input {
+	width: 520px;
+	padding: 0 5px;
+	height: 26px;
+	color: #ccc;
+	line-height: 26px;
+	border: 1px solid #e1e0d5
+}
+
+.feedbackwrap .e_dialog_ft button {
+	display: inline-block;
+	cursor: pointer;
+	border: 0;
+	border-radius: 2px;
+	*display: inline;
+	*zoom: 1;
+	margin: 25px auto;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	background: #5ec1f2;
+	color: #fff
+}
+
+.feedbackwrap .e_dialog_ft .info_tip {
+	width: 570px;
+	text-align: left;
+	padding-left: 40px;
+	line-height: 18px
+}
+
+.feedbackwrap .tipmsg {
+	color: #999
+}
+
+.feedbackwrap .num {
+	color: #b50000
+}
+
+.feedbackwrap .error {
+	color: #b50000
+}
+
+.feedbackwrap .userinfo_pack .tipmsg {
+	text-indent: 0
+}
+
+.feedbackwrap .sendend {
+	background: #fbfaf7;
+	border: 1px solid #efece4;
+	border-width: 1px 0;
+	padding: 38px;
+	height: 100px
+}
+
+.feedbackwrap .sendend .okcon {
+	padding-left: 80px;
+	background: url(//source.qunarzz.com/site/images/travel/plan/scheduling/icon_finish_gray.gif) no-repeat;
+	height: 61px;
+	line-height: 61px;
+	width: 250px;
+	margin: 20px auto 0
+}
+
+.feedbackwrap .sendend .failcon {
+	padding-left: 80px;
+	background: url(//source.qunarzz.com/site/images/travel/plan/scheduling/icon_fail_gray.gif) no-repeat;
+	height: 61px;
+	line-height: 61px;
+	width: 250px;
+	margin: 20px auto 0
+}
+
+.b_sidetool .e_tool .e_handler_gotop {
+	display: none
+}
+
+.b_sidetool .e_tool .e_handler_gotop:hover {
+	background-position: 0 -153px
+}
+
+.b_sidetool .e_tool .e_handler_feedback {
+	position: absolute;
+	float: left;
+	width: 18px;
+	padding: 5px 8px;
+	color: #3db9c0;
+	line-height: 15px;
+	background-color: #e6fafa;
+	right: 0;
+	bottom: 500px;
+	text-align: center;
+	border: solid 1px #dfdfdf;
+	border-width: 1px 0 1px 1px;
+	display: inline
+}
+
+.t_sidetool {
+	position: fixed;
+	left: 50%;
+	margin-left: 500px;
+	bottom: 100px;
+	_position: absolute;
+	_overflow: hidden;
+	_bottom: auto;
+	z-index: 5100;
+	width: 50px;
+	height: 100px
+}
+
+.t_sidetool .t_tool {
+	background-color: #fff;
+	width: 49px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: inline
+}
+
+.t_sidetool .t_tool .t_icon {
+	position: relative;
+	width: 32px;
+	height: 32px;
+	background-color: #fff;
+	display: inline-block;
+	cursor: pointer
+}
+
+.t_sidetool .t_tool .tool_ma {
+	margin-bottom: 10px;
+	background: url("//source.qunarzz.com/site/images/travel/share_icon.png") -300px 0 no-repeat
+}
+
+.t_sidetool .t_tool .tool_ma .tool_ma_outer {
+	display: none
+}
+
+.t_sidetool .t_tool .tool_share {
+	margin-bottom: 1px;
+	background: url("//source.qunarzz.com/site/images/travel/share_icon.png") -361px 0 no-repeat
+}
+
+.t_sidetool .t_tool .tool_share .ulouter {
+	display: none
+}
+
+.t_sidetool .t_tool .tool_top {
+	background: url("//source.qunarzz.com/site/images/travel/share_icon.png") -420px 0 no-repeat
+}
+
+.t_sidetool .t_tool .tool_ma:hover {
+	margin-bottom: 10px;
+	background: url("//source.qunarzz.com/site/images/travel/share_icon.png") -480px 0 no-repeat
+}
+
+.t_sidetool .t_tool .tool_ma:hover .tool_ma_outer {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 32px;
+	width: 160px;
+	height: 188px;
+	background-color: #fff
+}
+
+.t_sidetool .t_tool .tool_ma:hover .tool_ma_outer .tool_ma_inner {
+	width: 140px;
+	height: 155px;
+	padding-top: 13px
+}
+
+.t_sidetool .t_tool .tool_ma:hover .tool_ma_outer .tool_ma_inner .tool_ma_h {
+	margin: 0 13px 13px;
+	display: block;
+	width: 114px;
+	height: 114px;
+	background: url("//source.qunarzz.com/site/images/travel/share_icon.png") -713px 0 no-repeat
+}
+
+.t_sidetool .t_tool .tool_ma:hover .tool_ma_outer .tool_ma_inner .tool_ma_txt {
+	display: block;
+	color: #666;
+	font-size: 11px;
+	margin-top: 13px;
+	padding-left: 10px
+}
+
+.t_sidetool .t_tool .tool_share:hover {
+	width: 32px;
+	margin-left: 0;
+	margin-bottom: 1px;
+	background: url("//source.qunarzz.com/site/images/travel/share_icon.png") -600px 0 no-repeat
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter {
+	position: absolute;
+	display: block;
+	top: -8px;
+	right: 32px;
+	width: 160px;
+	height: 63px
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h {
+	background-color: #fff;
+	margin: 9px;
+	width: 140px;
+	height: 43px;
+	border: 1px solid #ddd
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h .icon {
+	float: left;
+	width: 46px;
+	height: 43px;
+	text-align: center
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h .icon a {
+	display: inline-block;
+	width: 46px;
+	height: 43px;
+	background-image: url("//source.qunarzz.com/site/images/travel/share_icon.png");
+	background-repeat: no-repeat
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h .icon .f {
+	background-position: -142px 6px
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h .icon .s {
+	background-position: -190px 6px
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h .icon .t {
+	background-position: -237px 6px
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h .icon .f:hover {
+	background-position: 8px 6px
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h .icon .s:hover {
+	background-position: -40px 6px
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h .icon .t:hover {
+	background-position: -87px 6px
+}
+
+.t_sidetool .t_tool .tool_share:hover .ulouter .tool_share_h .line {
+	float: left;
+	width: 1px;
+	height: 43px;
+	background-color: #e6e6e6
+}
+
+.t_sidetool .t_tool .tool_top:hover {
+	bottom: 0;
+	background: url("//source.qunarzz.com/site/images/travel/share_icon.png") -540px 0 no-repeat
+}
+
+.tool_shadow {
+	box-shadow: 0 0 10px #ddd
+}
+
+.q_quick_mark {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 102px;
+	height: 138px;
+	margin: 0 0 0 -612px;
+	background: url("//s.qunarzz.com/travel/place/quickmark.png") no-repeat 0 0;
+	z-index: 300
+}
+
+.q_quick_mark .img_quickmark {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -200px;
+	font-size: 0
+}
+
+.q_quick_mark .btn_close {
+	position: absolute;
+	right: 0;
+	top: -18px;
+	background: #dedede url("//source.qunarzz.com/site/images/travel/common/close.png") no-repeat center center;
+	width: 18px;
+	height: 18px;
+	cursor: pointer
+}
+
+.b_dialog_mask {
+	background-color: #000;
+	width: 100%;
+	height: 120%;
+	opacity: .8;
+	position: fixed;
+	top: 0;
+	left: 0;
+	filter: alpha(opacity=50);
+	-ms-filter: alpha(opacity=50);
+	_height: 3000px;
+	_position: absolute;
+	_overflow: hidden;
+	z-index: 1000
+}
+
+.b_dialog {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+	padding: 10px;
+	z-index: 5000
+}
+
+.b_dialog .btn_close {
+	background: url("//source.qunarzz.com/site/images/travel/place/icon_close_02.gif") no-repeat 0 0;
+	display: block;
+	text-indent: -9999px;
+	font: normal 18px/32px Verdana,arial,sans-serif;
+	color: #555;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	right: -32px
+}
+
+.b_dialog .btn_close_small {
+	background: url("//source.qunarzz.com/site/images/travel/btn.close.gif") no-repeat 0 0;
+	display: block;
+	text-indent: -9999px;
+	font: normal 18px/32px Verdana,arial,sans-serif;
+	color: #555;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 6px;
+	right: 6px
+}
+
+.b_dialog .e_dialog_hd {
+	font: 16px/30px "microsoft yahei",arial,sans-serif;
+	color: #555;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #d1d1d1;
+	position: relative;
+	z-index: 300
+}
+
+.b_dialog .e_dialog_ct {
+	width: 100%;
+	z-index: 200
+}
+
+.b_dialog .e_dialog_ft {
+	padding: 10px 0;
+	text-align: center;
+	z-index: 100
+}
+
+.b_dialog .e_dialog_ft .box_ops {
+	padding: 0;
+	text-align: center;
+	z-index: 30
+}
+
+.b_dialog .e_dialog_ft .box_ops .ops_btn {
+	background: url("//source.qunarzz.com/site/images/travel/place/btn_bg_blue.gif") repeat-x scroll 100px 100px #5ec0f2;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	font: 14px/30px arial,sans-serif;
+	text-align: center;
+	border: 0 none;
+	border-radius: 2px;
+	margin: 0 5px
+}
+
+.dlg_mask {
+	background: #000;
+	filter: alpha(opacity=30);
+	-ms-filter: alpha(opacity=30);
+	width: 100%;
+	height: 100%;
+	_height: 3000px;
+	opacity: .3;
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	_overflow: hidden
+}
+
+.dlg_mask .dlg_miframe {
+	width: 100%;
+	height: 100%;
+	_height: 3000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	filter: alpha(opacity=0);
+	-ms-filter: alpha(opacity=0)
+}
+
+.g_mask_body {
+	position: fixed;
+	overflow-y: scroll;
+	width: 100%;
+	_background-image: url(about:blank);
+	_background-attachment: fixed
+}
+
+.g_dlg_box {
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: auto;
+	_position: absolute
+}
+
+.g_dlg_wrap_css3 {
+	-moz-transition: top 400ms ease-out,opacity 200ms,height 300ms ease-out;
+	-webkit-transition: top 400ms ease-out,opacity 200ms,height 300ms ease-out;
+	-ms-transition: top 400ms ease-out,opacity 200ms,height 300ms ease-out;
+	-o-transition: top 400ms ease-out,opacity 200ms,height 300ms ease-out;
+	transition: top 400ms ease-out,opacity 200ms,height 300ms ease-out
+}
+
+.pop_msg {
+	background: url(//source.qunarzz.com/site/images/travel/plan/media/pop_msg.png);
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="//source.qunarzz.com/site/images/travel/plan/media/pop_msg.png",sizingMethod="scale");
+	padding: 10px;
+	width: 355px;
+	height: 50px
+}
+
+.pop_msg table {
+	width: 100%;
+	height: 100%
+}
+
+.pop_msg td {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 1.6
+}
+
+.b_download_dialog {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1000
+}
+
+.b_download_dialog_mark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	width: 456px;
+	height: 180px;
+	z-index: 100;
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-ms-filter: alpha(opacity=50)
+}
+
+.b_download_dialog_body {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #fff;
+	padding: 10px;
+	width: 416px;
+	height: 140px;
+	z-index: 200
+}
+
+.b_download_dialog_body .btn_close_small {
+	background: url("//source.qunarzz.com/site/images/travel/btn.close_03_png8.png") no-repeat 0 0;
+	display: block;
+	text-indent: -9999px;
+	font: normal 18px/32px Verdana,arial,sans-serif;
+	color: #555;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 10px;
+	right: 10px
+}
+
+.b_download_dialog_body .e_dialog_hd {
+	font: 16px/30px "microsoft yahei",arial,sans-serif;
+	color: #555;
+	padding: 0 0 5px 10px;
+	border-bottom: 1px solid #d1d1d1;
+	position: relative;
+	height: 30px;
+	z-index: 300
+}
+
+.b_download_dialog_body .e_dialog_ct {
+	width: 100%;
+	z-index: 200
+}
+
+.b_download_dialog_body .e_dialog_ct .ct_box {
+	padding: 30px 0 0 65px
+}
+
+.b_download_dialog_body .e_dialog_ct .ct_box .e_icon {
+	float: left;
+	display: block;
+	background: url("//source.qunarzz.com/site/images/travel/plan/listmode/icon_finish.jpg") no-repeat 0 0;
+	width: 61px;
+	height: 61px;
+	text-indent: -9999px;
+	overflow: hidden
+}
+
+.b_download_dialog_body .e_dialog_ct .ct_box .e_text {
+	float: left;
+	display: inline;
+	font-size: 14px;
+	color: #555;
+	line-height: 61px;
+	margin-left: 10px;
+	width: 270px
+}
+
+.b_download_dialog_body .e_dialog_ft {
+	padding: 10px 0;
+	text-align: center;
+	z-index: 100
+}
+
+.b_download_dialog_body .e_dialog_ct .ct_box_2 .e_icon {
+	background: url("//source.qunarzz.com/site/images/travel/plan/listmode/icon_finish2.gif") no-repeat 0 0
+}
+
+.b_download_dialog_body .e_dialog_ct .ct_box_2 .e_text {
+	line-height: 24px;
+	padding-top: 10px
+}
+
+.e_reply_box .reply {
+	cursor: pointer
+}
+
+.b_focus {
+	position: relative;
+	z-index: 300;
+	margin-top: 20px
+}
+
+.b_focus .e_have_images {
+	background-color: #fafafa
+}
+
+.b_focus .e_focus_imgbox {
+	background-color: #fcfcfc;
+	width: 445px;
+	height: 375px;
+	overflow: hidden;
+	float: left;
+	display: inline
+}
+
+.b_focus .e_focus_imgbox .originalbox {
+	position: relative;
+	width: 445px;
+	height: 300px;
+	overflow: hidden
+}
+
+.b_focus .e_focus_imgbox .originalbox .list_item {
+	width: 10000px;
+	overflow: hidden;
+	zoom: 1
+}
+
+.b_focus .e_focus_imgbox .originalbox .imgbox {
+	position: relative;
+	float: left;
+	display: inline;
+	width: 445px;
+	height: 300px;
+	overflow: hidden;
+	cursor: pointer
+}
+
+.b_focus .e_focus_imgbox .thumbbox {
+	position: relative;
+	margin-top: 5px;
+	width: 445px;
+	height: 70px;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 0
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	z-index: 30
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox .more {
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 70px;
+	height: 70px;
+	z-index: 50;
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-ms-filter: alpha(opacity=0.5)
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox .more a {
+	cursor: pointer
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox .more .item_more {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 53px;
+	padding-top: 17px;
+	color: #fff;
+	text-align: center;
+	z-index: 20;
+	overflow: hidden
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox .list_item li {
+	position: relative;
+	float: left;
+	display: inline;
+	width: 70px;
+	height: 70px;
+	margin-right: 5px;
+	overflow: hidden
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox .list_item li .item_mask {
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 70px;
+	display: block;
+	z-index: 10;
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-ms-filter: alpha(opacity=0.5)
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox .list_item li .imgbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	z-index: 5
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox .list_item .current .item_mask {
+	display: none
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	z-index: 10
+}
+
+.b_focus .e_focus_imgbox .thumbbox .list_imgbox_bg .item {
+	background-color: #f0f0f0;
+	position: relative;
+	float: left;
+	display: inline;
+	width: 70px;
+	height: 70px;
+	margin-right: 5px;
+	overflow: hidden
+}
+
+.b_focus .e_focus_txtbox {
+	background-color: #fafafa;
+	width: 250px;
+	height: 400px;
+	border: 0;
+	border-left: 0 none;
+	float: right;
+	display: inline;
+	overflow: hidden
+}
+
+.b_focus .e_focus_txtbox .countbox {
+	padding-top: 28px;
+	width: 240px;
+	line-height: 22px
+}
+
+.b_focus .e_focus_txtbox .countbox .c_item {
+	padding-bottom: 15px
+}
+
+.b_focus .e_focus_txtbox .countbox .c_item .sum {
+	color: #1badb6;
+	font-size: 16px;
+	font-family: tahoma
+}
+
+.listbox .list_item {
+	position: relative;
+	top: -1px;
+	overflow: hidden
+}
+
+.listbox .list_item .item {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-bottom: #e0e0e0 1px dotted;
+	border-top-style: none;
+	width: 720px;
+	float: left;
+	display: inline
+}
+
+.listbox .list_item .item .imglink {
+	width: 200px;
+	padding-top: 4px;
+	display: block
+}
+
+.listbox .list_item .item .imglink .img {
+	width: 200px;
+	display: block
+}
+
+.listbox .list_item .item .ct {
+	width: 500px;
+	float: right;
+	display: inline
+}
+
+.listbox .list_item .item .ct .titbox .tit_center {
+	float: left;
+	height: 24px;
+	width: 22px;
+	font-size: 14px;
+	text-align: center;
+	color: #00b5c2;
+	margin-right: 10px;
+	margin-top: 5px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/list_icon.jpg") no-repeat
+}
+
+.listbox .list_item .item .ct .titbox .tit_num {
+	height: 22px;
+	line-height: 22px;
+	width: 22px;
+	font-size: 14px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/hotel_number_bgimg.jpg") 0 0 no-repeat;
+	text-align: center;
+	color: #00b5c2;
+	margin-right: 10px;
+	float: left;
+	display: inline;
+	margin-top: 4px
+}
+
+.listbox .list_item .item .ct .titbox .cn_tit {
+	width: 370px;
+	_width: 360px;
+	display: block;
+	_display: inline;
+	line-height: 30px;
+	color: #666;
+	font-family: "microsoft yahei";
+	font-size: 20px
+}
+
+.listbox .list_item .item .ct .titbox .en_tit {
+	margin-left: 10px;
+	line-height: 30px;
+	color: #999;
+	font-family: "microsoft yahei";
+	font-size: 14px
+}
+
+.listbox .list_item .item .ct .titbox:hover .cn_tit {
+	color: #00b5c2
+}
+
+.listbox .list_item .item .ct .txtbox .line {
+	color: #dadada;
+	margin: 0 10px
+}
+
+.listbox .list_item .item .ct .countbox .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_equote.png") no-repeat 0 -14px;
+	float: left;
+	display: inline;
+	width: 83px;
+	height: 14px;
+	font-size: 0;
+	overflow: hidden
+}
+
+.listbox .list_item .item .ct .countbox .total_star .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_equote.png") no-repeat 0 0;
+	float: left;
+	display: inline;
+	width: 82px;
+	height: 14px;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden
+}
+
+.listbox .list_item .item .ct .distance {
+	position: relative;
+	top: 10px;
+	color: #999
+}
+
+.listbox .list_item .item .ct .distance .distant_from {
+	color: #ff7400;
+	padding-left: 3px
+}
+
+.listbox .list_item .item .ct .recommendbox {
+	border-top: 1px dotted #e0e0e0;
+	margin-top: 20px;
+	padding-top: 15px
+}
+
+.listbox .list_item .item .ct .recommendbox .r_tit {
+	line-height: 30px;
+	color: #666;
+	font-size: 14px
+}
+
+.listbox .list_item .item .ct .recommendbox .r_tit .line {
+	float: left;
+	display: inline;
+	background-color: #9bdce0;
+	width: 4px;
+	height: 14px;
+	font-size: 0;
+	line-height: 0;
+	margin-top: 8px;
+	margin-right: 8px
+}
+
+.listbox .list_item .item .ct .recommendbox .sublist_item .subitem {
+	float: left;
+	display: inline;
+	width: 500px;
+	line-height: 30px;
+	overflow: hidden
+}
+
+.listbox .list_item .item .ct .recommendbox .sublist_item .subitem .titbox {
+	width: 150px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+	margin-right: 5px
+}
+
+.listbox .list_item .item .ct .recommendbox .sublist_item .subitem .price {
+	width: 85px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+	color: #999
+}
+
+.listbox .list_item .item .ct .recommendbox .sublist_item .subitem .price .sum {
+	margin-left: 5px;
+	font-weight: bold
+}
+
+.listbox .list_item .item .ct .recommendbox .sublist_item .subitem .des {
+	color: #999;
+	float: left;
+	display: inline;
+	white-space: nowrap
+}
+
+.listbox .list_item .item .ct .sublistbox .sublist_item {
+	position: relative;
+	padding-left: 50px;
+	line-height: 28px;
+	color: #666
+}
+
+.listbox .list_item .item .ct .sublistbox .sublist_item .sub_tit {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #999
+}
+
+.listbox .list_item .item .ct .sublistbox .sublist_item .sub_des {
+	float: left;
+	display: inline;
+	width: 310px
+}
+
+.listbox .list_item .item .ct .sublistbox .sublist_item .sub_des .colOrange {
+	color: #ff7400
+}
+
+.listbox .list_item .item .ct .sublistbox .sublist_item .des_line {
+	line-height: 20px;
+	margin: 4px 0
+}
+
+.listbox .list_item .item .ct .sublistbox .sublist_shops {
+	min-height: 28px;
+	position: relative;
+	padding-left: 62px;
+	line-height: 28px;
+	color: #666
+}
+
+.listbox .list_item .item .ct .sublistbox .sublist_shops .shops_tit {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #999
+}
+
+.listbox .list_item .item .ct .sublistbox .sublist_shops .shops_des {
+	float: left;
+	display: inline;
+	margin-right: 12px;
+	color: #666
+}
+
+.listbox .list_item .item .ct .sublistbox .sublist_shops .shops_des:hover {
+	color: #333
+}
+
+.listbox .list_item .current {
+	background-color: #fafafa
+}
+
+.listbox .list_item .current .list_left .titlink {
+	color: #00b5c2
+}
+
+.listbox .list_item .current .ct .titbox .tit_num {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/hotel_number_bgimg.jpg") 0 -31px no-repeat;
+	color: #FFF
+}
+
+.listbox .list_item .current .ct .titbox .cn_tit {
+	color: #00b5c2
+}
+
+.listbox .list_item .current .ct .titbox .desbox .img_l {
+	background-position: -25px -2px
+}
+
+.listbox .list_item .current .ct .titbox .desbox .img_r {
+	background-position: -20px -22px
+}
+
+.listbox .list_item .current .ct .desbox .img_l {
+	background-position: -25px -59px
+}
+
+.listbox .list_item .current .ct .desbox .img_r {
+	background-position: -38px -59px
+}
+
+.listbox .list_item .current .ct .countbox .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_equote.png") 0 -42px no-repeat
+}
+
+.listbox .list_item .current .ct .countbox .total_star .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_equote.png") 0 -28px no-repeat
+}
+
+.listbox .list_item .current .barct .titlink {
+	color: #00b5c2
+}
+
+.list_item .tit .jinghua {
+	background-image: url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -13px -46px;
+	width: 55px;
+	height: 21px
+}
+
+.list_item .tit .ganhuo {
+	background-image: url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -13px -2px;
+	width: 55px;
+	height: 20px
+}
+
+.list_item .tit .duantupai {
+	background-image: url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -8px -24px;
+	width: 66px;
+	height: 20px
+}
+
+.list_item .tit .meitu {
+	background-image: url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -13px -69px;
+	width: 55px;
+	height: 20px
+}
+
+.list_item .tit .wenyifan {
+	background-image: url("//source.qunarzz.com/site/images/travel/home/icon_flag_essence.jpg");
+	background-position: -8px -91px;
+	width: 66px;
+	height: 20px
+}
+
+.list_item .tit .icon_best {
+	display: inline-block;
+	width: 20px;
+	height: 26px;
+	margin-left: 5px;
+	font-size: 0;
+	text-indent: -100px;
+	vertical-align: middle;
+	background: url("//source.qunarzz.com/site/images/travel/strategybase_v2/icon_best.png") no-repeat 0 0
+}
+
+.list_item .tit .icon_r {
+	display: inline-block;
+	*display: inline;
+	height: 21px;
+	line-height: 20px;
+	margin-left: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: bottom;
+	*vertical-align: middle;
+	zoom: 1
+}
+
+.list_item .tit .icon_top,.list_item .tit .icon_untop,.list_item .tit .icon_good,.list_item .tit .icon_ungood {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	background: url("//source.qunarzz.com/site/images/travel/strategybase_v2/zhuanjia.png") no-repeat 0 0;
+	vertical-align: middle;
+	margin-left: 5px;
+	font-size: 0;
+	text-indent: -100px
+}
+
+.list_item .tit .icon_untop {
+	background-position: -20px 0
+}
+
+.list_item .tit .icon_good {
+	background-position: -40px 0
+}
+
+.list_item .tit .icon_ungood {
+	background-position: -60px 0
+}
+
+.b_hotel_new .item .ct .titbox,.b_hotel_poi .item .ct .titbox,.b_food_new .item .ct .titbox {
+	padding-bottom: 5px
+}
+
+.b_hotel_new .item .ct .titbox .pic_recommend,.b_hotel_poi .item .ct .titbox .pic_recommend,.b_food_new .item .ct .titbox .pic_recommend {
+	position: relative;
+	top: -3px;
+	background: url("//source.qunarzz.com/site/images/travel/place/2th/icon_recommend.jpg") 3px 3px no-repeat;
+	background-color: #9bdce0;
+	line-height: 18px;
+	height: 18px;
+	color: #fff;
+	padding: 2px 5px 2px 17px;
+	white-space: nowrap;
+	margin-left: 10px
+}
+
+.b_hotel_new .item .ct .titbox .pic_recommend .icon_recommend,.b_hotel_poi .item .ct .titbox .pic_recommend .icon_recommend,.b_food_new .item .ct .titbox .pic_recommend .icon_recommend {
+	width: 1px;
+	height: 12px;
+	line-height: 0;
+	font-size: 0;
+	white-space: nowrap;
+	margin: 0
+}
+
+.b_hotel_new .item .ct .txtbox,.b_hotel_poi .item .ct .txtbox,.b_food_new .item .ct .txtbox {
+	position: relative;
+	line-height: 25px;
+	color: #666
+}
+
+.b_hotel_new .item .ct .txtbox .comment_sum,.b_hotel_poi .item .ct .txtbox .comment_sum,.b_food_new .item .ct .txtbox .comment_sum {
+	float: left;
+	display: inline
+}
+
+.b_hotel_new .item .ct .txtbox .comment_sum .sum,.b_hotel_poi .item .ct .txtbox .comment_sum .sum,.b_food_new .item .ct .txtbox .comment_sum .sum {
+	color: #ff7400
+}
+
+.b_hotel_new .item .ct .txtbox .pricebox,.b_hotel_poi .item .ct .txtbox .pricebox,.b_food_new .item .ct .txtbox .pricebox {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: #999
+}
+
+.b_hotel_new .item .ct .txtbox .pricebox .i_mark,.b_hotel_poi .item .ct .txtbox .pricebox .i_mark,.b_food_new .item .ct .txtbox .pricebox .i_mark {
+	color: #ff7400;
+	font-family: "microsoft yahei";
+	font-size: 18px;
+	line-height: 20px
+}
+
+.b_hotel_new .item .ct .txtbox .pricebox .i_sum,.b_hotel_poi .item .ct .txtbox .pricebox .i_sum,.b_food_new .item .ct .txtbox .pricebox .i_sum {
+	color: #ff7400;
+	font-family: tahoma;
+	font-size: 24px;
+	line-height: 26px
+}
+
+.b_hotel_new .item .ct .txtbox .countbox .total_star,.b_hotel_poi .item .ct .txtbox .countbox .total_star,.b_food_new .item .ct .txtbox .countbox .total_star {
+	margin: 5px 10px 0 0
+}
+
+.b_hotel_new .item .ct .txtbox .countbox .ranking_sum,.b_hotel_poi .item .ct .txtbox .countbox .ranking_sum,.b_food_new .item .ct .txtbox .countbox .ranking_sum {
+	float: left;
+	display: inline
+}
+
+.b_hotel_new .item .ct .txtbox .countbox .ranking_sum .sum,.b_hotel_poi .item .ct .txtbox .countbox .ranking_sum .sum,.b_food_new .item .ct .txtbox .countbox .ranking_sum .sum {
+	color: #1badb6;
+	font-family: tahoma
+}
+
+.b_hotel_new .item .ct .txtbox .countbox .ranking_sum .sum_bold,.b_hotel_poi .item .ct .txtbox .countbox .ranking_sum .sum_bold,.b_food_new .item .ct .txtbox .countbox .ranking_sum .sum_bold {
+	font-weight: bold;
+	font-family: tahoma
+}
+
+.b_hotel_new .item .ct .desbox,.b_hotel_poi .item .ct .desbox,.b_food_new .item .ct .desbox {
+	margin: 10px 10px 0 0;
+	line-height: 24px;
+	color: #999
+}
+
+.b_hotel_new .item .ct .desbox .img_doublequote,.b_hotel_poi .item .ct .desbox .img_doublequote,.b_food_new .item .ct .desbox .img_doublequote {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_equote.png") no-repeat 0 59px transparent;
+	width: 12px;
+	height: 16px;
+	vertical-align: bottom;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.b_hotel_new .item .ct .desbox .img_l,.b_hotel_poi .item .ct .desbox .img_l,.b_food_new .item .ct .desbox .img_l {
+	background-position: 0 -59px
+}
+
+.b_hotel_new .item .ct .desbox .img_r,.b_hotel_poi .item .ct .desbox .img_r,.b_food_new .item .ct .desbox .img_r {
+	background-position: -13px -59px
+}
+
+.b_hotel_new .item .ct .desbox .txt,.b_hotel_poi .item .ct .desbox .txt,.b_food_new .item .ct .desbox .txt {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	line-height: 20px
+}
+
+.b_hotel_new .listbox .list_item .item .ct .titbox .cn_tit {
+	width: auto;
+	display: inline
+}
+
+.b_title {
+	position: relative;
+	z-index: 500
+}
+
+.b_title .tit {
+	line-height: 36px;
+	font-family: "microsoft yahei";
+	font-size: 30px;
+	color: #333;
+	float: left;
+	display: inline
+}
+
+.b_title .tit .entit {
+	margin-left: 15px;
+	color: #999;
+	font-family: tahoma
+}
+
+.b_title .link_editguide {
+	color: #0084bb;
+	float: left;
+	display: inline;
+	height: 19px;
+	line-height: 19px;
+	margin-left: 15px;
+	margin-top: 12px;
+	white-space: nowrap
+}
+
+.b_title .link_editguide:hover {
+	color: #f60
+}
+
+.b_title .link_editguide .icon {
+	background: url("//source.qunarzz.com/site/images/travel/place/icon_edit_png8.png") no-repeat scroll 0 0 rgba(0,0,0,0);
+	display: inline;
+	float: left;
+	font-size: 0;
+	height: 13px;
+	line-height: 0;
+	margin: 2px 5px 0 0;
+	width: 13px
+}
+
+.b_title .e_collect {
+	float: right;
+	display: inline;
+	position: relative;
+	width: 80px;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: 3px;
+	bottom: 0;
+	border: 1px solid #f80;
+	border-radius: 3px
+}
+
+.b_title .e_collect .collect_icon {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: 6px 0 6px 8px;
+	background: url("//s.qunarzz.com/travel/travel_notes/poi_collect_icon.png") 0 0 no-repeat
+}
+
+.b_title .e_collect .collect-txt {
+	float: right;
+	width: 54px;
+	text-align: center;
+	color: #f80;
+	line-height: 30px;
+	font-size: 14px;
+	font-family: simsun
+}
+
+.b_title .collected .collect_icon {
+	background-position: 0 -22px
+}
+
+.b_title .special_remind {
+	float: left;
+	display: inline;
+	position: relative;
+	margin-left: 30px;
+	margin-top: 3px
+}
+
+.b_title .special_remind .detail_special_remind {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 360px;
+	border: #a8dde0 1px solid;
+	overflow: hidden;
+	z-index: 300
+}
+
+.b_title .special_remind .detail_special_remind .t_tit {
+	position: relative;
+	background: url("//source.qunarzz.com/site/images/travel/place/img_special_remind.jpg") no-repeat 0 0 #e6fafa;
+	height: 28px;
+	line-height: 28px;
+	color: #1badb6;
+	font-size: 14px;
+	padding-left: 25px
+}
+
+.b_title .special_remind .detail_special_remind .t_tit .btn_close {
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	z-index: 100;
+	background: url("//source.qunarzz.com/site/images/travel/place/btn_close.gif") no-repeat 0 0 transparent;
+	width: 21px;
+	height: 21px;
+	cursor: pointer
+}
+
+.b_title .special_remind .detail_special_remind .t_tit .btn_close:hover {
+	-webkit-transition: -webkit-transform .5s ease-out;
+	-moz-transition: -moz-transform .5s ease-out;
+	transition: transform .5s ease-out;
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	transform: rotate(360deg)
+}
+
+.b_title .special_remind .detail_special_remind .t_cont {
+	background-color: #fff;
+	padding: 20px;
+	max-height: 200px;
+	overflow: scroll
+}
+
+.b_title .special_remind .mark_special_remind {
+	background: url("//source.qunarzz.com/site/images/travel/place/img_special_remind.jpg") no-repeat 0 0 #e6fafa;
+	width: 73px;
+	height: 28px;
+	line-height: 28px;
+	color: #1badb6;
+	font-size: 14px;
+	border: #a8dde0 1px solid;
+	padding-left: 25px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px
+}
+
+.mb {
+	margin-bottom: 10px
+}
+
+.collect_add_dialog .collect_add_tip {
+	color: #333;
+	font-size: 24px;
+	font-family: "microsoft YAHEI";
+	line-height: 40px;
+	margin: 20px;
+	text-align: center
+}
+
+.collect_add_dialog .collect_add_tip .collect_check_icon {
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	width: 24px;
+	height: 18px;
+	padding-right: 5px;
+	background: url("//s.qunarzz.com/travel/travel_notes/dialog_check.jpg") 0 0 no-repeat
+}
+
+.collect_add_dialog .collect_down_app {
+	text-align: center;
+	margin-bottom: 30px
+}
+
+.collect_add_dialog .collect_down_app img {
+	width: 110px;
+	height: 110px;
+	background-size: cover
+}
+
+.collect_add_dialog .collect_down_app .down_app_txt {
+	color: #666
+}
+
+.collect_add_dialog .collect_add_text {
+	font-size: 18px;
+	font-family: "microsoft YAHEI";
+	color: #666;
+	line-height: 36px;
+	margin: 0 24px 20px 24px;
+	text-align: center
+}
+
+.collect_add_dialog .collect_add_text .blue_font {
+	color: #1badb6;
+	padding: 0 3px
+}
+
+.collect_delete_tip .dialog_collect_title {
+	color: #333;
+	font-size: 24px;
+	font-family: "microsoft YAHEI";
+	line-height: 40px;
+	margin: 30px;
+	text-align: center
+}
+
+.b_focus .e_focus_txtbox {
+	background-color: #fcfcfc;
+	width: 273px;
+	height: 373px;
+	border-left: 0 none;
+	float: right;
+	display: inline;
+	overflow: hidden
+}
+
+.b_focus .e_focus_txtbox .m_scorebox {
+	width: 273px;
+	height: 225px;
+	overflow: hidden;
+	border-bottom: #eee 1px solid
+}
+
+.b_focus .e_focus_txtbox .scorebox {
+	background-color: #fff;
+	padding: 20px 0 0 30px
+}
+
+.b_focus .e_focus_txtbox .cur_score {
+	float: left;
+	display: inline;
+	font-size: 30px;
+	font-family: tahoma;
+	line-height: 30px;
+	color: #1badb6
+}
+
+.b_focus .e_focus_txtbox .total_score {
+	float: left;
+	display: inline;
+	color: #666;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 14px 0 0 5px
+}
+
+.b_focus .e_focus_txtbox .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/star_v3.jpg") no-repeat 0 -20px;
+	float: left;
+	display: inline;
+	width: 82px;
+	height: 14px;
+	line-height: 0;
+	font-size: 0;
+	margin: 16px 0 0 10px;
+	overflow: hidden
+}
+
+.b_focus .e_focus_txtbox .total_star .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/star_v3.jpg") no-repeat 0 0;
+	float: left;
+	display: inline;
+	width: 82px;
+	height: 14px;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden
+}
+
+.b_focus .e_focus_txtbox .txtbox {
+	background-color: #fff;
+	color: #666;
+	line-height: 25px;
+	padding: 10px 0 0 30px
+}
+
+.b_focus .e_focus_txtbox .txtbox .sum {
+	color: #ff7400;
+	font-weight: bold;
+	margin: 0 5px
+}
+
+.b_focus .e_focus_txtbox .commentbox {
+	background-color: #fff;
+	position: relative;
+	padding: 10px 20px 30px 30px;
+	width: 223px;
+	height: 100px;
+	overflow: hidden
+}
+
+.b_focus .e_focus_txtbox .commentbox .first_comment {
+	padding-top: 20px;
+	height: 60px
+}
+
+.b_focus .e_focus_txtbox .commentbox .txt1 {
+	line-height: 20px
+}
+
+.b_focus .e_focus_txtbox .commentbox .txt2 {
+	background: url("//source.qunarzz.com/site/images/travel/place/icon_hot.png") no-repeat 0 3px transparent;
+	padding-left: 26px;
+	line-height: 20px;
+	color: #ff7c00
+}
+
+.b_focus .e_focus_txtbox .commentbox .detail_link {
+	font-family: simsun;
+	color: #a59999
+}
+
+.b_focus .e_focus_txtbox .commentbox .tit {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px
+}
+
+.b_focus .e_focus_txtbox .commentbox .cont {
+	margin-top: 10px
+}
+
+.b_focus .e_focus_txtbox .commentbox .more {
+	position: absolute;
+	right: 20px;
+	bottom: 50px;
+	float: right;
+	display: inline
+}
+
+.b_focus .e_focus_txtbox .commentbox .img_doublequote {
+	background: url("//source.qunarzz.com/site/images/travel/place/img_doublequote.jpg") no-repeat 100px 100px transparent;
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.b_focus .e_focus_txtbox .commentbox .img_l {
+	background-position: 0 0
+}
+
+.b_focus .e_focus_txtbox .commentbox .img_r {
+	background-position: 0 -20px
+}
+
+.b_focus .e_focus_txtbox .commentbox .more_placeholder {
+	padding-right: 1px
+}
+
+.b_focus .e_focus_txtbox .commentbox .txt {
+	display: inline;
+	line-height: 20px
+}
+
+.b_focus .e_focus_txtbox .building {
+	width: 273px;
+	height: 175px;
+	overflow: hidden
+}
+
+.b_focus .e_focus_txtbox .building .building_txt {
+	margin: 77px 0 0 90px;
+	font: 12px/20px simsun;
+	color: #666
+}
+
+.b_focus .e_focus_txtbox .building .building_txt .icon_building {
+	background: url("//source.qunarzz.com/site/images/travel/place/icon_exclamation.jpg") no-repeat 0 0;
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+	float: left;
+	display: inline
+}
+
+.b_focus .e_focus_txtbox .countbox {
+	padding-top: 35px
+}
+
+.b_focus .e_focus_txtbox .box_r {
+	width: 49%;
+	border-left: #e0e0e0 1px dotted;
+	text-align: center;
+	float: right;
+	display: inline
+}
+
+.b_focus .e_focus_txtbox .box_r .sum {
+	font-size: 24px;
+	font-family: tahoma;
+	line-height: 24px;
+	color: #999
+}
+
+.b_focus .e_focus_txtbox .box_r .unit {
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	line-height: 16px
+}
+
+.b_focus .e_focus_txtbox .box_r .txt {
+	margin-top: 10px
+}
+
+.b_focus .e_focus_txtbox .box_r .link_strategy {
+	color: #1badb6
+}
+
+.b_focus .e_focus_txtbox .box_r .link_strategy:hover {
+	color: #f60
+}
+
+.b_focus .e_focus_txtbox .box_l {
+	width: 49%;
+	text-align: center;
+	float: left;
+	display: inline
+}
+
+.b_focus .e_focus_txtbox .box_l .percent {
+	font-size: 24px;
+	font-family: tahoma;
+	line-height: 24px;
+	color: #999
+}
+
+.b_focus .e_focus_txtbox .box_l .txt {
+	margin-top: 10px;
+	color: #666;
+	line-height: 20px
+}
+
+.b_focus .e_focus_txtbox .box_l .txt .link_strategy {
+	margin-left: 3px;
+	margin-right: 3px;
+	color: #1badb6
+}
+
+.b_focus .e_focus_txtbox .box_l .txt .link_strategy:hover {
+	color: #f60
+}
+
+.b_focus .e_no_images {
+	background-color: #fcfcfc;
+	border: #e0e0e0 1px solid;
+	overflow: hidden;
+	height: 248px
+}
+
+.b_focus .e_no_images .no_imgbox {
+	float: left;
+	display: inline;
+	background: url("//source.qunarzz.com/site/images/travel/place/pic_placehloder_poi_v2.jpg") no-repeat 89px 84px #fcfcfc;
+	width: 248px;
+	height: 248px;
+	border-right: #e0e0e0 1px solid
+}
+
+.b_focus .e_no_images .e_focus_txtbox {
+	background-color: #fff;
+	width: 315px;
+	height: 248px;
+	float: left;
+	display: inline;
+	overflow: hidden;
+	border: 0
+}
+
+.b_focus .e_no_images .e_focus_txtbox .scorebox {
+	background-color: #fff;
+	padding: 20px 0 0 30px
+}
+
+.b_focus .e_no_images .e_focus_txtbox .scorebox .cur_score {
+	float: left;
+	display: inline;
+	font-size: 30px;
+	font-family: tahoma;
+	line-height: 30px;
+	color: #1badb6
+}
+
+.b_focus .e_no_images .e_focus_txtbox .scorebox .total_score {
+	float: left;
+	display: inline;
+	color: #666;
+	font-size: 16px;
+	line-height: 16px;
+	margin: 14px 0 0 5px
+}
+
+.b_focus .e_no_images .e_focus_txtbox .scorebox .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/star_v3.jpg") no-repeat 0 -20px;
+	float: left;
+	display: inline;
+	width: 82px;
+	height: 14px;
+	line-height: 0;
+	font-size: 0;
+	margin: 16px 0 0 10px;
+	overflow: hidden
+}
+
+.b_focus .e_no_images .e_focus_txtbox .scorebox .total_star .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/star_v3.jpg") no-repeat 0 0;
+	float: left;
+	display: inline;
+	width: 82px;
+	height: 14px;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden
+}
+
+.b_focus .e_no_images .e_focus_txtbox .txtbox {
+	background-color: #fff;
+	color: #666;
+	line-height: 25px;
+	padding: 10px 0 0 30px
+}
+
+.b_focus .e_no_images .e_focus_txtbox .txtbox .ranking .sum {
+	color: #ff7400;
+	font-weight: bold;
+	margin: 0 5px
+}
+
+.b_focus .e_no_images .e_focus_txtbox .commentbox {
+	position: relative;
+	padding: 10px 25px 0 30px;
+	width: 260px;
+	height: 115px
+}
+
+.b_focus .e_no_images .e_focus_txtbox .commentbox .tit {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px
+}
+
+.b_focus .e_no_images .e_focus_txtbox .commentbox .cont {
+	margin-top: 10px
+}
+
+.b_focus .e_no_images .e_focus_txtbox .commentbox .cont .more {
+	position: absolute;
+	right: 30px;
+	bottom: 0;
+	float: right;
+	display: inline
+}
+
+.b_focus .e_no_images .e_focus_txtbox .commentbox .cont .img_doublequote {
+	background: url("//source.qunarzz.com/site/images/travel/place/img_doublequote.jpg") no-repeat 100px 100px transparent;
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.b_focus .e_no_images .e_focus_txtbox .commentbox .cont .img_l {
+	background-position: 0 0
+}
+
+.b_focus .e_no_images .e_focus_txtbox .commentbox .cont .img_r {
+	background-position: 0 -20px
+}
+
+.b_focus .e_no_images .e_focus_txtbox .commentbox .cont .more_placeholder {
+	padding-right: 1px
+}
+
+.b_focus .e_no_images .e_focus_txtbox .commentbox .cont .txt {
+	display: inline;
+	line-height: 20px
+}
+
+.b_focus .e_no_images .countbox {
+	padding-top: 30px;
+	padding-left: 35px;
+	border-left: #e0e0e0 1px solid;
+	height: 248px;
+	overflow: hidden;
+	float: left;
+	display: inline
+}
+
+.b_focus .e_no_images .countbox .box_t {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 25px
+}
+
+.b_focus .e_no_images .countbox .box_t .percent {
+	font-size: 24px;
+	font-family: tahoma;
+	line-height: 24px;
+	color: #999
+}
+
+.b_focus .e_no_images .countbox .box_t .txt {
+	margin-top: 10px;
+	color: #666;
+	line-height: 20px
+}
+
+.b_focus .e_no_images .countbox .box_t .txt .link_strategy {
+	margin: 0 3px;
+	color: #1badb6
+}
+
+.b_focus .e_no_images .countbox .box_t .txt .link_strategy:hover {
+	color: #f60
+}
+
+.b_focus .e_no_images .countbox .box_b {
+	width: 100%;
+	border-top: #e0e0e0 1px dotted;
+	text-align: center;
+	padding-top: 25px
+}
+
+.b_focus .e_no_images .countbox .box_b .sum {
+	font-size: 24px;
+	font-family: tahoma;
+	line-height: 24px;
+	color: #999
+}
+
+.b_focus .e_no_images .countbox .box_b .sum .unit {
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	line-height: 16px
+}
+
+.b_focus .e_no_images .countbox .box_b .txt {
+	margin-top: 10px
+}
+
+.b_focus .e_no_images .countbox .box_b .txt .link_strategy {
+	color: #1badb6
+}
+
+.b_focus .e_no_images .countbox .box_b .txt .link_strategy:hover {
+	color: #f60
+}
+
+.b_title .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_v3.gif") no-repeat 0 -60px
+}
+
+.b_title .total_star .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_v3.gif") no-repeat 0 -40px
+}
+
+.PlaceHolder {
+	padding-top: 5px;
+	padding-left: 7px;
+	font-size: 12px;
+	color: #999
+}
+
+.b_detail_comment .b_comment_sort_bar,.hot_strategy .b_comment_sort_bar {
+	margin-top: -1px
+}
+
+.b_detail_comment .e_comment_star_box,.hot_strategy .e_comment_star_box {
+	overflow: hidden;
+	padding-top: 10px;
+	height: 18px
+}
+
+.b_detail_comment .e_comment_star_box .titbox,.hot_strategy .e_comment_star_box .titbox {
+	line-height: 18px
+}
+
+.b_detail_comment .e_comment_star_box .titbox .tit,.hot_strategy .e_comment_star_box .titbox .tit {
+	color: #999;
+	margin: 0 5px 0 20px
+}
+
+.b_detail_comment .activity_tips,.hot_strategy .activity_tips {
+	position: absolute;
+	display: block;
+	width: 114px;
+	height: 50px;
+	background: url('//source.qunarzz.com/site/images/travel/place/activity_tips.png') 0 0 no-repeat;
+	right: -6px;
+	top: -20px;
+	z-index: 100
+}
+
+.b_detail_comment .num,.hot_strategy .num {
+	color: #999
+}
+
+.b_detail_comment .no_data,.hot_strategy .no_data {
+	padding-left: 20px;
+	color: #999;
+	line-height: 48px;
+	font-size: 14px
+}
+
+.b_detail_comment .icon_tip_link,.hot_strategy .icon_tip_link {
+	position: absolute;
+	right: -1px;
+	top: -7px;
+	display: block;
+	width: 171px;
+	height: 40px;
+	z-index: 150
+}
+
+.b_detail_comment .icon_tip,.hot_strategy .icon_tip {
+	position: absolute;
+	display: block;
+	width: 171px;
+	height: 54px;
+	background: url('//source.qunarzz.com/site/images/travel/place/icon_tip.png') 0 0 no-repeat;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//source.qunarzz.com/site/images/travel/place/icon_tip.png',sizingMethod='scale');
+	right: -1px;
+	top: -7px;
+	z-index: 100
+}
+
+.b_comment_sort_bar .e_comment_sort_btns {
+	border: 1px solid #e6e6e6;
+	background-color: #f3f3f3;
+	height: 30px;
+	border-right-width: 0;
+	width: 100%;
+	float: left;
+	display: inline
+}
+
+.b_comment_sort_bar .e_comment_sort_btns ul {
+	margin-right: 103px;
+	overflow: hidden
+}
+
+.b_comment_sort_bar .e_comment_sort_btns .sbtn {
+	float: left;
+	display: inline;
+	height: 18px;
+	padding: 6px 12px;
+	border-right: 1px solid #e6e6e6;
+	cursor: pointer
+}
+
+.b_comment_sort_bar .e_comment_sort_btns .sbtn a {
+	display: block;
+	color: #666
+}
+
+.b_comment_sort_bar .e_comment_sort_btns .sbtn a:hover {
+	color: #666
+}
+
+.b_comment_sort_bar .m_sort_arrow {
+	margin-left: 3px;
+	padding: 0 4px;
+	*display: inline;
+	*zoom: 1;
+	background: url('//source.qunarzz.com/site/images/travel/place/poi_detail_sprit.png') -14px -8px no-repeat
+}
+
+.b_comment_sort_bar .m_sort_active {
+	background-color: #fff
+}
+
+.b_comment_sort_bar .m_sort_active .m_sort_arrow {
+	background: url('//source.qunarzz.com/site/images/travel/place/poi_detail_sprit.png') -1px -8px no-repeat
+}
+
+.b_comment_sort_bar .e_comment_submit_href {
+	float: right;
+	display: inline;
+	background-color: #ff9316;
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	width: 102px;
+	line-height: 32px;
+	text-align: center;
+	margin-left: -103px;
+	cursor: pointer
+}
+
+.b_comment_sort_bar .e_comment_submit_href a {
+	color: #fff
+}
+
+.b_comment_box,.b_comment_publish_box {
+	padding-bottom: 30px
+}
+
+.b_comment_box .e_comment_usr,.b_comment_publish_box .e_comment_usr {
+	width: 100px;
+	padding: 0 10px;
+	float: left;
+	display: inline;
+	margin-left: -100%;
+	text-align: center
+}
+
+.b_comment_box .e_comment_usr .e_comment_usr_pic,.b_comment_publish_box .e_comment_usr .e_comment_usr_pic {
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	margin: 30px auto 0
+}
+
+.b_comment_box .e_comment_usr .e_comment_usr_pic img,.b_comment_publish_box .e_comment_usr .e_comment_usr_pic img {
+	broder: 0
+}
+
+.b_comment_box .e_comment_usr .e_comment_usr_name,.b_comment_publish_box .e_comment_usr .e_comment_usr_name {
+	padding-top: 5px;
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow: hidden
+}
+
+.b_comment_box .e_comment_usr .e_comment_usr_name span,.b_comment_publish_box .e_comment_usr .e_comment_usr_name span {
+	color: #999
+}
+
+.b_comment_box .e_comment_usr .e_comment_usr_name .user_name_icon,.b_comment_publish_box .e_comment_usr .e_comment_usr_name .user_name_icon {
+	display: inline-block;
+	margin-left: 5px;
+	width: 66px;
+	height: 18px;
+	vertical-align: middle;
+	background: url("//s.qunarzz.com/travel/home/smart_traveler.png") no-repeat 0 0
+}
+
+.b_comment_box .e_comment_usr .e_comment_usr_total,.b_comment_publish_box .e_comment_usr .e_comment_usr_total {
+	padding-top: 3px
+}
+
+.b_comment_box .e_comment_usr .e_comment_usr_total .num,.b_comment_publish_box .e_comment_usr .e_comment_usr_total .num {
+	padding-left: 18px;
+	background: url('//source.qunarzz.com/site/images/travel/place/poi_detail_sprit.png') no-repeat 0 -30px scroll
+}
+
+.b_comment_box .e_comment_main,.b_comment_publish_box .e_comment_main {
+	width: 100%;
+	padding-bottom: 25px;
+	border-bottom: 1px dashed #e0e0e0;
+	float: left;
+	display: inline
+}
+
+.b_comment_box .e_comment_main .e_comment_main_inner,.b_comment_publish_box .e_comment_main .e_comment_main_inner {
+	padding-left: 120px
+}
+
+.b_comment_box .e_comment_main .e_comment_title,.b_comment_publish_box .e_comment_main .e_comment_title {
+	font-size: 18px;
+	line-height: 18px;
+	padding-top: 20px;
+	font-family: "microsoft yahei"
+}
+
+.b_comment_box .e_comment_main .e_comment_title a,.b_comment_publish_box .e_comment_main .e_comment_title a {
+	color: #333
+}
+
+.b_comment_box .e_comment_main .e_comment_title a:hover,.b_comment_publish_box .e_comment_main .e_comment_title a:hover {
+	color: #f60
+}
+
+.b_comment_box .e_comment_main .e_comment_title>a,.b_comment_publish_box .e_comment_main .e_comment_title>a {
+	line-height: 22px
+}
+
+.b_comment_box .e_comment_main .e_comment_title .e_comment_title_icon,.b_comment_publish_box .e_comment_main .e_comment_title .e_comment_title_icon {
+	display: inline-block;
+	_display: inline;
+	position: relative;
+	zoom: 1;
+	top: 5px;
+	*top: 0;
+	width: 92px;
+	height: 22px;
+	margin-left: 10px;
+	background: url("//source.qunarzz.com/site/images/travel/place/comment_title_icon.jpg") no-repeat 0 0
+}
+
+.b_comment_box .e_comment_main .e_comment_title .icon_gold_camel,.b_comment_publish_box .e_comment_main .e_comment_title .icon_gold_camel {
+	display: inline-block;
+	_display: inline;
+	position: relative;
+	zoom: 1;
+	top: 7px;
+	*top: 2px;
+	width: 95px;
+	height: 27px;
+	margin-left: 10px;
+	background: #fff url("//source.qunarzz.com/site/images/travel/place/icon_gold_camel.png") no-repeat 0 0;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//source.qunarzz.com/site/images/travel/place/icon_gold_camel.png',sizingMethod='scale')
+}
+
+.b_comment_box .e_comment_main .e_comment_title .icon_utility_comment,.b_comment_publish_box .e_comment_main .e_comment_title .icon_utility_comment {
+	display: inline-block;
+	_display: inline;
+	zoom: 1;
+	position: relative;
+	top: 5px;
+	*top: 0;
+	width: 95px;
+	height: 27px;
+	margin-left: 10px;
+	background: #fff url("//source.qunarzz.com/site/images/travel/place/icon_utility_comment.png") no-repeat 0 0;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//source.qunarzz.com/site/images/travel/place/icon_utility_comment.png',sizingMethod='scale')
+}
+
+.b_comment_box .e_comment_main .e_comment_content,.b_comment_publish_box .e_comment_main .e_comment_content {
+	padding: 15px 0;
+	line-height: 24px;
+	word-wrap: break-word;
+	word-break: break-all
+}
+
+.b_comment_box .e_comment_main .e_comment_content .link,.b_comment_publish_box .e_comment_main .e_comment_content .link {
+	color: #999;
+	text-decoration: underline
+}
+
+.b_comment_box .e_comment_main .e_comment_content .link:hover,.b_comment_publish_box .e_comment_main .e_comment_content .link:hover {
+	color: #f60
+}
+
+.b_comment_box .e_comment_main .e_comment_imgs_box,.b_comment_publish_box .e_comment_main .e_comment_imgs_box {
+	padding-bottom: 15px
+}
+
+.b_comment_box .e_comment_main .e_comment_imgs_box .e_comment_imgs li,.b_comment_publish_box .e_comment_main .e_comment_imgs_box .e_comment_imgs li {
+	width: 130px;
+	height: 100px;
+	margin-right: 10px;
+	float: left;
+	display: inline;
+	overflow: hidden
+}
+
+.b_comment_box .e_comment_main .e_comment_imgs_box .e_comment_imgs li .cmt_img,.b_comment_publish_box .e_comment_main .e_comment_imgs_box .e_comment_imgs li .cmt_img {
+	display: block;
+	width: auto\9;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic
+}
+
+.b_comment_box .e_comment_main .e_comment_imgs_box .img_count,.b_comment_publish_box .e_comment_main .e_comment_imgs_box .img_count {
+	float: left;
+	display: inline;
+	display: block;
+	padding-top: 85px
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info,.b_comment_publish_box .e_comment_main .e_comment_add_info {
+	overflow: hidden;
+	color: #999
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info li,.b_comment_publish_box .e_comment_main .e_comment_add_info li {
+	float: left;
+	display: inline
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .last,.b_comment_publish_box .e_comment_main .e_comment_add_info .last {
+	float: right;
+	display: inline;
+	overflow: hidden;
+	zoom: 1
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e_comment_from_book,.b_comment_publish_box .e_comment_main .e_comment_add_info .e_comment_from_book {
+	padding-left: 6px
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e_comment_from_book a,.b_comment_publish_box .e_comment_main .e_comment_add_info .e_comment_from_book a {
+	padding-left: 6px
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e_comment_reply,.b_comment_publish_box .e_comment_main .e_comment_add_info .e_comment_reply {
+	float: left;
+	display: inline;
+	padding-left: 18px;
+	background: url('//source.qunarzz.com/site/images/travel/place/poi_detail_sprit.png') no-repeat 0 -51px
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e_comment_reply a,.b_comment_publish_box .e_comment_main .e_comment_add_info .e_comment_reply a {
+	font-size: 12px
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e-praised,.b_comment_publish_box .e_comment_main .e_comment_add_info .e-praised {
+	float: left;
+	cursor: pointer;
+	padding-right: 20px;
+	color: #0069ca
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e-praised .icon,.b_comment_publish_box .e_comment_main .e_comment_add_info .e-praised .icon {
+	margin: 1px 3px 0 0;
+	width: 12px;
+	height: 14px;
+	float: left;
+	background: url("//source.qunarzz.com/site/images/travel/place/2th/star_filter.png") no-repeat -20px 0
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e-praised .tit,.b_comment_publish_box .e_comment_main .e_comment_add_info .e-praised .tit {
+	float: left
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e-praised .tit em,.b_comment_publish_box .e_comment_main .e_comment_add_info .e-praised .tit em {
+	padding-left: 4px;
+	color: #999
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e-praised:hover .icon,.b_comment_publish_box .e_comment_main .e_comment_add_info .e-praised:hover .icon {
+	background-position: 0 0
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e-praiseded,.b_comment_publish_box .e_comment_main .e_comment_add_info .e-praiseded {
+	cursor: default
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e-praiseded .icon,.b_comment_publish_box .e_comment_main .e_comment_add_info .e-praiseded .icon {
+	background-position: 0 0
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e-praiseded .tit,.b_comment_publish_box .e_comment_main .e_comment_add_info .e-praiseded .tit {
+	color: #666
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e-praiseded .tit em,.b_comment_publish_box .e_comment_main .e_comment_add_info .e-praiseded .tit em {
+	color: #999
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e_comment_rm,.b_comment_publish_box .e_comment_main .e_comment_add_info .e_comment_rm {
+	float: left;
+	display: inline;
+	background: url('//source.qunarzz.com/site/images/travel/place/poi_detail_sprit.png') no-repeat 0 -72px;
+	margin-right: 10px;
+	padding-left: 18px;
+	height: 18px;
+	zoom: 1
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e_comment_rm a,.b_comment_publish_box .e_comment_main .e_comment_add_info .e_comment_rm a {
+	border-right: 1px solid #e0e0e0;
+	padding-right: 10px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #999
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e_comment_rm a:hover,.b_comment_publish_box .e_comment_main .e_comment_add_info .e_comment_rm a:hover {
+	color: #ff8417
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e_comment_edit,.b_comment_publish_box .e_comment_main .e_comment_add_info .e_comment_edit {
+	float: left;
+	display: inline;
+	background: url('//source.qunarzz.com/site/images/travel/place/poi_detail_del.png') no-repeat 3px 3px;
+	margin-right: 10px;
+	padding-left: 18px;
+	height: 18px;
+	zoom: 1
+}
+
+.b_comment_box .e_comment_main .e_comment_add_info .e_comment_edit a,.b_comment_publish_box .e_comment_main .e_comment_add_info .e_comment_edit a {
+	border-right: 1px solid #e0e0e0;
+	padding-right: 10px;
+	line-height: 18px;
+	font-size: 12px
+}
+
+.b_comment_detail_box {
+	position: relative;
+	border-top: 0
+}
+
+.b_comment_detail_box .publish_text {
+	border-style: none;
+	border-width: 0;
+	margin: 2px 0 0 2px;
+	padding: 5px;
+	width: 585px;
+	line-height: 18px;
+	outline: 0;
+	overflow: hidden;
+	overflow-y: auto;
+	resize: none
+}
+
+.b_comment_publish_box .PlaceHolder {
+	_width: 589px
+}
+
+.b_comment_publish_box .e_comment_main {
+	border-bottom-width: 0
+}
+
+.b_comment_publish_box .e_comment_usr .e_comment_usr_pic {
+	margin-top: 0
+}
+
+.b_comment_publish_box .e_comment_star {
+	background-color: #fff;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	margin-bottom: 10px;
+	height: 32px;
+	line-height: 32px;
+	padding: 0 8px
+}
+
+.b_comment_publish_box .e_comment_star .stars {
+	width: 80px;
+	height: 16px;
+	float: left;
+	display: inline;
+	margin-top: 8px
+}
+
+.b_comment_publish_box .e_comment_star .stars a {
+	padding: 0 8px;
+	font-size: 12px;
+	float: left;
+	display: inline;
+	height: 16px;
+	zoom: 1;
+	background: url("//source.qunarzz.com/site/images/travel/place/star_v3.jpg") no-repeat 0 -20px
+}
+
+.b_comment_publish_box .e_comment_star .stars .high_light {
+	background: url("//source.qunarzz.com/site/images/travel/place/star_v3.jpg") no-repeat 0 0
+}
+
+.b_comment_publish_box .e_comment_star .star_content {
+	float: left;
+	color: #1badb6;
+	margin-left: 8px;
+	display: none
+}
+
+.b_comment_publish_box .e_comment_star .start_default {
+	display: block;
+	width: 155px;
+	height: 27px;
+	font-size: 0;
+	background: url('//source.qunarzz.com/site/images/travel/place/2th/cmt_tips.png') no-repeat 0 5px
+}
+
+.b_comment_publish_box .e_comment_star .star_alert {
+	display: none;
+	color: #ff7400;
+	margin-left: 8px
+}
+
+.b_comment_publish_box .e-publish-box-tit {
+	position: relative;
+	height: 34px;
+	padding: 0 20px;
+	background-color: #fafafa;
+	border: solid 1px #e0e0e0;
+	border-bottom-color: #efefef
+}
+
+.b_comment_publish_box .e-publish-box-tit .label {
+	float: left;
+	font-size: 12px;
+	line-height: 34px;
+	color: #1badb6
+}
+
+.b_comment_publish_box .e-publish-box-tit .add-pic-btn {
+	position: relative;
+	float: right;
+	color: #666;
+	height: 14px;
+	margin: 11px 0 0;
+	padding-left: 20px;
+	line-height: 14px;
+	cursor: pointer;
+	background: url("//source.qunarzz.com/site/images/travel/place/2th/pic_add_btn.gif") no-repeat 0 1px
+}
+
+.b_comment_publish_box .e-publish-box-tit .swf-box {
+	position: absolute;
+	top: 0;
+	right: 20px;
+	width: 68px;
+	height: 30px
+}
+
+.b_comment_publish_box .e_publish_text_box {
+	position: relative;
+	border: solid 1px #e0e0e0;
+	border-top: 0
+}
+
+.b_comment_publish_box .e_publish_text_box .publish_text {
+	border-style: none;
+	border-width: 0;
+	margin: 2px 0 0 2px;
+	padding: 5px;
+	width: 585px;
+	line-height: 18px;
+	outline: 0;
+	overflow: hidden;
+	overflow-y: auto;
+	resize: none;
+	-webkit-transition: height .2s;
+	-moz-transition: height .2s;
+	transition: height .2s
+}
+
+.b_comment_publish_box .m_no_login {
+	border-top: solid 1px #e0e0e0;
+	height: 120px;
+	text-align: center
+}
+
+.b_comment_publish_box .m_no_login .login_txt_wrap {
+	font-size: 14px;
+	margin-top: 50px
+}
+
+.b_comment_publish_box .e_upload_img_box {
+	margin-top: 15px;
+	margin-bottom: 20px
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_title {
+	background: url("//source.qunarzz.com/site/images/travel/place/poi_detail_sprit.png") no-repeat 0 -126px;
+	padding-left: 20px
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel {
+	margin-top: 6px;
+	background-color: #fafafa;
+	border: 1px solid #efefef;
+	min-height: 118px;
+	height: auto!important;
+	height: 118px
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel ul {
+	margin: 0 0 10px 10px;
+	overflow: hidden;
+	zoom: 1
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel ul .img_item {
+	float: left;
+	display: inline;
+	margin-right: 10px;
+	margin-top: 10px;
+	width: 137px;
+	height: 98px;
+	overflow: hidden;
+	position: relative;
+	background-color: #fff
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel ul .img_item .img {
+	display: block;
+	width: auto\9;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel ul .img_item .loading_txt {
+	position: absolute;
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin-left: -40px;
+	margin-top: -10px
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel ul .img_item .mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	opacity: .7;
+	filter: alpha(opacity=50);
+	-ms-filter: alpha(opacity=0.7)
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel ul .img_item .del_img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #fff;
+	width: 54px;
+	height: 24px;
+	cursor: pointer;
+	display: none
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel ul .img_item .del_img .txt {
+	line-height: 24px;
+	background: url('//source.qunarzz.com/site/images/travel/place/poi_detail_sprit.png') 5px -90px no-repeat;
+	display: block;
+	z-index: 1;
+	padding-left: 24px;
+	position: relative
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel ul .hover .del_img {
+	display: block
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_img_pannel ul .uploading {
+	width: 135px;
+	height: 96px;
+	border: 1px solid #ededed;
+	background-color: #fff
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_btn_placeholder {
+	float: left;
+	display: inline;
+	margin-right: 10px;
+	margin-top: 10px;
+	height: 96px;
+	width: 135px;
+	border: 1px solid #ededed;
+	background-color: #fff
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_btn_placeholder .upload_btn_box {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_btn_placeholder .upload_btn_box .vertical_box,.b_comment_publish_box .e_upload_img_box .upload_btn_placeholder .upload_btn_box .horizontal_box {
+	position: absolute;
+	background-color: #cdedef;
+	left: 50%;
+	top: 50%;
+	z-index: 50
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_btn_placeholder .upload_btn_box .vertical_box {
+	height: 40px;
+	width: 8px;
+	margin-top: -20px;
+	margin-left: -4px
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_btn_placeholder .upload_btn_box .horizontal_box {
+	width: 40px;
+	height: 8px;
+	line-height: 0;
+	font-size: 0;
+	margin-left: -20px;
+	margin-top: -4px
+}
+
+.b_comment_publish_box .e_upload_img_box .upload_btn_placeholder .upload_btn_box .upload_btn {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	filter: alpha(opacity=50);
+	-ms-filter: alpha(opacity=0);
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+.b_comment_publish_box .e_publish_submit_box {
+	overflow: hidden;
+	width: 100%
+}
+
+.b_comment_publish_box .e_publish_submit_box .submit {
+	float: right;
+	display: inline
+}
+
+.b_comment_publish_box .e_publish_submit_box .submit .btn {
+	display: block;
+	width: 120px;
+	margin-top: 20px;
+	cursor: pointer;
+	border: 0;
+	border-radius: 3px;
+	background-color: #ff9316;
+	color: #fff;
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	line-height: 33px;
+	text-align: center
+}
+
+.b_comment_publish_box .e_publish_submit_box .submit .disabled {
+	background-color: #cdcdcd;
+	cursor: default
+}
+
+.b_comment_publish_box .m_no_login_btn .btn {
+	margin-top: 15px
+}
+
+.b_comment_publish_box .e_error_info {
+	float: left;
+	display: none;
+	padding-top: 5px;
+	line-height: 1em
+}
+
+.e_error_info .err-tip {
+	color: #f60
+}
+
+.e_publish_text_box,.e_publish_submit_box {
+	min-height: 116px;
+	_height: 116px
+}
+
+.e_publish_text_box .pub-img-box,.e_publish_submit_box .pub-img-box {
+	clear: both;
+	float: left;
+	padding: 5px 10px;
+	overflow: hidden;
+	*zoom: 1
+}
+
+.e_publish_text_box .pub-img-box .cont,.e_publish_submit_box .pub-img-box .cont {
+	max-width: 100%;
+	position: relative;
+	display: inline-block;
+	*float: left;
+	zoom: 1
+}
+
+.e_publish_text_box .pub-img-box .del-btn,.e_publish_submit_box .pub-img-box .del-btn {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	visibility: hidden;
+	height: 44px;
+	width: 44px
+}
+
+.e_publish_text_box .pub-img-box .bg,.e_publish_submit_box .pub-img-box .bg {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: .5;
+	border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-moz-border-radius: 22px;
+	filter: alpha(opacity=50)
+}
+
+.e_publish_text_box .pub-img-box .icon,.e_publish_submit_box .pub-img-box .icon {
+	position: relative;
+	top: 10px;
+	left: 12px;
+	z-index: 2;
+	display: block;
+	width: 20px;
+	height: 21px;
+	background: url("//source.qunarzz.com/site/images/travel/place/2th/pub_del.gif") no-repeat 0 0
+}
+
+.e_publish_text_box .pub-img-box .del-btn:hover .bg,.e_publish_submit_box .pub-img-box .del-btn:hover .bg {
+	opacity: 1;
+	filter: alpha(opacity=100)
+}
+
+.e_publish_text_box .show-del .del-btn,.e_publish_submit_box .show-del .del-btn {
+	visibility: visible
+}
+
+.e_publish_text_box img,.e_publish_submit_box img {
+	max-width: 100%;
+	_width: 100%;
+	vertical-align: bottom
+}
+
+.e_publish_text_box .item-textarea,.e_publish_submit_box .item-textarea {
+	min-height: 40px;
+	_height: 40px;
+	border: 0;
+	width: 578px;
+	margin-left: 12px;
+	color: #333;
+	font-size: 14px;
+	line-height: 18px;
+	resize: none;
+	outline: 0;
+	border: 0
+}
+
+.upload-dialog {
+	width: 600px;
+	height: 367px;
+	background: #fff;
+	color: #999;
+	border-radius: 5px;
+	text-align: center
+}
+
+.upload-dialog .upload-box {
+	width: 180px;
+	height: 40px;
+	margin: 0 auto 18px;
+	padding-top: 110px;
+	background: url('//source.qunarzz.com/site/images/travel/travel_destination/poidianping.png') 0 110px
+}
+
+.upload-dialog .tit {
+	height: 34px;
+	padding: 0 18px;
+	background-color: #f4f4f4;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: left;
+	border-radius: 5px 5px 0 0;
+	color: #666
+}
+
+.upload-dialog .js_close {
+	float: right;
+	width: 11px;
+	height: 11px;
+	cursor: pointer;
+	margin-top: 10px;
+	background: url('//source.qunarzz.com/site/images/travel/travel_destination/poidianping.png') -180px -16px
+}
+
+.upload-dialog .tips-num {
+	padding-top: 25px;
+	font: normal 18px/44px "microsoft yahei"
+}
+
+.mobile-dialog {
+	width: 460px;
+	height: 180px;
+	background: #fff;
+	border-radius: 5px
+}
+
+.mobile-dialog .tit {
+	font-size: 14px;
+	font-weight: bold
+}
+
+.mobile-dialog .tips {
+	color: #666;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 25px 0
+}
+
+.mobile-dialog .icon {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin-right: 4px
+}
+
+.mobile-dialog .bind-btn {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 100px;
+	height: 30px;
+	border-radius: 3px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #ff9316;
+	cursor: pointer
+}
+
+.mobile-dialog .bind-btn:link,.mobile-dialog .bind-btn:visited,.mobile-dialog .bind-btn:hover {
+	color: #fff
+}
+
+.pub-img-box .loading {
+	height: 400px;
+	width: 500px;
+	background-color: #fbfbfb;
+	border: solid 1px #ccc;
+	text-align: center;
+	line-height: 400px
+}
+
+.b_gly .tit {
+	font: 20px/1.5 "microsoft yahei";
+	color: #1badb6;
+	border-bottom: solid 1px #e0e0e0;
+	padding: 20px 0 10px
+}
+
+.b_gly .b_gly_ct {
+	overflow: hidden;
+	_zoom: 1
+}
+
+.b_gly .b_gly_ct .gly_ct_lf {
+	float: left;
+	display: inline;
+	overflow: hidden;
+	_zoom: 1;
+	width: 720px
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend {
+	width: 100%;
+	overflow: hidden;
+	_zoom: 1;
+	padding: 20px 0 15px
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend dl {
+	width: 226px;
+	float: left;
+	margin-right: 20px;
+	overflow: hidden;
+	_zoom: 1;
+	position: relative
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend dl .name a {
+	position: absolute;
+	top: 120px;
+	left: 0;
+	width: 226px;
+	height: 29px;
+	padding-top: 21px;
+	display: block;
+	background: url('//source.qunarzz.com/site/images/travel/place/3th/poi_grey.png') 0 0 no-repeat;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//source.qunarzz.com/site/images/travel/place/3th/poi_grey.png');
+	text-align: center;
+	font: bold 14px/20px Arial;
+	color: #fff
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_tit {
+	overflow: hidden;
+	_zoom: 1;
+	font: 16px/22px "microsoft yahei"
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_tit .tit_lf {
+	float: left;
+	display: inline
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_tit .tit_lf .icon {
+	float: left;
+	display: inline;
+	height: 16px;
+	width: 4px;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	margin-top: 4px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 0;
+	_margin-top: 2px;
+	background-color: #9bdce0
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_tit .tit_lf .fl {
+	float: left;
+	display: inline
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_tit .tit_page {
+	float: right;
+	display: inline
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_tit .tit_page a {
+	float: left;
+	display: inline;
+	width: 18px;
+	height: 18px;
+	border: 1px solid #e0e0e0;
+	margin-left: 6px;
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;
+	color: #666
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_tit .tit_page a:hover {
+	background: #1badb6;
+	color: #fff
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_tit .tit_page a.click {
+	background: #1badb6;
+	color: #fff
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji {
+	width: 100%;
+	overflow: hidden;
+	margin: 15px 0 20px;
+	background: url("//source.qunarzz.com/site/images/travel/strategybase_v2/list_item_line.gif") repeat-x left bottom
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic {
+	width: 740px
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic .pic_infor,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic .pic_infor {
+	height: 34px;
+	margin-top: 10px
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic .pic_infor .total_star,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic .pic_infor .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_v3.gif") no-repeat 0 -20px;
+	float: left;
+	display: inline;
+	width: 80px;
+	height: 14px;
+	line-height: 0;
+	font-size: 0;
+	margin: 1px 10px 0 0;
+	overflow: hidden
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic .pic_infor a,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic .pic_infor a {
+	color: #999
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic .pic_infor .cur_star,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic .pic_infor .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_v3.gif") no-repeat 0 0;
+	float: left;
+	display: inline;
+	width: 80px;
+	height: 14px;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic .pic_infor .star_4,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic .pic_infor .star_4 {
+	width: 80%
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic .pic_infor .star_3,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic .pic_infor .star_3 {
+	width: 60%
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic .pic_infor .star_2,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic .pic_infor .star_2 {
+	width: 40%
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic .pic_infor .star_1,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic .pic_infor .star_1 {
+	width: 20%
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_place .place_pic .pic_infor .star_0,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .place_pic .pic_infor .star_0 {
+	width: 0
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji {
+	position: relative;
+	z-index: 0;
+	background: 0
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .recom_day {
+	position: absolute;
+	top: -5px;
+	right: 12px;
+	color: #fff
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .recom_day .number {
+	font: italic 40px/46px Georgia,arial,sans-serif;
+	margin-right: 5px
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .tit_user {
+	position: absolute;
+	top: 120px;
+	left: 0;
+	z-index: 100;
+	background: url('//source.qunarzz.com/site/images/travel/place/3th/poi_grey.png') 0 0 no-repeat;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//source.qunarzz.com/site/images/travel/place/3th/poi_grey.png');
+	width: 226px;
+	height: 50px
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .tit_user .chathead {
+	float: left;
+	display: inline;
+	margin: 5px 10px 0 5px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	border-radius: 20px;
+	width: 40px;
+	height: 40px;
+	overflow: hidden
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .tit_user .name {
+	float: left;
+	display: inline;
+	height: 29px;
+	padding-top: 21px;
+	font: bold 14px/20px Arial;
+	color: #fff
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .poi_infor {
+	height: 47px;
+	background: #fafafa;
+	padding: 10px
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .poi_infor a {
+	line-height: 24px;
+	color: #999
+}
+
+.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .poi_infor a:hover,.b_gly .b_gly_ct .gly_ct_lf .recommend .recommend_youji .poi_infor .click {
+	color: #ff7400
+}
+
+.b_gly .b_gly_ct .gly_ct_rt {
+	float: right;
+	display: inline;
+	width: 248px;
+	height: 536px;
+	*height: 546px;
+	border: 1px solid #efefef;
+	background: #fafafa;
+	margin-top: 20px;
+	padding-bottom: 5px
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .rt_tit {
+	width: 224px;
+	padding: 0 12px;
+	height: 39px;
+	background: #f0f0f0
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .rt_tit h2 {
+	float: left;
+	display: inline;
+	font: 16px/39px "microsoft yahei"
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .rt_tit .clear_history {
+	float: right;
+	display: inline;
+	line-height: 39px;
+	color: #999
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .history_list {
+	padding: 17px 18px
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .history_list dl {
+	overflow: hidden;
+	_zoom: 1;
+	margin-bottom: 14px
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .history_list dl dt {
+	float: left;
+	display: inline;
+	width: 90px;
+	margin-right: 12px
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .history_list dl dd {
+	float: left;
+	display: inline
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .history_list dl dd .name {
+	margin-bottom: 5px
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .history_list dl dd .name a {
+	font-size: 14px;
+	color: #999
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .history_list dl dd .name a:hover {
+	color: #ff7400
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .history_list dl dd .e_comment_star_box .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_v3.gif") 0 -60px no-repeat
+}
+
+.b_gly .b_gly_ct .gly_ct_rt .history_list dl dd .e_comment_star_box .total_star .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_v3.gif") 0 -40px no-repeat
+}
+
+.b_sidemapbox .btnbox,.b_detail_nav_fixed .btnbox,.b_sidemapbox_s .btnbox {
+	margin-top: 38px
+}
+
+.b_sidemapbox .btnbox .btn_collect,.b_detail_nav_fixed .btnbox .btn_collect,.b_sidemapbox_s .btnbox .btn_collect {
+	background-color: #ff9316;
+	border: #f67e0b 1px solid;
+	border-bottom: #f6760b 1px solid;
+	height: 35px;
+	line-height: 35px;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	color: #fff;
+	text-align: center;
+	display: block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px
+}
+
+.b_sidemapbox .btnbox .btn_collect .icon,.b_detail_nav_fixed .btnbox .btn_collect .icon,.b_sidemapbox_s .btnbox .btn_collect .icon {
+	background: url("//source.qunarzz.com/site/images/travel/place/icons_collect_03.gif") no-repeat 0 0;
+	width: 24px;
+	height: 24px;
+	margin-top: 5px;
+	margin-left: 90px;
+	float: left;
+	display: inline;
+	vertical-align: middle;
+	overflow: hidden;
+	cursor: pointer
+}
+
+.b_sidemapbox .btnbox .btn_collect .txt,.b_detail_nav_fixed .btnbox .btn_collect .txt,.b_sidemapbox_s .btnbox .btn_collect .txt {
+	margin-top: 4px;
+	_margin-top: 5px;
+	margin-left: 5px;
+	height: 24px;
+	line-height: 24px;
+	float: left;
+	display: inline;
+	vertical-align: middle;
+	cursor: pointer
+}
+
+.b_sidemapbox .btnbox .btn_collect .t_1,.b_detail_nav_fixed .btnbox .btn_collect .t_1,.b_sidemapbox_s .btnbox .btn_collect .t_1 {
+	display: block
+}
+
+.b_sidemapbox .btnbox .btn_collect .t_2,.b_detail_nav_fixed .btnbox .btn_collect .t_2,.b_sidemapbox_s .btnbox .btn_collect .t_2 {
+	display: none
+}
+
+.b_sidemapbox .btnbox .selected,.b_detail_nav_fixed .btnbox .selected,.b_sidemapbox_s .btnbox .selected {
+	background-color: #f0f0f0;
+	border: #e0e0e0 1px solid;
+	color: #999
+}
+
+.b_sidemapbox .btnbox .selected .icon,.b_detail_nav_fixed .btnbox .selected .icon,.b_sidemapbox_s .btnbox .selected .icon {
+	background-position: 0 -25px;
+	margin-left: 75px
+}
+
+.b_sidemapbox .btnbox .selected .t_1,.b_detail_nav_fixed .btnbox .selected .t_1,.b_sidemapbox_s .btnbox .selected .t_1 {
+	display: none
+}
+
+.b_sidemapbox .btnbox .selected .t_2,.b_detail_nav_fixed .btnbox .selected .t_2,.b_sidemapbox_s .btnbox .selected .t_2 {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.b_sidemapbox .mapbox_outside,.b_detail_nav_fixed .mapbox_outside,.b_sidemapbox_s .mapbox_outside {
+	position: relative
+}
+
+.b_sidemapbox .mapbox_outside .mapbox,.b_detail_nav_fixed .mapbox_outside .mapbox,.b_sidemapbox_s .mapbox_outside .mapbox,.b_sidemapbox .mapbox_outside .city_list,.b_detail_nav_fixed .mapbox_outside .city_list,.b_sidemapbox_s .mapbox_outside .city_list {
+	background-color: #f9f9f9;
+	width: 250px;
+	height: 250px;
+	margin-top: 20px;
+	overflow: hidden
+}
+
+.b_sidemapbox .mapbox_outside .mapbox .BMap_noprint,.b_detail_nav_fixed .mapbox_outside .mapbox .BMap_noprint,.b_sidemapbox_s .mapbox_outside .mapbox .BMap_noprint,.b_sidemapbox .mapbox_outside .city_list .BMap_noprint,.b_detail_nav_fixed .mapbox_outside .city_list .BMap_noprint,.b_sidemapbox_s .mapbox_outside .city_list .BMap_noprint {
+	display: none
+}
+
+.b_sidemapbox .mapbox_outside .mapbox .m_m_bg,.b_detail_nav_fixed .mapbox_outside .mapbox .m_m_bg,.b_sidemapbox_s .mapbox_outside .mapbox .m_m_bg,.b_sidemapbox .mapbox_outside .city_list .m_m_bg,.b_detail_nav_fixed .mapbox_outside .city_list .m_m_bg,.b_sidemapbox_s .mapbox_outside .city_list .m_m_bg,.b_sidemapbox .mapbox_outside .mapbox .m_current,.b_detail_nav_fixed .mapbox_outside .mapbox .m_current,.b_sidemapbox_s .mapbox_outside .mapbox .m_current,.b_sidemapbox .mapbox_outside .city_list .m_current,.b_detail_nav_fixed .mapbox_outside .city_list .m_current,.b_sidemapbox_s .mapbox_outside .city_list .m_current {
+	position: absolute;
+	word-break: break-all;
+	bottom: 0;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer
+}
+
+.b_sidemapbox .mapbox_outside .mapbox .m_mark,.b_detail_nav_fixed .mapbox_outside .mapbox .m_mark,.b_sidemapbox_s .mapbox_outside .mapbox .m_mark,.b_sidemapbox .mapbox_outside .city_list .m_mark,.b_detail_nav_fixed .mapbox_outside .city_list .m_mark,.b_sidemapbox_s .mapbox_outside .city_list .m_mark {
+	position: absolute;
+	width: 1px;
+	height: 1px
+}
+
+.b_sidemapbox .mapbox_outside .mapbox .m_mark .m_m_bg,.b_detail_nav_fixed .mapbox_outside .mapbox .m_mark .m_m_bg,.b_sidemapbox_s .mapbox_outside .mapbox .m_mark .m_m_bg,.b_sidemapbox .mapbox_outside .city_list .m_mark .m_m_bg,.b_detail_nav_fixed .mapbox_outside .city_list .m_mark .m_m_bg,.b_sidemapbox_s .mapbox_outside .city_list .m_mark .m_m_bg {
+	width: 24px;
+	height: 36px;
+	padding-top: 3px;
+	font-size: 12px;
+	color: #fff;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat scroll -47px -102px transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -47px -102px transparent
+}
+
+.b_sidemapbox .mapbox_outside .mapbox .list_hover .m_m_bg,.b_detail_nav_fixed .mapbox_outside .mapbox .list_hover .m_m_bg,.b_sidemapbox_s .mapbox_outside .mapbox .list_hover .m_m_bg,.b_sidemapbox .mapbox_outside .city_list .list_hover .m_m_bg,.b_detail_nav_fixed .mapbox_outside .city_list .list_hover .m_m_bg,.b_sidemapbox_s .mapbox_outside .city_list .list_hover .m_m_bg {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat scroll -109px -102px transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -109px -102px transparent
+}
+
+.b_sidemapbox .mapbox_outside .mapbox .m_current .m_m_bg,.b_detail_nav_fixed .mapbox_outside .mapbox .m_current .m_m_bg,.b_sidemapbox_s .mapbox_outside .mapbox .m_current .m_m_bg,.b_sidemapbox .mapbox_outside .city_list .m_current .m_m_bg,.b_detail_nav_fixed .mapbox_outside .city_list .m_current .m_m_bg,.b_sidemapbox_s .mapbox_outside .city_list .m_current .m_m_bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 24px;
+	height: 70px;
+	margin-left: -12px;
+	margin-top: -35px;
+	z-index: 2;
+	color: #fff;
+	font: 14px/20px "arial";
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/icons_map_mark_v3.png") no-repeat scroll 0 0 transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8.png") no-repeat scroll -159px -102px transparent
+}
+
+.b_sidemapbox .mapbox_outside .city_list .m_mark .m_m_bg,.b_detail_nav_fixed .mapbox_outside .city_list .m_mark .m_m_bg,.b_sidemapbox_s .mapbox_outside .city_list .m_mark .m_m_bg {
+	text-align: center;
+	line-height: 20px;
+	width: 28px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat scroll -35px -287px transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -35px -287px transparent
+}
+
+.b_sidemapbox .mapbox_outside .city_list .list_hover .m_m_bg,.b_detail_nav_fixed .mapbox_outside .city_list .list_hover .m_m_bg,.b_sidemapbox_s .mapbox_outside .city_list .list_hover .m_m_bg {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat scroll -84px -287px transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -84px -287px transparent
+}
+
+.b_sidemapbox .mapbox_outside .city_list .m_current .m_m_bg,.b_detail_nav_fixed .mapbox_outside .city_list .m_current .m_m_bg,.b_sidemapbox_s .mapbox_outside .city_list .m_current .m_m_bg {
+	position: absolute;
+	width: 24px;
+	height: 36px;
+	z-index: 2;
+	color: #fff;
+	font: 14px/20px "arial";
+	text-align: center;
+	text-indent: -15px;
+	padding-top: 2px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/icons_map_mark_v3.png") no-repeat scroll 0 0 transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -160px -102px transparent
+}
+
+.b_sidemapbox .mapbox_outside .tagbox,.b_detail_nav_fixed .mapbox_outside .tagbox,.b_sidemapbox_s .mapbox_outside .tagbox {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	width: 250px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/png_bai.png") 0 0 no-repeat;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//source.qunarzz.com/site/images/travel/place/3th/png_bai.png')
+}
+
+.b_sidemapbox .mapbox_outside a,.b_detail_nav_fixed .mapbox_outside a,.b_sidemapbox_s .mapbox_outside a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	_height: 254px;
+	position: absolute;
+	_top: 0;
+	left: 0;
+	bottom: 0;
+	color: #333;
+	font: bold 14px/50px "yahei";
+	text-align: center;
+	cursor: url("//source.qunarzz.com/fed_download/travel/images/mapcursor.ico"),help
+}
+
+.b_sidemapbox .related_info,.b_detail_nav_fixed .related_info,.b_sidemapbox_s .related_info {
+	background: #fff;
+	float: left;
+	display: inline;
+	width: 250px;
+	overflow: hidden
+}
+
+.b_sidemapbox .related_info .poi_list,.b_detail_nav_fixed .related_info .poi_list,.b_sidemapbox_s .related_info .poi_list {
+	padding: 10px 15px 0;
+	font-size: 18px;
+	font-family: "microsoft yahei"
+}
+
+.b_sidemapbox .related_info .info_type,.b_detail_nav_fixed .related_info .info_type,.b_sidemapbox_s .related_info .info_type {
+	width: 251px;
+	overflow: hidden;
+	_zoom: 1
+}
+
+.b_sidemapbox .related_info .info_type .type,.b_detail_nav_fixed .related_info .info_type .type,.b_sidemapbox_s .related_info .info_type .type {
+	float: left;
+	display: inline;
+	width: 124px;
+	height: 34px;
+	font: 14px/34px "simsun";
+	text-align: center;
+	background: #f0f0f0;
+	border-left: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	color: #333
+}
+
+.b_sidemapbox .related_info .info_type .one_px,.b_detail_nav_fixed .related_info .info_type .one_px,.b_sidemapbox_s .related_info .info_type .one_px {
+	width: 124px
+}
+
+.b_sidemapbox .related_info .info_type .active,.b_detail_nav_fixed .related_info .info_type .active,.b_sidemapbox_s .related_info .info_type .active {
+	background: #fcfcfc;
+	color: #666;
+	border: 0;
+	height: 36px
+}
+
+.b_sidemapbox .subtagbox,.b_detail_nav_fixed .subtagbox,.b_sidemapbox_s .subtagbox {
+	overflow: hidden;
+	_zoom: 1;
+	width: 300px;
+	background: #fcfcfc;
+	height: 33px
+}
+
+.b_sidemapbox .subtagbox .item,.b_detail_nav_fixed .subtagbox .item,.b_sidemapbox_s .subtagbox .item,.b_sidemapbox .subtagbox .item_t,.b_detail_nav_fixed .subtagbox .item_t,.b_sidemapbox_s .subtagbox .item_t {
+	float: left;
+	display: inline;
+	height: 34px;
+	line-height: 34px
+}
+
+.b_sidemapbox .subtagbox .item .sub_tag,.b_detail_nav_fixed .subtagbox .item .sub_tag,.b_sidemapbox_s .subtagbox .item .sub_tag,.b_sidemapbox .subtagbox .item_t .sub_tag,.b_detail_nav_fixed .subtagbox .item_t .sub_tag,.b_sidemapbox_s .subtagbox .item_t .sub_tag {
+	display: block;
+	padding: 0 15px;
+	line-height: 34px;
+	width: 30px;
+	height: 34px;
+	color: #666
+}
+
+.b_sidemapbox .subtagbox .item,.b_detail_nav_fixed .subtagbox .item,.b_sidemapbox_s .subtagbox .item {
+	display: none
+}
+
+.b_sidemapbox .subtagbox .selected .sub_tag,.b_detail_nav_fixed .subtagbox .selected .sub_tag,.b_sidemapbox_s .subtagbox .selected .sub_tag {
+	height: 32px;
+	color: #1badb6;
+	border-bottom: #1badb6 3px solid
+}
+
+.b_sidemapbox .subtagbox .line,.b_detail_nav_fixed .subtagbox .line,.b_sidemapbox_s .subtagbox .line {
+	float: left;
+	display: inline;
+	line-height: 34px;
+	width: 5px;
+	display: none;
+	height: 34px;
+	color: #e0e0e0
+}
+
+.b_sidemapbox .contbox,.b_detail_nav_fixed .contbox,.b_sidemapbox_s .contbox {
+	width: 100%;
+	border-top: 1px solid #e0e0e0;
+	color: #666;
+	overflow: hidden;
+	background-color: #fff
+}
+
+.b_sidemapbox .contbox .list_item,.b_detail_nav_fixed .contbox .list_item,.b_sidemapbox_s .contbox .list_item {
+	display: none
+}
+
+.b_sidemapbox .contbox .list_item .item,.b_detail_nav_fixed .contbox .list_item .item,.b_sidemapbox_s .contbox .list_item .item,.b_sidemapbox .contbox .list_item .hover,.b_detail_nav_fixed .contbox .list_item .hover,.b_sidemapbox_s .contbox .list_item .hover {
+	overflow: hidden;
+	_zoom: 1;
+	position: relative;
+	height: 68px;
+	padding: 10px 15px 10px 15px;
+	*padding: 6px 15px 10px 15px;
+	z-index: 10
+}
+
+.b_sidemapbox .contbox .list_item .item .img_link,.b_detail_nav_fixed .contbox .list_item .item .img_link,.b_sidemapbox_s .contbox .list_item .item .img_link,.b_sidemapbox .contbox .list_item .hover .img_link,.b_detail_nav_fixed .contbox .list_item .hover .img_link,.b_sidemapbox_s .contbox .list_item .hover .img_link {
+	float: left;
+	display: inline;
+	width: 100px;
+	height: 68px
+}
+
+.b_sidemapbox .contbox .list_item .item .t,.b_detail_nav_fixed .contbox .list_item .item .t,.b_sidemapbox_s .contbox .list_item .item .t,.b_sidemapbox .contbox .list_item .hover .t,.b_detail_nav_fixed .contbox .list_item .hover .t,.b_sidemapbox_s .contbox .list_item .hover .t {
+	line-height: 18px;
+	overflow: hidden;
+	zoom: 1
+}
+
+.b_sidemapbox .contbox .list_item .item .t .tit,.b_detail_nav_fixed .contbox .list_item .item .t .tit,.b_sidemapbox_s .contbox .list_item .item .t .tit,.b_sidemapbox .contbox .list_item .hover .t .tit,.b_detail_nav_fixed .contbox .list_item .hover .t .tit,.b_sidemapbox_s .contbox .list_item .hover .t .tit {
+	color: #666
+}
+
+.b_sidemapbox .contbox .list_item .item .t .total_star,.b_detail_nav_fixed .contbox .list_item .item .t .total_star,.b_sidemapbox_s .contbox .list_item .item .t .total_star,.b_sidemapbox .contbox .list_item .hover .t .total_star,.b_detail_nav_fixed .contbox .list_item .hover .t .total_star,.b_sidemapbox_s .contbox .list_item .hover .t .total_star {
+	float: left;
+	display: inline;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_action1.png") no-repeat 0 -9px;
+	width: 50px;
+	height: 9px;
+	font-size: 0;
+	margin: 5px 0;
+	overflow: hidden
+}
+
+.b_sidemapbox .contbox .list_item .item .t .total_star .cur_star,.b_detail_nav_fixed .contbox .list_item .item .t .total_star .cur_star,.b_sidemapbox_s .contbox .list_item .item .t .total_star .cur_star,.b_sidemapbox .contbox .list_item .hover .t .total_star .cur_star,.b_detail_nav_fixed .contbox .list_item .hover .t .total_star .cur_star,.b_sidemapbox_s .contbox .list_item .hover .t .total_star .cur_star {
+	float: left;
+	display: inline;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_action1.png") no-repeat 0 0;
+	height: 9px;
+	width: 50px;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden
+}
+
+.b_sidemapbox .contbox .list_item .item .t .star_dangci1 .total_star,.b_detail_nav_fixed .contbox .list_item .item .t .star_dangci1 .total_star,.b_sidemapbox_s .contbox .list_item .item .t .star_dangci1 .total_star,.b_sidemapbox .contbox .list_item .hover .t .star_dangci1 .total_star,.b_detail_nav_fixed .contbox .list_item .hover .t .star_dangci1 .total_star,.b_sidemapbox_s .contbox .list_item .hover .t .star_dangci1 .total_star {
+	display: none
+}
+
+.b_sidemapbox .contbox .list_item .item .t .distance,.b_detail_nav_fixed .contbox .list_item .item .t .distance,.b_sidemapbox_s .contbox .list_item .item .t .distance,.b_sidemapbox .contbox .list_item .hover .t .distance,.b_detail_nav_fixed .contbox .list_item .hover .t .distance,.b_sidemapbox_s .contbox .list_item .hover .t .distance {
+	float: right;
+	display: inline;
+	color: #999;
+	white-space: nowrap
+}
+
+.b_sidemapbox .contbox .list_item .item .list_number,.b_detail_nav_fixed .contbox .list_item .item .list_number,.b_sidemapbox_s .contbox .list_item .item .list_number,.b_sidemapbox .contbox .list_item .hover .list_number,.b_detail_nav_fixed .contbox .list_item .hover .list_number,.b_sidemapbox_s .contbox .list_item .hover .list_number {
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	z-index: 99;
+	width: 19px;
+	height: 20px;
+	text-align: center;
+	font: 12px/20px "Arial";
+	color: #fff;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat -109px -70px;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat -109px -70px
+}
+
+.b_sidemapbox .contbox .list_item .hover,.b_detail_nav_fixed .contbox .list_item .hover,.b_sidemapbox_s .contbox .list_item .hover {
+	background: #f8f8f8
+}
+
+.b_sidemapbox .contbox .list_item .hover .tit,.b_detail_nav_fixed .contbox .list_item .hover .tit,.b_sidemapbox_s .contbox .list_item .hover .tit {
+	color: #f60
+}
+
+.b_sidemapbox .contbox .list_item .hover .t .total_star,.b_detail_nav_fixed .contbox .list_item .hover .t .total_star,.b_sidemapbox_s .contbox .list_item .hover .t .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_action1.png") no-repeat 0 -27px
+}
+
+.b_sidemapbox .contbox .list_item .hover .t .total_star .cur_star,.b_detail_nav_fixed .contbox .list_item .hover .t .total_star .cur_star,.b_sidemapbox_s .contbox .list_item .hover .t .total_star .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_action1.png") no-repeat 0 -18px
+}
+
+.b_sidemapbox .contbox .list_item .hover .list_number,.b_detail_nav_fixed .contbox .list_item .hover .list_number,.b_sidemapbox_s .contbox .list_item .hover .list_number {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat -159px -70px;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat -159px -70px
+}
+
+.b_sidemapbox .contbox .list_item .more_per_side,.b_detail_nav_fixed .contbox .list_item .more_per_side,.b_sidemapbox_s .contbox .list_item .more_per_side {
+	text-align: right;
+	padding-right: 10px;
+	font-size: 12px
+}
+
+.b_sidemapbox .contbox .current,.b_detail_nav_fixed .contbox .current,.b_sidemapbox_s .contbox .current {
+	display: block
+}
+
+.b_sidemapbox .contbox .poi_page,.b_detail_nav_fixed .contbox .poi_page,.b_sidemapbox_s .contbox .poi_page {
+	text-align: right;
+	margin: 0 18px 0 0
+}
+
+.b_sidemapbox .contbox .poi_page a,.b_detail_nav_fixed .contbox .poi_page a,.b_sidemapbox_s .contbox .poi_page a {
+	font-size: 16px;
+	padding: 5px;
+	color: #999
+}
+
+.b_sidemapbox .contbox .poi_page a:hover,.b_detail_nav_fixed .contbox .poi_page a:hover,.b_sidemapbox_s .contbox .poi_page a:hover,.b_sidemapbox .contbox .poi_page a.active,.b_detail_nav_fixed .contbox .poi_page a.active,.b_sidemapbox_s .contbox .poi_page a.active {
+	color: #1badb6
+}
+
+.b_sidemapbox .contbox .poi_page .on,.b_detail_nav_fixed .contbox .poi_page .on,.b_sidemapbox_s .contbox .poi_page .on {
+	padding: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #1badb6
+}
+
+.b_sidemapbox .box_padd .list_item .item,.b_detail_nav_fixed .box_padd .list_item .item,.b_sidemapbox_s .box_padd .list_item .item {
+	padding: 20px 15px 6px 0
+}
+
+.b_sidemapbox .b_per_info,.b_detail_nav_fixed .b_per_info,.b_sidemapbox_s .b_per_info,.b_sidemapbox .listbox,.b_detail_nav_fixed .listbox,.b_sidemapbox_s .listbox {
+	position: relative;
+	width: 250px;
+	overflow: hidden
+}
+
+.b_sidemapbox .b_per_info .bd_none,.b_detail_nav_fixed .b_per_info .bd_none,.b_sidemapbox_s .b_per_info .bd_none,.b_sidemapbox .listbox .bd_none,.b_detail_nav_fixed .listbox .bd_none,.b_sidemapbox_s .listbox .bd_none {
+	border-top: 0
+}
+
+.b_sidemapbox .b_per_info .listbox_tit,.b_detail_nav_fixed .b_per_info .listbox_tit,.b_sidemapbox_s .b_per_info .listbox_tit,.b_sidemapbox .listbox .listbox_tit,.b_detail_nav_fixed .listbox .listbox_tit,.b_sidemapbox_s .listbox .listbox_tit {
+	color: #333;
+	font: 16px/20px "microsoft yahei";
+	margin-top: 30px
+}
+
+.b_sidemapbox .b_per_info .listbox_bg,.b_detail_nav_fixed .b_per_info .listbox_bg,.b_sidemapbox_s .b_per_info .listbox_bg,.b_sidemapbox .listbox .listbox_bg,.b_detail_nav_fixed .listbox .listbox_bg,.b_sidemapbox_s .listbox .listbox_bg {
+	background: url("//source.qunarzz.com/site/images/travel/place/map_bg.jpg");
+	line-height: 40px
+}
+
+.b_sidemapbox .b_per_info,.b_detail_nav_fixed .b_per_info,.b_sidemapbox_s .b_per_info {
+	overflow: auto
+}
+
+.b_sidemapbox .listbox .subtagbox,.b_detail_nav_fixed .listbox .subtagbox,.b_sidemapbox_s .listbox .subtagbox {
+	background-color: #fff
+}
+
+#idContBox .list_item {
+	padding-top: 10px;
+	width: 100%
+}
+
+#idContBox .item {
+	clear: both;
+	width: 240px;
+	overflow: hidden;
+	border: 0;
+	padding: 10px 10px 6px 0
+}
+
+.b-comment-mark {
+	position: absolute;
+	top: -20px;
+	height: 1px;
+	width: 20px;
+	left: 0;
+	zoom: 1;
+	visibility: hidden
+}
+
+.b_detail_nav {
+	border-bottom: 1px solid #e0e0e0;
+	width: 720px
+}
+
+.b_detail_nav ul {
+	overflow: hidden;
+	height: 52px;
+	width: 720px;
+	zoom: 1
+}
+
+.b_detail_nav a {
+	color: #666
+}
+
+.b_detail_nav li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	padding: 10px 0
+}
+
+.b_detail_nav li .e_nav_txt_box {
+	border-left: 1px solid #e0e0e0;
+	padding: 0 23px
+}
+
+.b_detail_nav li .e_nav_txt_box span {
+	font-size: 12px
+}
+
+.b_detail_nav li .e_nav_txt_box .e_nav_comet_num {
+	color: #ff7400;
+	font-size: 12px
+}
+
+.b_detail_nav .e_nav_first .e_nav_txt_box {
+	border-width: 0;
+	padding-left: 0
+}
+
+.b_detail_nav .e_nav_last .e_nav_txt_box {
+	padding-right: 0
+}
+
+.b_detail_nav .m_nav_selected {
+	font-size: 20px
+}
+
+.b_detail_nav .m_nav_selected a {
+	color: #1badb6
+}
+
+.b_detail_nav_fixed_box {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+	background-color: #fff;
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.333);
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.333);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.333);
+	border-bottom: #bcbcbc 1px solid
+}
+
+.b_detail_nav_fixed {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.b_detail_nav_fixed .b_detail_nav {
+	float: left;
+	display: inline;
+	border-width: 0
+}
+
+.b_detail_nav_fixed .b_detail_nav li {
+	float: left;
+	display: inline;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	border-left: 1px solid #e0e0e0;
+	margin-top: 4px
+}
+
+.b_detail_nav_fixed .b_detail_nav li .e_nav_txt_box {
+	border-width: 0;
+	padding: 0 20px
+}
+
+.b_detail_nav_fixed .b_detail_nav li .e_nav_txt_box .e_nav_comet_num {
+	color: #ff7400;
+	font-size: 12px
+}
+
+.b_detail_nav_fixed .b_detail_nav .e_nav_first {
+	border: 0
+}
+
+.b_detail_nav_fixed .b_detail_nav .m_nav_selected {
+	position: relative;
+	padding-bottom: 2px;
+	height: 36px
+}
+
+.b_detail_nav_fixed .b_detail_nav .m_nav_selected a {
+	color: #1badb6
+}
+
+.b_detail_nav_fixed .b_detail_nav .m_nav_selected .e_nav_txt_box {
+	border-bottom: 4px solid #1badb6;
+	padding-bottom: 8px;
+	_padding-bottom: 12px
+}
+
+.b_detail_nav_fixed .btnbox {
+	margin: 0;
+	width: 200px;
+	height: 30px;
+	margin-top: 8px;
+	float: right;
+	display: inline
+}
+
+.b_detail_nav_fixed .btnbox .btn_collect {
+	height: 32px;
+	line-height: 32px
+}
+
+.b_detail_nav_fixed .btnbox .btn_collect .icon {
+	margin-left: 55px
+}
+
+.b_detail_info {
+	width: 720px;
+	overflow: hidden
+}
+
+.b_detail_info .b_detail_section_box {
+	color: #666
+}
+
+.b_detail_info .b_detail_section_box .e_title_box {
+	border-bottom: solid 1px #e0e0e0
+}
+
+.b_detail_info .b_detail_section_box .e_db_content_box {
+	line-height: 25px;
+	padding-top: 8px;
+	padding-bottom: 22px
+}
+
+.b_detail_info .b_detail_section_box .e_db_content_box strong {
+	font-weight: 700;
+	font-size: 14px
+}
+
+.b_detail_info .b_detail_section_box .e_db_content_box b {
+	font-weight: 700
+}
+
+.b_detail_info .b_detail_section_box .e_db_content_dont_indent p {
+	text-indent: 0
+}
+
+.b_detail_info .b_detail_section_box .bottom-line {
+	border-bottom: 1px dashed #e0e0e0
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box {
+	background-color: #fcfcfc;
+	border: 1px solid #eee;
+	line-height: 20px;
+	margin-bottom: 34px
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list {
+	padding: 10px 20px 20px;
+	overflow: hidden;
+	zoom: 1
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list table {
+	margin-top: 10px
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list table dl {
+	padding-top: 0;
+	line-height: 25px
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list .td_l {
+	width: 338px;
+	border-right: #e0e0e0 1px solid;
+	vertical-align: top
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list .td_r {
+	width: 323px;
+	padding-left: 15px;
+	vertical-align: top
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list dl {
+	padding-top: 10px
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list dt {
+	vertical-align: top;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	font-weight: bold;
+	line-height: 20px;
+	*line-height: 24px
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list dd {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: top;
+	padding-left: 6px;
+	line-height: 20px
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list dd span {
+	display: block;
+	line-height: 20px
+}
+
+.b_detail_info .b_detail_section_box .e_summary_list_box .e_summary_list .m_desc_isurl {
+	color: #0069ca
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box {
+	padding-top: 6px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info {
+	padding-bottom: 20px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info dl {
+	margin-top: 10px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info dt,.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info dd {
+	float: left;
+	display: inline;
+	line-height: 18px;
+	padding-top: 3px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info dt {
+	width: 380px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_ticket_tags {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_ticket_tags .e_ticket_tag_type {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	color: #fff;
+	width: 36px;
+	height: 18px;
+	margin-left: 10px;
+	text-align: center
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_ticket_tags .hot {
+	background-color: #ff8a8a
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_ticket_tags .group {
+	background-color: #9bdce0
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_old_price {
+	color: #999;
+	font-size: 14px;
+	width: 80px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_now_price {
+	width: 90px;
+	color: #999
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_price_txt {
+	color: #ff7400;
+	font-size: 18px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_save_moneybox {
+	width: 80px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_save_money {
+	border: 1px solid #ffa338;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	border-radius: 2px;
+	color: #ffa338;
+	padding-right: 4px;
+	height: 18px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_save_money em {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding-left: 3px;
+	margin-right: 4px;
+	background-color: #ffa338;
+	color: #fff;
+	width: 18px;
+	height: 18px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_view_price_box {
+	float: right;
+	display: inline;
+	padding: 0
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_ticket_info .e_view_price_box .e_view_price {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #34b9c2;
+	color: #fff;
+	padding: 0 18px;
+	line-height: 25px;
+	display: block
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_more_price {
+	line-height: 28px;
+	text-align: center;
+	padding-bottom: 10px;
+	border-top: 1px solid #efefef
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_more_price .txt {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #efefef;
+	border-top-width: 0;
+	background-color: #f7f7f7;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding: 0 14px;
+	_height: 21px;
+	_padding-top: 7px;
+	color: #0069ca;
+	cursor: pointer
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_more_price .icon {
+	background: url('//source.qunarzz.com/site/images/travel/place/poi_detail_sprit.png') no-repeat -15px 4px;
+	padding: 0 6px;
+	_display: inline;
+	zoom: 1;
+	margin-left: 5px
+}
+
+.b_detail_info .b_detail_section_box .e_ticket_info_box .e_more_price .expand .icon {
+	background: url('//source.qunarzz.com/site/images/travel/place/poi_detail_sprit.png') no-repeat 0 4px
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_panel {
+	width: 100%;
+	overflow: hidden;
+	position: relative
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_list {
+	width: 20000px
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_list_content {
+	width: 741px;
+	overflow: hidden;
+	float: left;
+	display: inline
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_box {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	float: left;
+	display: inline
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_content {
+	width: 227px;
+	height: 170px;
+	position: relative
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_content .e_img {
+	width: 100%;
+	height: 100%
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_content .e_img img {
+	width: auto\9;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	width: 227px;
+	height: 170px
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_content .e_img_title {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url('//source.qunarzz.com/site/images/travel/place/img_bg.png') no-repeat 0 0 scroll
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_switch_bar {
+	text-align: center
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_switch_bar li {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	background: url('//source.qunarzz.com/site/images/travel/place/gray.jpg') no-repeat 0 0
+}
+
+.b_detail_info .b_detail_section_box .e_img_list_box .e_img_switch_bar .m_switch_active {
+	background: url('//source.qunarzz.com/site/images/travel/place/blue.jpg') no-repeat 0 0
+}
+
+.b_detail_info .b_detail_comment .e_title_box {
+	border-bottom: 0
+}
+
+.b_detail_summary .e_db_content_box .short {
+	position: relative;
+	width: 720px;
+	padding: 0 0 20px
+}
+
+.b_detail_summary .e_db_content_box .all {
+	position: relative;
+	display: none;
+	width: 720px
+}
+
+.b_detail_summary .e_db_content_box .all .fold {
+	position: absolute;
+	bottom: -20px;
+	right: 5px;
+	color: #0069ca;
+	cursor: pointer
+}
+
+.b_detail_summary .e_db_content_box .ellipsis {
+	position: absolute;
+	bottom: 0;
+	right: 5px
+}
+
+.b_detail_summary .e_db_content_box .ellipsis .expand {
+	color: #0069ca;
+	cursor: pointer
+}
+
+.edit_guidebox {
+	padding: 20px 0;
+	font-size: 12px;
+	line-height: 30px
+}
+
+.edit_guidebox .author {
+	float: left;
+	display: inline;
+	line-height: 22px
+}
+
+.edit_guidebox .c_collent {
+	display: block
+}
+
+.edit_guidebox .c_expand {
+	display: none
+}
+
+.edit_guidebox .link {
+	white-space: nowrap
+}
+
+.edit_guidebox .more {
+	color: #999
+}
+
+.edit_guidebox .more:hover {
+	color: #999
+}
+
+.e_title_box {
+	position: relative;
+	overflow: hidden;
+	zoom: 100%;
+	height: 34px
+}
+
+.e_title_box .e_comment_submit_href {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #ff9316;
+	font-family: "microsoft yahei";
+	font-size: 15px;
+	width: 102px;
+	line-height: 32px;
+	text-align: center;
+	margin-left: -103px;
+	cursor: pointer
+}
+
+.e_title_box .e_comment_submit_href a {
+	color: #fff;
+	padding: 8px 21px
+}
+
+.b_detail_section .e_title_box .e_title_content {
+	float: left;
+	padding-right: 12px
+}
+
+.introduction {
+	display: inline-block;
+	height: 20px;
+	width: 158px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: 3px;
+	background-color: #fffdcc;
+	border-radius: 5px
+}
+
+.introduction .link:hover {
+	color: #bf7130
+}
+
+.introduction .link {
+	color: #f90;
+	font-size: 12px
+}
+
+.introduction .link:hover .icon {
+	background-position: -15px 0
+}
+
+.introduction .link .icon {
+	height: 15px;
+	width: 15px;
+	display: block;
+	float: left;
+	margin-top: 3px;
+	margin-right: 3px;
+	background: url("//source.qunarzz.com/site/images/travel/travel_notes/detail/introduction_icon.png") no-repeat 0 0
+}
+
+.jianju .e_db_content_box {
+	padding: 0
+}
+
+.food-last .b_detail_section_box .e_db_content_box {
+	margin-top: -20px
+}
+
+.star-filter {
+	margin: 10px 0 0;
+	border: solid 1px #e1e1e1
+}
+
+.star-filter .star-top {
+	position: relative;
+	height: 132px
+}
+
+.star-filter .star-top .score {
+	float: left;
+	*display: inline;
+	margin: 20px 0 0 20px;
+	width: 140px;
+	height: 92px;
+	border-right: solid 1px #efefef
+}
+
+.star-filter .star-top .score .top {
+	height: 38px;
+	padding-top: 12px;
+	text-align: center;
+	font-size: 0
+}
+
+.star-filter .star-top .score .num {
+	font: 36px/38px "micirosoft yahei",tahoma,arial,sans-serif;
+	color: #1badb6;
+	padding-right: 4px;
+	vertical-align: baseline
+}
+
+.star-filter .star-top .score .unit {
+	color: #999;
+	font-size: 14px;
+	line-height: 15px;
+	vertical-align: baseline
+}
+
+.star-filter .star-top .score .btm {
+	height: 19px;
+	width: 105px;
+	margin: 8px auto 0;
+	background: url("//source.qunarzz.com/site/images/travel/place/2th/poi_b_star.gif") repeat-x 0 -21px
+}
+
+.star-filter .star-top .score .btm .s {
+	height: 19px;
+	background: url("//source.qunarzz.com/site/images/travel/place/2th/poi_b_star.gif") repeat-x 0 0
+}
+
+.star-filter .star-top .score .btm .s1 {
+	width: 21px
+}
+
+.star-filter .star-top .score .btm .s2 {
+	width: 42px
+}
+
+.star-filter .star-top .score .btm .s3 {
+	width: 63px
+}
+
+.star-filter .star-top .score .btm .s4 {
+	width: 84px
+}
+
+.star-filter .star-top .score .btm .s5 {
+	width: 105px
+}
+
+.star-filter .star-top .top-mid {
+	float: left;
+	width: 130px;
+	margin: 17px 30px 0;
+	color: #999
+}
+
+.star-filter .star-top .top-mid li {
+	width: 100%;
+	height: 19px;
+	clear: both
+}
+
+.star-filter .star-top .top-mid .label {
+	float: left;
+	line-height: 14px;
+	font-size: 12px
+}
+
+.star-filter .star-top .top-mid .total {
+	height: 12px;
+	overflow: hidden;
+	margin: 1px 0 0 30px;
+	font-size: 0;
+	background-color: #f3f3f3
+}
+
+.star-filter .star-top .top-mid .rate {
+	height: 12px;
+	background-color: #9bdce0
+}
+
+.star-filter .star-top .comment_btn {
+	float: right;
+	*display: inline;
+	margin: 50px 30px 0 0;
+	width: 120px;
+	height: 33px;
+	background-color: #ff9316;
+	border-radius: 3px;
+	color: #fff;
+	text-align: center;
+	font: 16px/33px "micirosoft yahei",tahoma,arial,sans-serif
+}
+
+.star-filter .star-top .icon_tip_link {
+	display: block;
+	position: absolute;
+	right: 153px;
+	top: 48px;
+	z-index: 5;
+	width: 188px;
+	height: 34px;
+	background: url("//source.qunarzz.com/site/images/travel/place/2th/new_dp_icon.png") no-repeat 0 0
+}
+
+.star-btm {
+	border: solid 1px #e1e1e1;
+	border-top: 0;
+	height: 35px
+}
+
+.star-btm .left-bar {
+	float: left;
+	padding: 12px 0 0 28px
+}
+
+.star-btm .left-bar input {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0
+}
+
+.star-btm .left-bar label {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 30px 0 3px;
+	line-height: 14px;
+	cursor: pointer
+}
+
+.star-btm .right-bar {
+	float: right
+}
+
+.star-btm .right-bar li {
+	float: left;
+	padding: 11px 30px 0 0;
+	line-height: 14px;
+	color: #666;
+	cursor: pointer
+}
+
+.star-btm .right-bar a:link,.star-btm .right-bar a:visited {
+	color: #666
+}
+
+.star-btm .right-bar a:hover,.star-btm .right-bar .active {
+	color: #1badb6
+}
+
+.star-btm .right-bar a:hover .arrow,.star-btm .right-bar .active .arrow {
+	background-position: -60px 0
+}
+
+.star-btm .right-bar input {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	width: 14px;
+	height: 14px
+}
+
+.star-btm .right-bar label {
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	padding-left: 5px
+}
+
+.star-btm .right-bar .arrow {
+	margin-left: 5px;
+	width: 7px;
+	height: 11px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+	background: url("//source.qunarzz.com/site/images/travel/place/2th/star_filter.png") no-repeat -40px 0
+}
+
+.b_largemap_dialog {
+	padding: 0
+}
+
+.b_largemap_dialog .dragmarkbox {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	line-height: 0;
+	font-size: 0
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header {
+	padding: 16px 20px;
+	height: 20px;
+	line-height: 20px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .result_infor {
+	float: left;
+	display: inline
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .result_infor .site_name {
+	font-size: 18px;
+	font-family: "microsoft yahei"
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .result_infor .action_tit {
+	float: left;
+	display: inline;
+	width: 16px;
+	height: 21px;
+	margin-right: 7px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon.png") no-repeat -110px -157px;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8.png") no-repeat -110px -157px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .result_infor .site_name,.b_largemap_dialog .e_dialog_ct .ct_header .result_infor .add,.b_largemap_dialog .e_dialog_ct .ct_header .result_infor .tel {
+	margin-right: 10px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .tips {
+	width: 210px;
+	float: right;
+	display: inline
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .tips li {
+	float: left;
+	display: inline;
+	height: 20px;
+	line-height: 20px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .tips .position_tips {
+	height: 22px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .tips .outline {
+	height: 12px;
+	margin: 4px 10px 0;
+	border-right: 1px solid #e0e0e0
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .tips .down {
+	position: relative;
+	z-index: 1000;
+	width: 134px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .tips .down .sty_code {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 24px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .tips .down .sty_code .sty_code_border {
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	background: #000;
+	opacity: .5;
+	padding: 5px;
+	filter: alpha(opacity=50);
+	-ms-filter: alpha(opacity=50)
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .tips .down .sty_code img {
+	position: absolute;
+	top: 5px;
+	left: 5px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_header .tips .hover .sty_code {
+	display: block
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box {
+	overflow: hidden;
+	_zoom: 1;
+	border-top: 1px solid #e0e0e0;
+	color: #666
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .related_info {
+	background: #fff;
+	float: left;
+	display: inline;
+	width: 250px;
+	overflow: hidden
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .related_info .poi_list {
+	padding: 10px 15px 0;
+	font-size: 18px;
+	font-family: "microsoft yahei"
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .related_info .info_type {
+	width: 251px;
+	overflow: hidden;
+	_zoom: 1
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .related_info .info_type .type {
+	float: left;
+	display: inline;
+	width: 124px;
+	height: 34px;
+	font: 14px/34px "simsun";
+	text-align: center;
+	background: #f0f0f0;
+	border-left: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	color: #333
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .related_info .info_type .one_px {
+	width: 124px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .related_info .info_type .active {
+	background: #fcfcfc;
+	color: #666;
+	border: 0;
+	height: 36px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .subtagbox {
+	overflow: hidden;
+	_zoom: 1;
+	width: 300px;
+	background: #fcfcfc;
+	height: 33px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .subtagbox .item,.b_largemap_dialog .e_dialog_ct .ct_box .subtagbox .item_t {
+	float: left;
+	display: inline;
+	height: 34px;
+	line-height: 34px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .subtagbox .item .sub_tag,.b_largemap_dialog .e_dialog_ct .ct_box .subtagbox .item_t .sub_tag {
+	display: block;
+	padding: 0 15px;
+	line-height: 34px;
+	width: 30px;
+	height: 34px;
+	color: #666
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .subtagbox .item {
+	display: none
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .subtagbox .selected .sub_tag {
+	height: 32px;
+	color: #1badb6;
+	border-bottom: #1badb6 3px solid
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .subtagbox .line {
+	float: left;
+	display: inline;
+	line-height: 34px;
+	width: 5px;
+	display: none;
+	height: 34px;
+	color: #e0e0e0
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox {
+	width: 100%;
+	border-top: 1px solid #e0e0e0;
+	color: #666;
+	overflow: hidden;
+	background-color: #fff
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item {
+	display: none
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .item,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover {
+	overflow: hidden;
+	_zoom: 1;
+	position: relative;
+	height: 68px;
+	padding: 10px 15px 10px 15px;
+	*padding: 6px 15px 10px 15px;
+	z-index: 10
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .item .img_link,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .img_link {
+	float: left;
+	display: inline;
+	width: 100px;
+	height: 68px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .item .t,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .t {
+	line-height: 18px;
+	overflow: hidden;
+	zoom: 1
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .item .t .tit,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .t .tit {
+	color: #666
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .item .t .total_star,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .t .total_star {
+	float: left;
+	display: inline;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_action1.png") no-repeat 0 -9px;
+	width: 50px;
+	height: 9px;
+	font-size: 0;
+	margin: 5px 0;
+	overflow: hidden
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .item .t .total_star .cur_star,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .t .total_star .cur_star {
+	float: left;
+	display: inline;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_action1.png") no-repeat 0 0;
+	height: 9px;
+	width: 50px;
+	line-height: 0;
+	font-size: 0;
+	overflow: hidden
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .item .t .star_dangci1 .total_star,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .t .star_dangci1 .total_star {
+	display: none
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .item .t .distance,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .t .distance {
+	float: right;
+	display: inline;
+	color: #999;
+	white-space: nowrap
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .item .list_number,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .list_number {
+	position: absolute;
+	left: 6px;
+	top: 6px;
+	z-index: 99;
+	width: 19px;
+	height: 20px;
+	text-align: center;
+	font: 12px/20px "Arial";
+	color: #fff;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat -109px -70px;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat -109px -70px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover {
+	background: #f8f8f8
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .tit {
+	color: #f60
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .t .total_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_action1.png") no-repeat 0 -27px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .t .total_star .cur_star {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/star_action1.png") no-repeat 0 -18px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .hover .list_number {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat -159px -70px;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat -159px -70px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .list_item .more_per_side {
+	text-align: right;
+	padding-right: 10px;
+	font-size: 12px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .current {
+	display: block
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .poi_page {
+	text-align: right;
+	margin: 0 18px 0 0
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .poi_page a {
+	font-size: 16px;
+	padding: 5px;
+	color: #999
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .poi_page a:hover,.b_largemap_dialog .e_dialog_ct .ct_box .contbox .poi_page a.active {
+	color: #1badb6
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .contbox .poi_page .on {
+	padding: 5px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #1badb6
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .box_padd .list_item .item {
+	padding: 20px 15px 6px 0
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .b_per_info,.b_largemap_dialog .e_dialog_ct .ct_box .listbox {
+	position: relative;
+	width: 250px;
+	overflow: hidden
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .b_per_info .bd_none,.b_largemap_dialog .e_dialog_ct .ct_box .listbox .bd_none {
+	border-top: 0
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .b_per_info .listbox_tit,.b_largemap_dialog .e_dialog_ct .ct_box .listbox .listbox_tit {
+	color: #333;
+	font: 16px/20px "microsoft yahei";
+	margin-top: 30px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .b_per_info .listbox_bg,.b_largemap_dialog .e_dialog_ct .ct_box .listbox .listbox_bg {
+	background: url("//source.qunarzz.com/site/images/travel/place/map_bg.jpg");
+	line-height: 40px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .b_per_info {
+	overflow: auto
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .listbox .subtagbox {
+	background-color: #fff
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .feature_sidebar .poi_list {
+	display: none
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .feature_sidebar .b_per_info {
+	padding-top: 6px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox {
+	position: relative;
+	float: left;
+	display: inline;
+	width: 750px;
+	height: 920px;
+	bottom-top: none;
+	overflow: hidden
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_m_bg,.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_current {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	word-break: break-all;
+	bottom: 0;
+	display: block;
+	height: 38px;
+	vertical-align: middle
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark {
+	position: absolute
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .m_m_bg {
+	width: 24px;
+	padding: 3px 0 0 0;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat scroll -47px -102px transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -47px -102px transparent
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark span {
+	white-space: nowrap
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .mkcont .bm_tri {
+	position: absolute;
+	left: -5px;
+	width: 23px;
+	height: 7px;
+	bottom: 7px;
+	overflow: hidden;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat scroll -160px -243px transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -160px -243px transparent
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .mkcont .bm_title {
+	background: none repeat scroll 0 0 #fff;
+	border: 2px solid #7fc1c5;
+	border-radius: 2px;
+	bottom: 13px;
+	color: #333;
+	font-family: "microsoft yahei";
+	height: 22px;
+	left: -11px;
+	line-height: 22px;
+	padding-right: 3px;
+	position: absolute
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .mkcont .bm_title em {
+	white-space: nowrap;
+	display: inline-block
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .mkcont .bm_title .ind {
+	color: #fff;
+	background: #34b9c2;
+	padding: 1px 8px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .mkcont .bm_title .all,.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .mkcont .bm_title .shut {
+	padding: 0 3px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .mkcont .bm_title .all {
+	display: none
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .end_pot .bm_tri {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat scroll -187px -243px transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -187px -243px transparent
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .end_pot .bm_title {
+	border: 2px solid #ff6060
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .end_pot .bm_title .ind {
+	color: #fff;
+	background: #ff6060;
+	padding: 1px 8px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .end_pot .bm_title .all,.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .end_pot .bm_title .shut {
+	padding: 0 3px
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_mark .end_pot .bm_title .all {
+	display: none
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .list_hover .m_m_bg {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat scroll -109px -102px transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -109px -102px transparent
+}
+
+.b_largemap_dialog .e_dialog_ct .ct_box .mapbox .m_current .m_m_bg {
+	position: absolute;
+	width: 24px;
+	height: 70px;
+	margin-left: -12px;
+	z-index: 2;
+	color: #fff;
+	font: 14px/20px "arial";
+	text-align: center;
+	text-indent: -15px;
+	padding-top: 2px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat scroll -159px -102px transparent;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat scroll -159px -102px transparent
+}
+
+.g_dlg_box_send {
+	width: 300px;
+	height: 160px;
+	position: absolute
+}
+
+.g_dlg_box_send .b_download_dialog_mark_send {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	width: 300px;
+	height: 160px;
+	z-index: 100;
+	opacity: .5;
+	filter: alpha(opacity=50);
+	-ms-filter: alpha(opacity=50)
+}
+
+.g_dlg_box_send .b_download_dialog_body_send {
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	background-color: #fff;
+	padding: 8px;
+	width: 270px;
+	height: 130px;
+	z-index: 200
+}
+
+.g_dlg_box_send .b_download_dialog_body_send .e_dialog_hd_send {
+	font: 16px/30px "microsoft yahei",arial,sans-serif;
+	color: #555;
+	padding: 0 0 2px 10px;
+	border-bottom: 1px solid #d1d1d1;
+	position: relative;
+	height: 30px;
+	z-index: 300
+}
+
+.g_dlg_box_send .b_download_dialog_body_send .e_dialog_hd_send .btn_close_small_send {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/btn_close.gif") no-repeat 0 0;
+	display: block;
+	text-indent: -9999px;
+	font: normal 18px/32px Verdana,arial,sans-serif;
+	color: #555;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 8px;
+	right: 10px
+}
+
+.g_dlg_box_send .b_download_dialog_body_send .e_dialog_ct_send {
+	width: 100%;
+	z-index: 200
+}
+
+.g_dlg_box_send .b_download_dialog_body_send .e_dialog_ct_send .ct_box_send {
+	padding: 0
+}
+
+.g_dlg_box_send .b_download_dialog_body_send .e_dialog_ct_send .ct_box_send .e_text_send {
+	font-size: 14px;
+	color: #555;
+	line-height: 60px;
+	width: 100%;
+	text-align: center
+}
+
+.g_dlg_box_send .b_download_dialog_body_send .e_dialog_ct_send .ct_box_send .e_text_button_send {
+	text-align: center;
+	position: relative;
+	margin-left: 100px;
+	width: 58px;
+	height: 22px;
+	line-height: 22px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/e_text_button.gif") no-repeat 0 0
+}
+
+.g_dlg_box_send .b_download_dialog_body_send .e_dialog_ct_send .ct_box_send .e_text_button_send a {
+	color: #fff
+}
+
+.g_dlg_box_send .b_download_dialog_body_send .e_dialog_ct_send .clrfix {
+	zoom: 1
+}
+
+.tangram-suggestion-main tr {
+	font-size: 12px
+}
+
+.tangram-suggestion-main tr td {
+	padding: 5px
+}
+
+.pac-container {
+	z-index: 999999
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info,.b_largemap_dialog .e_dialog_ct .related_info .b_per_info {
+	display: none
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .active {
+	display: block
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode {
+	height: 150px;
+	background: #fcfcfc;
+	padding-top: 20px;
+	border-bottom: 1px solid #f1f1f1
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .ipt_star_site {
+	position: relative;
+	padding: 0 20px 0
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .ipt_star_site .star_site,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .ipt_star_site .finsh_site {
+	overflow: hidden;
+	_zoom: 1;
+	height: 32px;
+	line-height: 32px;
+	margin-bottom: 10px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .ipt_star_site .star_site .star_pot,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .ipt_star_site .finsh_site .star_pot {
+	float: left;
+	display: inline
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .ipt_star_site .star_site .text,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .ipt_star_site .finsh_site .text {
+	width: 136px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #e6e6e6
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .ipt_star_site .change {
+	cursor: pointer;
+	position: absolute;
+	right: 22px;
+	top: 16px;
+	width: 22px;
+	height: 46px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat 0 0;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat 0 0
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab {
+	overflow: hidden;
+	_zoom: 1;
+	padding: 0 18px 20px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .car {
+	float: left;
+	display: inline;
+	width: 98px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #e8e8e8;
+	background: #f0f0f0;
+	color: #666
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus .type,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .car .type {
+	float: left;
+	display: inline
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus .bus_action,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .car .bus_action,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus .car_action,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .car .car_action {
+	float: left;
+	display: inline;
+	width: 15px;
+	height: 15px;
+	margin: 5px 5px 0 15px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat 0 0;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat 0 0
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus .bus_action,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .car .bus_action {
+	background-position: 0 -52px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus .car_action,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .car .car_action {
+	background-position: 0 -108px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus {
+	margin-right: 10px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus:hover,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .car:hover {
+	background: #9bdce0;
+	color: #fff;
+	height: 28px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus:hover .bus_action,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .car:hover .bus_action {
+	background-position: 0 -80px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .bus:hover .car_action,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .car:hover .car_action {
+	background-position: 0 -133px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .active {
+	float: left;
+	display: inline;
+	width: 100px;
+	height: 36px;
+	border: 0;
+	color: #fff;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/map_icon_v2.png") no-repeat 0 -244px;
+	_background: url("//source.qunarzz.com/site/images/travel/place/3th/map_new_icon_8_v2.png") no-repeat 0 -244px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .active .bus_action {
+	background-position: 0 -80px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_mode .way_tab .active .car_action {
+	background-position: 0 -133px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont {
+	width: 250px;
+	_width: 246px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .t_no_data {
+	width: 200px;
+	height: 40px;
+	padding-left: 78px;
+	padding-top: 24px;
+	line-height: 200%;
+	font-size: 14px;
+	color: #999;
+	background: url("//source.qunarzz.com/site/images/travel/strategybase_v2/icon_error.gif") no-repeat 30px 20px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .scroll_window {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	height: auto;
+	zoom: 1;
+	margin-right: 5px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .scroll_window .scrollbar {
+	position: absolute;
+	right: 0;
+	_margin-right: 20px;
+	width: 5px;
+	top: 0;
+	display: none;
+	background-color: #f3f3f3;
+	height: 100%
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .scroll_window .scrollbar .bar {
+	position: absolute;
+	right: 0;
+	top: 15px;
+	width: 5px;
+	height: 48px;
+	background-color: #ccc;
+	cursor: pointer
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .hd {
+	padding: 10px 20px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .hd .ico {
+	float: left;
+	display: inline;
+	width: 11px;
+	height: 20px;
+	margin: 0 5px 0 38px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/icon_place_sprite_1.jpg") 0 -67px no-repeat
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .hd .txt {
+	float: left
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .hd .line {
+	border-right: 1px solid #ccc;
+	margin: -2px 10px 0;
+	height: 12px;
+	display: inline-block
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .place {
+	border-left: 3px solid #e0e0e0;
+	position: relative;
+	_height: 1%;
+	z-index: 100;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #666
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .place .iconq,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .place .iconz {
+	position: absolute;
+	display: block;
+	left: -8px;
+	top: -1px;
+	width: 16px;
+	_width: 20px;
+	zoom: 1;
+	height: 16px;
+	padding: 4px 0;
+	background: #fff url("//source.qunarzz.com/site/images/travel/place/3th/icon_place_sprite_1.jpg") 0 0 no-repeat
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .place .iconq {
+	background-position: 0 -114px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .place .iconz {
+	top: 0;
+	background-position: -34px -113px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .place .g_wp {
+	display: block;
+	width: 200px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	padding-left: 15px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list {
+	border-left: 3px solid #e0e0e0
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list .item {
+	position: relative;
+	line-height: 20px;
+	padding: 5px 0;
+	color: #333
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list .item em {
+	float: right;
+	display: inline;
+	margin-left: 10px;
+	color: #999
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list .item p {
+	margin-left: 12px;
+	word-wrap: break-word;
+	word-break: break-all
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list .item p .icon_s {
+	position: absolute;
+	left: -3px;
+	top: 6px;
+	width: 8px;
+	height: 8px;
+	margin: 4px 0 0 -2px;
+	background: #fff url("//source.qunarzz.com/site/images/travel/place/3th/icon_place_sprite_1.jpg") 0 -143px no-repeat
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list .item p .bus,.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list .item p .subway {
+	position: absolute;
+	left: -8px;
+	top: 7px;
+	width: 11px;
+	height: 16px;
+	line-height: 16px;
+	padding-left: 7px;
+	color: #fff;
+	background: #fdfdfd url("//source.qunarzz.com/site/images/travel/plan/aside/icon_traffic_sprite.gif") -31px -19px no-repeat
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list .item p .walk {
+	width: 11px;
+	position: absolute;
+	height: 20px;
+	top: 10px;
+	left: -6px;
+	background: #fdfdfd url("//source.qunarzz.com/site/images/travel/plan/aside/icon_traffic_sprite.gif") -31px -70px no-repeat
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list .item p .subway {
+	left: -13px;
+	background: #fdfdfd url("//source.qunarzz.com/site/images/travel/plan/aside/icon_traffic_sprite.gif") -31px -138px no-repeat
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .list .item p .d_r_cont {
+	padding: 10px 20px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell .tit {
+	cursor: pointer;
+	line-height: 30px;
+	border-top: 1px dashed #e6e2df;
+	border-bottom: 1px dashed #e6e2df;
+	font-size: 14px;
+	overflow: hidden;
+	color: #333;
+	padding: 10px 0 0 5px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell .tit h3 {
+	overflow: hidden;
+	_zoom: 1;
+	float: left;
+	display: inline
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell .tit .num {
+	float: left;
+	display: inline;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	margin: 5px 5px 0 10px;
+	padding-left: 4px;
+	color: #fff;
+	font-size: 12px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/icon_place_sprite_1.jpg") -32px -93px no-repeat
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell .tit .strong {
+	float: left;
+	display: inline;
+	font-weight: bold
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell .tit .des {
+	color: #999;
+	font-size: 12px;
+	margin-left: 6px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell .cont {
+	display: none
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell_hover .tit {
+	background-color: #f4f4f4
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell_hover .tit .num {
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/icon_place_sprite_1.jpg") -32px -153px no-repeat
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell_expand {
+	display: block
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell_expand .tit {
+	border: 0;
+	background-color: transparent
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .cell_expand .cont {
+	display: block;
+	padding: 10px 20px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .d_r_cont {
+	padding: 0 20px 20px 20px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .d_r_info_content .d_b_border {
+	border-top: 1px dashed #e6e2df
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .walking_info_content .hd {
+	padding: 10px 0 10px 8px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .ft_box {
+	line-height: 20px;
+	padding: 4px;
+	padding-bottom: 6px;
+	margin-top: 10px
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .ft_box .taix_icon {
+	float: left;
+	width: 17px;
+	height: 20px;
+	margin-right: 5px;
+	background: #fff url("//source.qunarzz.com/site/images/travel/place/3th/icon_place_sprite_1.jpg") -32px -40px no-repeat
+}
+
+.b_largemap_dialog .e_dialog_ct .related_info .b_way_info .way_tab_cont .ft_box .taxi_em {
+	color: #999
+}
+
+.b_dialog .position_error {
+	position: absolute;
+	left: 450px;
+	top: 250px;
+	overflow: hidden;
+	_zoom: 1;
+	width: 300px;
+	height: 160px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/eorr_bg.png") no-repeat 0 0
+}
+
+.b_dialog .position_error .close {
+	float: right;
+	display: inline;
+	width: 50px;
+	height: 35px;
+	margin: 5px 5px 0 0
+}
+
+.b_dialog .position_error .txt {
+	margin: 70px 0 0 70px;
+	font-size: 14px
+}
+
+.b_dialog .position_error .error_btn {
+	display: block;
+	width: 58px;
+	height: 22px;
+	margin: 20px 0 0 120px;
+	background: url("//source.qunarzz.com/site/images/travel/place/3th/btn_eorr.jpg") no-repeat 0 0
+}
+
+.b_full_dialog {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	overflow: hidden;
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5200;
+	_zoom: 1
+}
+
+.b_full_dialog .e_fdlg_header {
+	height: 40px;
+	background-color: #333
+}
+
+.b_full_dialog .e_fdlg_header .b_upload_button {
+	position: absolute;
+	_position: absolute;
+	right: 90px;
+	color: #fff;
+	text-align: center;
+	height: 30px;
+	width: 110px;
+	background-color: #ff9316;
+	top: 10px;
+	line-height: 30px;
+	border-radius: 5px;
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: bolder
+}
+
+.b_full_dialog .e_fdlg_hd_txt {
+	padding-left: 40px;
+	margin-right: 150px;
+	font-size: 20px;
+	line-height: 40px
+}
+
+.b_full_dialog .e_fdlg_hd_traffic {
+	background: url('//source.qunarzz.com/site/images/travel/finish/finish3nd/screen_dlg/map_traffic.png') no-repeat 10px 15px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4 {
+	color: #f5f5f5;
+	font: 20px/40px "microsoft yahei",simsun,arial,sans-serif;
+	display: inline
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.photo_title {
+	margin-left: -30px;
+	padding-left: 32px;
+	background: url('//source.qunarzz.com/site/images/travel/finish/icon_type_03.png') no-repeat -300px -300px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.spot {
+	background-position: 0 3px;
+	_background-position: 0 0
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.location {
+	background-position: 0 -37px;
+	_background-position: 0 -40px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.event {
+	background-position: 0 -77px;
+	_background-position: 0 -80px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.hotel {
+	background-position: 0 -117px;
+	_background-position: 0 -120px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.flight {
+	background-position: 0 -157px;
+	_background-position: 0 -160px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.car {
+	background-position: 0 -197px;
+	_background-position: 0 -200px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.bus {
+	background-position: 0 -237px;
+	_background-position: 0 -240px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.train {
+	background-position: 0 -277px;
+	_background-position: 0 -280px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.entertain {
+	background-position: 0 -317px;
+	_background-position: 0 -320px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.food {
+	background-position: 0 -357px;
+	_background-position: 0 -360px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.shopping {
+	background-position: 0 -397px;
+	_background-position: 0 -400px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4.wharf {
+	background-position: 0 -437px;
+	_background-position: 0 -440px
+}
+
+.b_full_dialog .e_fdlg_hd_txt span {
+	color: #999;
+	font-size: 12px
+}
+
+.b_full_dialog .e_fdlg_close {
+	width: 150px;
+	color: #999;
+	display: block;
+	float: right;
+	background: #555 url('//source.qunarzz.com/site/images/travel/finish/finish3nd/screen_dlg/close.png') no-repeat 10px 5px
+}
+
+.b_full_dialog .e_fdlg_close span {
+	padding-left: 50px;
+	font-size: 14px;
+	line-height: 40px
+}
+
+.b_full_dialog .e_fdlg_body {
+	margin-top: 2px
+}
+
+.b_full_dialog .e_fdlg_body table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+.b_full_dialog .e_fdlg_body td {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none
+}
+
+.b_full_dialog .e_fdlg_body .td_outer {
+	position: relative
+}
+
+.b_full_dialog .e_fdlg_body .cursor_left {
+	cursor: url('//source.qunarzz.com/site/images/travel/finish/finish3nd/screen_dlg/arrow_prev.cur'),pointer
+}
+
+.b_full_dialog .e_fdlg_body .cursor_right {
+	cursor: url('//source.qunarzz.com/site/images/travel/finish/finish3nd/screen_dlg/arrow_next.cur'),pointer
+}
+
+.b_full_dialog .e_fdlg_body .photo_box {
+	margin-right: 150px;
+	padding: 0 100px 0
+}
+
+.b_full_dialog .e_fdlg_body .big_img {
+	vertical-align: middle
+}
+
+.b_full_dialog .e_fdlg_body .big_img .pic {
+	position: relative;
+	*zoom: 1
+}
+
+.b_full_dialog .e_fdlg_body .pic_lr_wrap {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	*zoom: 1
+}
+
+.b_full_dialog .e_fdlg_body .pic_lr_wrap .p_prev {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	cursor: url('//source.qunarzz.com/site/images/travel/finish/finish3nd/screen_dlg/arrow_prev.cur'),pointer;
+	background: #fff;
+	filter: alpha(opacity=0);
+	opacity: 0
+}
+
+.b_full_dialog .e_fdlg_body .pic_lr_wrap .p_next {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	cursor: url('//source.qunarzz.com/site/images/travel/finish/finish3nd/screen_dlg/arrow_next.cur'),pointer;
+	background: #fff;
+	filter: alpha(opacity=0);
+	opacity: 0
+}
+
+.b_full_dialog .e_fdlg_body .big_img .pic p {
+	position: absolute;
+	font-family: "microsoft yahei",simsun,arial,sans-serif;
+	font-size: 14px;
+	color: #fff;
+	bottom: -36px;
+	left: 20px;
+	width: 100%
+}
+
+.b_full_dialog .e_fdlg_body .pic_lr_wrap .view_org {
+	background: transparent url('//source.qunarzz.com/site/images/travel/finish/finish3nd/screen_dlg/big_pic_icon.png') no-repeat 0 0;
+	display: block;
+	padding-left: 16px;
+	font: bold 12px simsun,arial,sans-serif;
+	color: #0092d2;
+	position: absolute;
+	top: 2px;
+	*zoom: 1
+}
+
+.b_full_dialog .e_fdlg_body .big_img .pic p span.info {
+	padding-left: 10px
+}
+
+.b_full_dialog .e_fdlg_body .big_img .loading {
+	font-size: 20px;
+	color: #fff
+}
+
+.b_full_dialog .e_fdlg_body .pic_left,.b_full_dialog .e_fdlg_body .pic_right {
+	width: 100px
+}
+
+.b_full_dialog .e_fdlg_body .photo_list {
+	position: relative;
+	overflow: hidden
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box {
+	width: 150px;
+	margin-top: -50px;
+	overflow: hidden;
+	position: relative;
+	float: right
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_up,.b_full_dialog .e_fdlg_body .photo_list_box .photo_down {
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	cursor: pointer
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_up a,.b_full_dialog .e_fdlg_body .photo_list_box .photo_down a {
+	display: block;
+	width: 100%;
+	height: 100%
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_up a {
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/screen_dlg/pic_up.png) no-repeat 63px 19px
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_down a {
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/screen_dlg/pic_down.png) no-repeat 63px 19px
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_list li {
+	text-align: center;
+	margin-bottom: 10px;
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_list li img {
+	height: 150px;
+	cursor: pointer;
+	filter: alpha(opacity=50);
+	opacity: .5
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_list li span {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	display: block;
+	width: 150px;
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	color: #fff
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_list li.active {
+	width: 146px;
+	height: 146px;
+	border: 2px solid #fff
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_list li.active img {
+	filter: alpha(opacity=50);
+	opacity: 1
+}
+
+.b_full_dialog .e_fdlg_body .photo_list_box .photo_list li.active span {
+	display: none
+}
+
+.b_full_dialog .e_fdlg_close {
+	height: 50px;
+	width: 50px;
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/close.gif) 50% 50% no-repeat transparent
+}
+
+.b_full_dialog .e_fdlg_hd_txt {
+	height: 50px;
+	margin: 0
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4 {
+	cursor: pointer
+}
+
+.b_full_dialog .e_fdlg_header {
+	height: 50px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4 {
+	padding-top: 5px;
+	height: 50px;
+	line-height: 50px
+}
+
+.b_full_dialog .e_fdlg_hd_txt h4 img {
+	border-radius: 18px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 5px
+}
+
+.b_full_dialig_bg {
+	background: #3d3d3d;
+	opacity: .95;
+	filter: alpha(opacity=95);
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%
+}
+
+.pic_viewer {
+	background: transparent;
+	z-index: 5400
+}
+
+.pic_viewer .e_fdlg_hd_txt {
+	padding: 0
+}
+
+.pic_viewer .e_fdlg_header {
+	background: transparent;
+	position: relative;
+	height: 50px
+}
+
+.pic_viewer_tip {
+	width: 316px;
+	height: 123px;
+	line-height: 70px;
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 50%;
+	background: #fafafa;
+	z-index: 200;
+	margin-left: -158px;
+	text-align: center
+}
+
+.pic_viewer_tip .pic_viewer_tip_close {
+	display: block;
+	width: 67px;
+	height: 29px;
+	line-height: 28px;
+	background: #1badb6;
+	overflow: hidden;
+	margin: 0 auto;
+	color: #fff
+}
+
+.pic_viewer_tip .pic_viewer_tip_close:link {
+	background: #1badb6
+}
+
+.pic_viewer_tip .pic_viewer_tip_close:hover {
+	background: #24bfc8;
+	color: #fff
+}
+
+.e_slider_nav_wrap {
+	position: relative;
+	margin: 0 15%;
+	overflow: hidden;
+	width: 70%
+}
+
+.e_slider_nav_box {
+	padding: 13px 0;
+	margin: 0 44px;
+	overflow: hidden;
+	position: relative
+}
+
+.e_slider_nav {
+	white-space: nowrap;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.e_slider_nav_box dd,.e_slider_nav_box dt,.e_slider_nav_box dl {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.aligncenter {
+	text-align: center
+}
+
+.e_slider_nav_wrap .n_prev,.e_slider_nav_wrap .n_next {
+	display: block;
+	position: absolute;
+	height: 55px;
+	width: 34px;
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/icon_v1.gif) no-repeat
+}
+
+.e_slider_nav_wrap .n_prev {
+	background-position: -71px -781px;
+	left: 0;
+	top: 13px
+}
+
+.e_slider_nav_wrap .n_prev:hover {
+	background-position: -195px -781px
+}
+
+.e_slider_nav_wrap .n_next {
+	background-position: -131px -781px;
+	right: 0;
+	top: 13px;
+	text-indent: 3em;
+	overflow: hidden
+}
+
+.e_slider_nav_wrap .n_next:hover {
+	background-position: -260px -781px
+}
+
+.e_slider_nav_wrap .end,.e_slider_nav_wrap .end:hover {
+	text-indent: 0;
+	background: transparent;
+	line-height: 55px;
+	color: #979797;
+	text-align: center;
+	curnor: default
+}
+
+.n_day_item {
+	height: 55px;
+	overflow: hidden;
+	font-size: 0
+}
+
+.n_dayicon {
+	height: 55px;
+	width: 59px;
+	font-size: 12px;
+	overflow: hidden;
+	margin-right: 5px;
+	text-align: center;
+	background: #353535;
+	color: #ccc;
+	line-height: 54px
+}
+
+.n_dayicon a {
+	display: block;
+	float: left;
+	width: 59px;
+	height: 55px
+}
+
+.n_dayicon a:link,.n_dayicon a:visited {
+	color: #ccc
+}
+
+.n_dayicon a:hover,.n_dayicon a:active {
+	color: #ff7400
+}
+
+.n_dayicon span {
+	font-size: 28px
+}
+
+.n_dayicon span.ncollect {
+	font-size: 12px;
+	font-family: arial,simsun,sans-serif
+}
+
+.n_poicon {
+	height: 49px;
+	line-height: 54px;
+	width: 24px;
+	overflow: hidden;
+	padding: 0 3px;
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/icon.gif) no-repeat
+}
+
+.np_3,.np_4,.np_16,.np_17,.np_24 {
+	background-position: -80px 5px
+}
+
+.np_8,.np_20 {
+	background-position: -80px -66px
+}
+
+.np_12,.np_21_train {
+	background-position: -80px -137px
+}
+
+.np_21_wharf {
+	background-position: -80px -208px
+}
+
+.np_5,.np_18 {
+	background-position: -80px -279px
+}
+
+.np_14,.np_22,.np_23,.np_21_bus {
+	background-position: -80px -351px
+}
+
+.np_13,.np_21_flight {
+	background-position: -80px -422px
+}
+
+.np_2 {
+	background-position: -80px -493px
+}
+
+.np_6,.np_15 {
+	background-position: -80px -564px
+}
+
+.np_7,.np_19 {
+	background-position: -80px -635px
+}
+
+.np_9,.np_10 {
+	background-position: -80px -706px
+}
+
+.n_poi_item {
+	height: 49px;
+	overflow: hidden;
+	font-size: 0
+}
+
+.n_poi_box {
+	height: 49px;
+	padding: 3px;
+	margin-right: 5px;
+	line-height: 0;
+	overflow: hidden;
+	background: #353535
+}
+
+.n_poi_box dd {
+	padding: 0;
+	cursor: pointer;
+	margin-left: 1px;
+	height: 49px;
+	overflow: hidden
+}
+
+.n_poi_box dd a {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	overflow: hidden;
+	width: 60px;
+	height: 45px;
+	border: 2px solid #353535;
+	float: left
+}
+
+.n_poi_box dd img {
+	width: 60px;
+	height: 45px
+}
+
+.n_poi_box dd.current a {
+	border: 2px solid #1badb6
+}
+
+.n_poi_box dd a:hover {
+	border: 2px solid #6ac7cd
+}
+
+.e_slider_con_wrap {
+	position: relative;
+	height: 452px
+}
+
+.e_slider_con_box {
+	height: 452px;
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+	background-color: #fafafa
+}
+
+.e_slider_con {
+	white-space: nowrap;
+	font-size: 0;
+	margin-top: 2px;
+	height: 450px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	padding-right: 308px;
+	background-color: #fafafa
+}
+
+.e_slider_con dd,.e_slider_con dt,.e_slider_con dl {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.c_day_item {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 100%;
+	background: #fafafa;
+	position: relative;
+	white-space: nowrap
+}
+
+.c_dayicon {
+	width: 80px;
+	height: 74px;
+	font-size: 12px;
+	line-height: 50px;
+	text-align: center;
+	border-top: 2px solid #9be5f0;
+	background: #48bcc4;
+	color: #fff;
+	top: -2px;
+	left: 0;
+	position: absolute;
+	z-index: 100
+}
+
+.c_dayicon .daytxt {
+	height: 56px;
+	line-height: 60px;
+	overflow: hidden
+}
+
+.c_dayicon .cdindex {
+	font-size: 48px;
+	font-weight: normal
+}
+
+.c_dayicon .cdate {
+	display: block;
+	-webkit-text-size-adjust: none;
+	font-size: 12px;
+	margin: 0 2px;
+	border-top: 1px solid #37acb3;
+	line-height: 16px;
+	height: 16px
+}
+
+.c_dayicon .ccollect {
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: normal;
+	height: 70px;
+	font: normal 16px/34px microsoft yahei,arial,simsun,sans-serif
+}
+
+.locate_dayicon {
+	position: fixed;
+	left: 0
+}
+
+.c_poi_item {
+	display: inline-block;
+	*display: inline-block;
+	*zoom: 1;
+	height: 450px;
+	white-space: nowrap;
+	float: left
+}
+
+.cp_tit {
+	width: 365px;
+	color: #666;
+	font: normal 12px/1.5 microsoft yahei,arial,simsun,sans-serif
+}
+
+.cp_tit_inner {
+	height: 450px;
+	float: left;
+	width: 365px;
+	overflow: hidden
+}
+
+.cp_tit_inner p {
+	margin-right: 10px
+}
+
+.cpt {
+	display: block;
+	text-align: center;
+	overflow: hidden
+}
+
+.cpt_t {
+	padding: 70px 0 30px;
+	height: 54px;
+	overflow: hidden;
+	display: none
+}
+
+.cpt_t span,.cpt_x span {
+	display: block
+}
+
+.cpt_x {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	white-space: normal;
+	word-wrap: break-word;
+	overflow: hidden
+}
+
+.tday {
+	font-size: 24px
+}
+
+.tname {
+	font-size: 18px
+}
+
+.ctpoicon {
+	width: 40px;
+	height: 50px;
+	overflow: hidden;
+	margin: 84px auto 0;
+	background: url("//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/icon.gif") no-repeat scroll 0 0 rgba(0,0,0,0)
+}
+
+.vertical {
+	margin-top: 150px
+}
+
+.cp_3,.cp_4,.cp_16,.cp_17,.cp_24 {
+	background-position: 0 5px
+}
+
+.cp_8,.cp_20 {
+	background-position: 0 -66px
+}
+
+.cp_12,.cp_21_train {
+	background-position: 0 -137px
+}
+
+.cp_21_wharf {
+	background-position: 0 -208px
+}
+
+.cp_5,.cp_18 {
+	background-position: 0 -279px
+}
+
+.cp_14,.cp_22,.cp_23,.cp_21_bus {
+	background-position: 0 -351px
+}
+
+.cp_13,.cp_21_flight {
+	background-position: 0 -422px
+}
+
+.cp_2 {
+	background-position: 0 -493px
+}
+
+.cp_6,.cp_15 {
+	background-position: 0 -564px
+}
+
+.cp_7,.cp_19 {
+	background-position: 0 -635px
+}
+
+.cp_9,.cp_10 {
+	background-position: 0 -706px
+}
+
+.cpt_m {
+	font: normal 12px/2.5 arial,simsun,sans-serif;
+	position: relative;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: normal;
+	padding: 20px;
+	margin: 0 20px;
+	text-align: left;
+	overflow: hidden
+}
+
+.cpt_m .quote {
+	width: 20px;
+	height: 18px;
+	overflow: hidden;
+	position: relative;
+	top: 5px;
+	line-height: 0;
+	font-size: 0;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	background: url(//source.qunarzz.com/site/images/travel/strategybase/icon_quote.gif) no-repeat
+}
+
+.cpt_m .q_l {
+	background-position: 0 2px;
+	position: absolute;
+	left: 2px;
+	top: 0;
+	zoom: 1
+}
+
+.cpt_m .q_r {
+	background-position: 0 -35px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: auto;
+	_top: 170px;
+	_left: 270px;
+	_right: auto;
+	_bottom: auto;
+	zoom: 1
+}
+
+.cpt_m_inner {
+	max-height: 135px;
+	_height: 135px;
+	overflow: hidden;
+	position: relative
+}
+
+.imgpanel {
+	height: 450px;
+	background: url(//source.qunarzz.com/site/images/travel/plan/listmode/loading_03.gif) no-repeat center center #f3f9fa;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	overflow: hidden;
+	position: relative;
+	border-left: 10px solid #fafafa
+}
+
+.imgpanel_hover .imgori {
+	width: 40px;
+	height: 40px;
+	border-radius: 4px;
+	opacity: .8;
+	filter: alpha(opacity=80);
+	cursor: pointer;
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/large.png) no-repeat center center;
+	_background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/large_v1.gif) no-repeat center center;
+	position: absolute;
+	right: 5px;
+	top: 5px
+}
+
+.imgpanel .imgori:hover {
+	opacity: 1;
+	filter: alpha(opacity=100)
+}
+
+.imgpanel .imgtxt,.imgpanel .imgbg {
+	font-size: 12px;
+	word-break: break-all;
+	word-wrap: break-word;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	height: 42px;
+	color: #fdfdfd;
+	line-height: 42px;
+	overflow: hidden
+}
+
+.imgpanel .imgbg {
+	height: 50px;
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/introbg.png) no-repeat transparent
+}
+
+.imgpanel .imgtxt {
+	padding-left: 30px;
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/user.png) no-repeat 10px 2px transparent;
+	_background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/user.gif) no-repeat 10px 2px transparent;
+	color: #fff;
+	width: auto;
+	height: auto;
+	line-height: 20px;
+	padding-bottom: 5px;
+	white-space: normal
+}
+
+.imgpanel .imgtxt em {
+	color: #fff
+}
+
+.cpt_m_inner .scrollbar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 6px;
+	height: 100%;
+	background: #ececec;
+	display: none
+}
+
+.cpt_m_inner .scrollbar .bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 6px;
+	height: 100px;
+	background-color: #ccc;
+	cursor: pointer
+}
+
+.pic_viewer .e_fdlg_header {
+	height: 50px
+}
+
+.pic_viewer .e_fdlg_header h4 {
+	padding-left: 20px
+}
+
+.pic_viewer .e_slider_con_wrap {
+	height: 80%
+}
+
+.pic_viewer .e_slider_con_box {
+	height: 100%
+}
+
+.pic_viewer .e_slider_con_box .e_slider_con {
+	height: 100%;
+	margin-top: 0
+}
+
+.pic_viewer .e_slider_nav_wrap {
+	margin-top: 0;
+	height: 20%
+}
+
+.pic_viewer .pic_viewer_tip {
+	width: 380px;
+	height: 123px;
+	line-height: 28px;
+	position: absolute;
+	font-size: 14px;
+	display: none;
+	top: 0;
+	left: 50%;
+	background: #fafafa;
+	z-index: 400;
+	margin-left: -192px;
+	text-align: center;
+	border: 2px solid #cacaca
+}
+
+.e_slider_con {
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+.e_slider_con ul {
+	overflow: hidden;
+	zoom: 1
+}
+
+.e_slider_con .img_box {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	font-size: 0;
+	height: 100%
+}
+
+.e_slider_con .img_box .img_item {
+	position: relative;
+	margin-right: 10px;
+	height: 100%
+}
+
+.e_slider_con .img_box .img {
+	height: 100%;
+	display: block;
+	border: 0
+}
+
+.e_slider_con .img_intro {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	font-size: 12px
+}
+
+.e_slider_con .img_bg {
+	height: 100%;
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/introbg.png) no-repeat transparent;
+	_background: 0;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/introbg.png');
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden
+}
+
+.e_slider_con .img_txt {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	padding-left: 30px;
+	background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/user.png) no-repeat 10px 2px transparent;
+	_background: url(//source.qunarzz.com/site/images/travel/finish/finish3nd/imgview/user.gif) no-repeat 10px 2px transparent;
+	color: #fff;
+	line-height: 20px;
+	padding-bottom: 5px;
+	white-space: normal
+}
+
+.e_slider_nav_wrap {
+	text-align: center
+}
+
+.e_slider_nav_wrap .e_slider_nav_box {
+	overflow: hidden;
+	zoom: 1;
+	float: left;
+	display: inline;
+	position: absolute;
+	left: 50%;
+	top: 0
+}
+
+.e_slider_nav_wrap .e_slider_nav_box .n_direct {
+	position: static;
+	left: auto;
+	top: auto
+}
+
+.e_slider_nav_wrap .e_slider_nav_box .n_next {
+	float: left;
+	display: inline
+}
+
+.e_slider_nav_wrap .e_slider_nav_box .n_prev {
+	float: left;
+	display: inline
+}
+
+.e_slider_nav_wrap .e_slider_nav_box .e_slider_nav {
+	padding: 0;
+	overflow: hidden;
+	float: left;
+	display: inline;
+	_zoom: 1
+}
+
+.e_slider_nav_wrap .e_slider_nav_box ul {
+	padding-right: 2px;
+	overflow: hidden;
+	background: #353535;
+	float: left;
+	display: inline;
+	zoom: 1;
+	padding-left: 2px;
+	font-size: 0;
+	height: 55px
+}
+
+.e_slider_nav_wrap .e_slider_nav_box .img_box {
+	width: 60px;
+	height: 45px;
+	float: left;
+	display: inline;
+	overflow: hidden;
+	zoom: 1;
+	margin: 5px 3px
+}
+
+.e_slider_nav_wrap .e_slider_nav_box .img_box .img {
+	width: 60px;
+	height: 45px
+}
+
+.e_slider_nav_wrap .e_slider_nav_box .hover {
+	margin: 3px 1px;
+	border: 2px solid #999
+}
+
+.e_slider_nav_wrap .e_slider_nav_box .selected {
+	margin: 3px 1px;
+	border: 2px solid #fff
+}
+
+.b_hotel_poi {
+	margin-bottom: 15px
+}
+
+.b_hotel_poi .tuijian-hotel {
+	font: 20px/40px "microsoft yahei";
+	color: #46bcc3;
+	border-bottom: 1px solid #eaeaea;
+	margin-bottom: 20px
+}
+
+.b_hotel_poi .list_item .lastOne {
+	border-bottom: 0
+}
+
+.b_hotel_poi .list_item .txtbox {
+	line-height: 26px;
+	margin-right: 10px
+}
+
+.b_hotel_poi .list_item .boxWidth {
+	width: 320px
+}
+
+.b_hotel_poi .listbox .pic_recommend {
+	margin-top: -2px
+}
+
+.b_hotel_poi .item .ct .desbox {
+	margin-top: 0
+}
+
+.b_hotel_poi .list_item .item {
+	position: relative
+}
+
+.b_hotel_poi .list_item .map-icon {
+	padding: 8px 20px;
+	margin-left: 5px;
+	background: url("//source.qunarzz.com/site/images/travel/place/play_icon/map_icon_hotel2.jpg") 0 50% no-repeat
+}
+
+.b_hotel_poi .list_item .map-icon:hover {
+	background-image: url("//source.qunarzz.com/site/images/travel/place/play_icon/map_icon_hotel1.jpg")
+}
+
+.b_deleteprompt .paddingpatch {
+	padding-left: 10px
+}
+
+.b_deleteprompt .ct_cont {
+	text-align: center;
+	line-height: 74px;
+	font-size: 14px
+}
+
+.b_deleteprompt .btn_confirm,.b_deleteprompt .btn_cancel {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 25px;
+	width: 78px;
+	line-height: 25px;
+	border: 0 none;
+	color: #fff;
+	border-radius: 2px;
+	cursor: pointer;
+	font-size: 12px
+}
+
+.b_deleteprompt .btn_confirm {
+	background-color: #ff7400;
+	margin-right: 15px
+}
+
+.b_deleteprompt .btn_confirm:hover {
+	background-color: #f93
+}
+
+.b_deleteprompt .btn_cancel {
+	background-color: #eeede9;
+	color: black
+}
+
+.b_place_index {
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 0 10px
+}
+
+.b_place_index .tit {
+	font: 20px/1.5 "microsoft yahei";
+	color: #1badb6;
+	border-bottom: solid 1px #e0e0e0;
+	padding: 20px 0 10px
+}
+
+.b_place_index .tit .icon_email {
+	display: inline-block;
+	font-size: 0;
+	margin-left: 30px;
+	text-indent: -100px;
+	vertical-align: middle;
+	height: 12px;
+	width: 198px;
+	background: url("//source.qunarzz.com/site/images/travel/place/icon_email.jpg") no-repeat 0 0
+}
+
+.b_place_index .cooperation {
+	margin: 20px 0 40px 0;
+	line-height: 25px
+}
+
+.b_place_index .cooperation a:link,.b_place_index .cooperation a:visited {
+	display: inline-block;
+	_display: inline;
+	margin-right: 38px;
+	word-break: break-all;
+	word-wrap: break-word;
+	color: #666;
+	zoom: 1
+}
+
+.b_place_index .cooperation a:hover,.b_place_index .cooperation a:active {
+	color: #ff7400
+}
+
+.b_place_index .line {
+	width: 100%;
+	overflow: hidden;
+	clear: both;
+	padding: 20px 0 15px;
+	background: url("//source.qunarzz.com/site/images/travel/strategybase_v2/list_item_line.gif") repeat-x left bottom
+}
+
+.b_place_index .line .line_tit {
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	line-height: 22px;
+	height: 22px;
+	padding-bottom: 8px;
+	clear: both
+}
+
+.b_place_index .line .line_tit .icon {
+	float: left;
+	display: inline;
+	height: 16px;
+	width: 4px;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+	margin-top: 4px;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 0;
+	_margin-top: 2px;
+	background-color: #9bdce0
+}
+
+.b_place_index .line .line_tit .more {
+	float: right;
+	font-size: 12px;
+	color: #0069ca;
+	font-family: tahoma,simsun,Arial
+}
+
+.b_place_index .line .line_tit .more:link,.b_place_index .line .line_tit .more:visited {
+	color: #0069ca
+}
+
+.b_place_index .line .line_tit .more:hover,.b_place_index .line .line_tit .more:active {
+	color: #ff7400
+}
+
+.b_place_index .line .line_tit .m_collect {
+	display: none
+}
+
+.b_place_index .line .hide {
+	display: none
+}
+
+.b_place_index .line .tag {
+	float: left;
+	height: 25px;
+	width: 98px;
+	margin-right: 2px;
+	overflow: hidden;
+	line-height: 25px
+}
+
+.b_place_index .line .tag a:link,.b_place_index .line .tag a:visited {
+	color: #666
+}
+
+.b_place_index .line .tag a:hover,.b_place_index .line .tag a:active {
+	color: #ff7400
+}
+
+.b_place_index .line .show {
+	display: block
+}
+
+.b_place_index .no_dot {
+	background: 0
+}
+
+.b_place_index .partner {
+	float: left;
+	height: 60px;
+	width: 110px;
+	margin-right: 17px;
+	margin-top: 20px;
+	overflow: hidden;
+	line-height: 25px
+}
+
+.b_place_index .partner img {
+	width: 110px;
+	height: 60px
+}
+
+.b_place_index .mr_last {
+	margin-right: 0
+}
+
+.icon_bg {
+	position: relative;
+	display: inline-block;
+	margin-left: 10px;
+	width: 80px;
+	height: 19px;
+	vertical-align: top;
+	background: url("//source.qunarzz.com/site/images/travel/place/2th/bgs.png") no-repeat 0 -110px
+}

@@ -1,0 +1,150 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>广州旅游攻略网</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Around Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+<!--link href='http://fonts.useso.com/css?family=Francois+One' rel='stylesheet' type='text/css'-->
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
+</script>	
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+	    new WOW().init();
+	</script>
+<!--//end-animate-->
+        <!-- header -->
+	<div class="header">
+		<div class="top-header">
+			<div class="container">
+				<div class="top-header-info">
+					<div class="top-header-left wow fadeInLeft animated" data-wow-delay=".5s">
+						<p>让我们来一场说走就走的旅行</p>
+					</div>
+					<div class="top-header-right wow fadeInRight animated" data-wow-delay=".5s">
+						<div class="top-header-right-info">
+                            <ul>
+                            <% if (Session["username"] == null && Session["admin"] == null)
+                               {%>
+								<li><a href="denglv.aspx">登录</a></li>
+								<li><a href="zhuce.aspx">注册</a></li>
+                                <li><a href="denglv.aspx">登录后才可以反馈留言哦~</a></li>
+                            <%} %>
+                            <% if (Session["username"] != "" && Session["username"] != null && Session["admin"] == null)
+                               {%>
+                            <% Label1.Text = Session["username"].ToString();%>
+                            <font size="0.9em" color="#909090"><asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>,欢迎回来~
+                              <a id="A1"  target="_self" runat="server"  onserverclick ="Clear"  >退出</a>  </font>
+                                <li><a href="feedback.aspx">反馈留言</a></li>
+                            <%} %>
+                                <% if (Session["admin"] != null)
+                               {%>
+                            <% Label2.Text = Session["admin"].ToString();%>
+                            <font size="0.9em" color="#909090"><asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>,欢迎回来~
+                              <a id="A2"  target="_self" runat="server"  onserverclick ="Clear"  >退出</a>  </font>
+                            
+                            <%} %>
+                                </ul>
+						</div>
+						<div class="social-icons">
+							<ul>
+								
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-header">
+			<div class="container">
+				<div class="logo wow fadeInDown animated" data-wow-delay=".5s">
+					<h1><a href="shouye.aspx"><img src="images/logo1.jpg" alt="" /></a></h1>
+				</div>
+				<div class="top-nav wow fadeInRight animated" data-wow-delay=".5s">
+					<nav class="navbar navbar-default">
+						<div class="container">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">首页						
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+                                <li><a href="shouye.aspx">首页</a></li>
+								<li><a href="airplane.aspx">交通</a></li>	
+								<li><a href="jingdian.aspx">景点</a></li>
+                                <li><a href="meishi.aspx">美食</a></li>	
+								<!--<li><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">美食<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a class="hvr-bounce-to-bottom" href="gallery1.html">必吃美食</a></li>
+										<li><a class="hvr-bounce-to-bottom" href="gallery2.html">必吃餐馆</a></li>          
+									</ul>
+								</li>-->	
+                                <li><a href="gouwu.aspx">购物</a></li>	
+								
+								<li><a href="about.aspx">关于我们</a></li>
+                                <li><a href="houtai.aspx">后台管理</a></li>
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>	
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       <!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="copyright wow fadeInUp animated" data-wow-delay=".5s">
+                <center>
+				<p>Copyright &copy; 广州旅游攻略网.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/"></a></p>
+                    </center>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+    </div>
+    </form>
+</body>
+</html>

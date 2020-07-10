@@ -1,0 +1,3136 @@
+/* 2016-07-04 10:49:34 fangluo */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {
+	margin: 0;
+	padding: 0
+}
+
+em,i,q,cite,address,var {
+	font-style: normal
+}
+
+body {
+	font: Arial,'Droid Sans','Microsoft YaHei','Hiragino Sans GB',STXihei,'simsun','sans-serif';
+	*font-family: 'Microsoft YaHei','Hiragino Sans GB',STXihei,'simsun','sans-serif';
+	color: #333;
+	background: #fff;
+}
+
+address {
+	display: inline
+}
+
+img {
+	border: 0
+}
+
+li,dd {
+	list-style: none
+}
+
+q {
+	quotes: none
+}
+
+fieldset {
+	border-style: none
+}
+
+a {
+	color: #00a7e1;
+	text-decoration: none
+}
+
+a:hover {
+	text-decoration: underline
+}
+
+a img {
+	display: block
+}
+
+.cf {
+	zoom: 1
+}
+
+.cf:after {
+	content: ".";
+	display: block;
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	overflow: hidden
+}
+
+.dis {
+	display: block
+}
+
+.undis {
+	display: none
+}
+
+.desDistance {
+	margin-bottom: 15px
+}
+
+.fr {
+	float: right!important
+}
+
+.fl {
+	float: left!important
+}
+
+input {
+	height: 14px;
+	color: #666;
+	vertical-align: middle
+}
+
+select {
+	height: 20px;
+	line-height: 20px;
+	color: #666;
+	border: solid #7f9db9 1px
+}
+
+input,select {
+	font-size: 12px
+}
+
+textarea {
+	padding: 3px 0 3px 3px;
+	font-size: 12px;
+	color: #333;
+	border: 1px solid #BBB
+}
+
+input,textarea {
+	font-family: 'Microsoft YaHei','Hiragino Sans GB',STXihei,'simsun','sans-serif'
+}
+
+button {
+	background: 0;
+	border: 0;
+	color: #07328e;
+	font-size: 12px;
+	text-decoration: underline;
+	cursor: pointer
+}
+
+input.inputEdit {
+	height: 20px;
+	line-height: 20px;
+	color: Black;
+	border: 0;
+	background: 0;
+	color: #07328e;
+	cursor: pointer
+}
+
+.fake-a,.fake-ab {
+	color: #05a;
+	cursor: pointer
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 1.1em;
+	margin-bottom: 15px;
+	text-indent: -2px;
+	word-break: break-all;
+	word-wrap: break-word;
+	font-family: "Microsoft YaHei",simsun;
+	font-weight: normal
+}
+
+.gt-r {
+	font-size: 11px;
+	margin-left: 3px;
+	color: #000
+}
+
+.gt-l {
+	font-size: 11px;
+	margin-right: 3px;
+	color: #000
+}
+
+a:hover .gt-r,a:hover .gt-l,.fake-a:hover .gt-r,.fake-a:hover .gt-l {
+	color: #fff
+}
+
+.gs-header {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 5px;
+	position: relative;
+	height: 42px;
+	z-index: 23;
+	border-bottom: 3px solid #eee
+}
+
+.gs-header .content {
+	padding-top: 0
+}
+
+.gs-nav {
+	width: 690px;
+	float: left;
+	padding-top: 7px
+}
+
+.gs-nav li {
+	float: left;
+	padding-right: 15px;
+	position: relative;
+	*font-family: Microsoft Yahei
+}
+
+.gs-nav li a {
+	color: #656565;
+	font-size: 18px;
+	*line-height: 20px;
+	height: 35px;
+	display: inline-block;
+	border-bottom: 3px solid #eee;
+	text-decoration: none;
+	_line-height: 22px;
+	_margin-bottom: -9px;
+	_position: relative
+}
+
+.gs-nav li a:hover {
+	color: #00a7e0;
+	text-decoration: none;
+	border-bottom: 3px solid #01a7e1
+}
+
+.gs-nav li.active a,.gs-nav li.active a:hover {
+	border-bottom: 3px solid #01a7e1;
+	color: #00a7e0;
+	cursor: pointer
+}
+
+.gs-nav li .icon_home {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs-common.png?t=cdd11ba7b2eae77000a8e9fa498f4429) no-repeat 0 -170px;
+	width: 16px;
+	height: 16px;
+	margin: 1px 7px 0 7px;
+	overflow: hidden;
+	display: inline-block
+}
+
+.gs-nav li a:hover .icon_home,.gs-nav li.active a .icon_home,.gs-nav li.active a:hover .icon_home {
+	background-position: -26px -170px
+}
+
+.gs-nav li .gs_newicon {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs-common.png?t=cdd11ba7b2eae77000a8e9fa498f4429) no-repeat -53px -152px;
+	width: 23px;
+	height: 15px;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	top: -15px;
+	right: 0
+}
+
+.gs-nav li .gs_duangicon {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon_duang.png?t=3a3f2da80e490dc2512bf740e6444e4a) no-repeat;
+	width: 48px;
+	height: 19px;
+	line-height: 14px;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	top: -19px;
+	right: 20px
+}
+
+.gs-nav li .gs_tipvote {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon_vote.png?t=0669039f2f5b04cdee25ec750036d8d3) no-repeat;
+	width: 30px;
+	height: 20px;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	top: -18px;
+	right: 12px
+}
+
+.gs-nav li .gs_tipsml {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon_sml.png?t=d41d8cd98f00b204e9800998ecf8427e) no-repeat;
+	width: 30px;
+	height: 20px;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	top: -18px;
+	right: 12px
+}
+
+.gs-nav li.last {
+	border-right: 0 none
+}
+
+.gs-nav li.last .myhomelist {
+	display: none;
+	position: absolute;
+	z-index: 26;
+	width: 247px;
+	margin-left: -175px;
+	*margin-left: -246px!important;
+	*top: 38px!important
+}
+
+.gs-nav li.last .myhomelist span.npoptip-arrow {
+	position: absolute;
+	z-index: 12;
+	width: 12px;
+	height: 6px;
+	overflow: hidden;
+	display: inline-block;
+	left: 205px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gshead_messgae_icon.png?t=51de6ae746b8b8e3fc7045add6f43114) no-repeat -15px -32px;
+	top: -15px
+}
+
+.gs-nav li.last .myhomelist .myhomein {
+	position: absolute;
+	width: 245px;
+	top: -10px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px 2px rgba(0,0,0,.1)
+}
+
+.gs-nav li.last .myhomelist .myhomein .myhome_infor {
+	position: relative;
+	padding: 12px 0 13px 89px;
+	background: #f4f4f4
+}
+
+.gs-nav li.last .myhomelist .myhomein .myhome_infor span.myhome_img {
+	position: absolute;
+	background: #fff;
+	border: solid #dedede 1px;
+	padding: 2px;
+	border-radius: 3px;
+	left: 12px;
+	top: 12px
+}
+
+.gs-nav li.last .myhomelist .myhomein .myhome_infor span.myhome_img img {
+	display: block;
+	width: 60px;
+	height: 60px
+}
+
+.gs-nav li.last .myhomelist .myhomein .myhome_infor strong {
+	display: block;
+	width: 145px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 14px;
+	font-weight: normal;
+	padding-top: 3px;
+	margin-bottom: 9px
+}
+
+.gs-nav li.last .myhomelist .myhomein .myhome_infor p {
+	font-size: 12px;
+	color: #666
+}
+
+.gs-nav li.last .myhomelist .myhomein .myhome_infor p em {
+	display: inline-block;
+	margin-right: 25px
+}
+
+.gs-nav li.last .myhomelist .myhomein .myhome_infor p em i {
+	display: block;
+	font-size: 16px;
+	color: #333
+}
+
+.gs-nav li.last .myhomelist .myhomein dd {
+	border-top: solid #eee 1px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px
+}
+
+.gs-nav li.last .myhomelist .myhomein dd.cur {
+	background: #e5f6fc
+}
+
+.gs-nav li.last .myhomelist .myhomein dd a {
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	border: 0
+}
+
+.gs-nav li.last .myhomelist .myhomein dd a:hover {
+	text-decoration: none;
+	border: 0
+}
+
+.gs-nav li.last .myhomelist .myhomein dd a.gs_write_btn {
+	float: right;
+	display: inline-block;
+	width: 65px;
+	color: #fff;
+	height: 19px;
+	line-height: 21px;
+	background: #33b9e7;
+	border-bottom: solid #2ea6cf 2px;
+	text-align: center;
+	border-radius: 2px;
+	margin-top: 9px
+}
+
+.gs-nav li.last .myhomelist .myhomein dd.gs_myhome_write a.gs_write_btn {
+	display: none
+}
+
+.head-menu li div.forforum {
+	left: -297px;
+	width: 950px
+}
+
+#newVersion {
+	position: relative;
+	z-index: 102;
+	display: none
+}
+
+#instructions {
+	position: absolute;
+	top: -63px;
+	left: 135px;
+	color: #999
+}
+
+#instructions:hover {
+	background: #999;
+	color: #fff
+}
+
+#newfeatures {
+	width: 203px;
+	height: 50px;
+	position: absolute;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/bg-head-prompt.png?t=78c8851f721d7ecc36384ad03ba6c84a) top no-repeat;
+	display: block;
+	padding: 20px 10px 10px;
+	top: 34px;
+	left: 50%;
+	margin-left: -110px;
+	display: none
+}
+
+#newfeatures span {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/bg-head-prompt.png?t=78c8851f721d7ecc36384ad03ba6c84a) left bottom no-repeat;
+	text-align: center;
+	width: 45px;
+	height: 22px;
+	display: inline-block;
+	color: #fff;
+	line-height: 22px;
+	margin-top: 8px;
+	cursor: pointer
+}
+
+#newfeatures i {
+	position: absolute;
+	right: 5px;
+	top: 20px;
+	width: 15px;
+	height: 15px;
+	text-align: center;
+	color: #999;
+	cursor: pointer
+}
+
+#hot-fly-list1 h6 {
+	left: 0
+}
+
+#hot-fly-list2 h6 {
+	left: 45px
+}
+
+#hot-fly-list3 h6 {
+	left: 90px
+}
+
+#hot-fly-list4 h6 {
+	left: 135px
+}
+
+#hot-fly-list5 h6 {
+	left: 180px
+}
+
+#hot-fly-list6 h6 {
+	left: 225px
+}
+
+.desContainer {
+	margin: 15px auto;
+	width: 950px
+}
+
+.check_in,.check_out {
+	width: 85px;
+	padding: 4px;
+	margin-right: 15px;
+	background: url(http://pages.c-ctrip.com/gs_static/fed/img/desmail.png?t=f0a9d6355833e19988627bd0b635934d) right no-repeat white;
+	cursor: pointer;
+	border: 1px solid #ccc
+}
+
+.bg_dis .hotel_manage_bg_uplayer {
+	display: block
+}
+
+.star_level10,.star_level15,.star_level20,.star_level25,.star_level30,.star_level35,.star_level40,.star_level45,.star_level50,.star_level55,.star_level60 {
+	display: inline-block;
+	width: 75px;
+	height: 15px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon_star_level20110617.png?t=5c7a098814c9aff318e003a0a7013490) no-repeat
+}
+
+.star_level10 {
+	background-position: left -129px
+}
+
+.star_level15 {
+	background-position: -15px -129px
+}
+
+.star_level20 {
+	background-position: -15px -153px
+}
+
+.star_level25 {
+	background-position: -30px -129px
+}
+
+.star_level30 {
+	background-position: -30px -153px
+}
+
+.star_level35 {
+	background-position: -45px -129px
+}
+
+.star_level40 {
+	background-position: -45px -153px
+}
+
+.star_level45 {
+	background-position: -60px -129px
+}
+
+.star_level50 {
+	background-position: -60px -153px
+}
+
+.star_level55 {
+	background-position: -75px -129px
+}
+
+.star_level60 {
+	background-position: -75px -153px
+}
+
+.little_star_level10,.little_star_level15,.little_star_level20,.little_star_level25,.little_star_level30,.little_star_level35,.little_star_level40,.little_star_level45,.little_star_level50,.little_star_level55,.little_star_level60 {
+	display: inline-block;
+	width: 65px;
+	height: 13px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon_star_level20110617.png?t=5c7a098814c9aff318e003a0a7013490) no-repeat;
+	vertical-align: -10%
+}
+
+.little_star_level10 {
+	background-position: left -178px
+}
+
+.little_star_level15 {
+	background-position: -13px -178px
+}
+
+.little_star_level20 {
+	background-position: -13px -200px
+}
+
+.little_star_level25 {
+	background-position: -26px -178px
+}
+
+.little_star_level30 {
+	background-position: -26px -200px
+}
+
+.little_star_level35 {
+	background-position: -39px -178px
+}
+
+.little_star_level40 {
+	background-position: -39px -200px
+}
+
+.little_star_level45 {
+	background-position: -52px -178px
+}
+
+.little_star_level50 {
+	background-position: -52px -200px
+}
+
+.little_star_level55 {
+	background-position: -65px -178px
+}
+
+.little_star_level60 {
+	background-position: -65px -200px
+}
+
+.small_star_level10,.small_star_level15,.small_star_level20,.small_star_level25,.small_star_level30,.small_star_level35,.small_star_level40,.small_star_level45,.small_star_level50,.small_star_level55,.small_star_level60 {
+	display: inline-block;
+	width: 50px;
+	height: 14px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon_star_level20110617.png?t=5c7a098814c9aff318e003a0a7013490) no-repeat
+}
+
+.small_star_level10 {
+	background-position: left -218px
+}
+
+.small_star_level15 {
+	background-position: -10px -218px
+}
+
+.small_star_level20 {
+	background-position: -10px -237px
+}
+
+.small_star_level25 {
+	background-position: -20px -218px
+}
+
+.small_star_level30 {
+	background-position: -20px -237px
+}
+
+.small_star_level35 {
+	background-position: -30px -218px
+}
+
+.small_star_level40 {
+	background-position: -30px -237px
+}
+
+.small_star_level45 {
+	background-position: -40px -218px
+}
+
+.small_star_level50 {
+	background-position: -40px -237px
+}
+
+.small_star_level55 {
+	background-position: -50px -218px
+}
+
+.small_star_level60 {
+	background-position: -50px -237px
+}
+
+.blue_star01,.blue_star02,.blue_star03,.blue_star04,.blue_star05 {
+	display: inline-block;
+	height: 12px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon_star_level20110617.png?t=5c7a098814c9aff318e003a0a7013490) no-repeat 0 -309px;
+	overflow: hidden
+}
+
+.blue_star01 {
+	width: 12px
+}
+
+.blue_star02 {
+	width: 25px
+}
+
+.blue_star03 {
+	width: 38px
+}
+
+.blue_star04 {
+	width: 51px
+}
+
+.blue_star05 {
+	width: 64px
+}
+
+.newdesFooter {
+	width: 950px;
+	margin: 0 auto;
+	padding: 5px 0 8px;
+	position: relative;
+	color: #999;
+	border-top: 1px solid #eaeaea;
+	line-height: 18px;
+	font-weight: normal
+}
+
+.newdesFooter .copyRight {
+	color: #999
+}
+
+.newdesFooter .quickLinks span,.newdesFooter .quickLinks a {
+	margin-right: 15px;
+	text-decoration: none;
+	display: inline
+}
+
+.newdesFooter strong {
+	font-weight: normal
+}
+
+.newdesFooter .icp {
+	float: right
+}
+
+.newdesFooter .icp .fake-ab {
+	color: #999;
+	text-decoration: none
+}
+
+.newdesFooter .icp .fake-ab:hover {
+	background: #999;
+	color: #fff
+}
+
+.desNavigation {
+	padding: 5px 0;
+	color: #666;
+	line-height: 19px;
+	font-family: Arial;
+	border: solid #e6e7e7;
+	border-width: 1px 0 0
+}
+
+.desNavigation p span,.desNavigation .page_links {
+	float: right
+}
+
+.desNavigation p span a,.desNavigation p span em,.desNavigation p span b,.desNavigation .page_links a,.desNavigation .page_links em,.desNavigation .page_links b {
+	display: inline-block;
+	height: 19px;
+	line-height: 19px;
+	margin-right: 1px;
+	padding: 0 6px;
+	border: solid #eee 1px;
+	background: #fff
+}
+
+.desNavigation p span b {
+	color: #aaa;
+	font-weight: normal
+}
+
+.desNavigation p span b a {
+	border: 0;
+	padding: 0;
+	font-weight: normal
+}
+
+.desNavigation p span b a:hover {
+	border: 0
+}
+
+.desNavigation p span a:hover {
+	background: #000
+}
+
+.desNavigation p i {
+	display: inline-block
+}
+
+.desNavigation p span a {
+	text-decoration: none
+}
+
+.desNavigation p span em.current,.desNavigation .page_links em,.desNavigation .page_links a:hover,.desNavigation p span a:hover {
+	background: #6ac0eb;
+	color: #fff;
+	border: solid #6ac0eb 1px
+}
+
+.desNavigation .left_arrow,.desNavigation .right_arrow {
+	padding: 0 2px 0 3px
+}
+
+.new-paging .desNavigation {
+	padding: 30px 0 50px;
+	text-align: center;
+	border: 0;
+	background: 0
+}
+
+.new-paging .desNavigation a,.new-paging .desNavigation em,.new-paging .desNavigation b {
+	display: inline-block;
+	height: 19px;
+	line-height: 19px;
+	margin-right: 10px;
+	padding: 0 6px
+}
+
+.new-paging .desNavigation a:hover {
+	background: #6ac0eb
+}
+
+.new-paging .desNavigation b {
+	color: #aaa;
+	font-weight: normal
+}
+
+.new-paging .desNavigation i {
+	display: inline-block
+}
+
+.new-paging .desNavigation a {
+	text-decoration: none
+}
+
+.new-paging .desNavigation .current {
+	background: #6ac0eb;
+	color: #fff
+}
+
+.new-paging .desNavigation .right_arrow {
+	margin-left: 15px
+}
+
+.new-paging .desNavigation .left_arrow {
+	margin-right: 15px
+}
+
+.desNavigation p span a {
+	color: #518fce;
+	float: left;
+	margin-right: 2px;
+	height: 27px;
+	padding: 0 10px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 4px;
+	margin-right: 2px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 27px;
+	border: none 0
+}
+
+.desNavigation p span a:hover {
+	border: 0;
+	color: #518fce;
+	background: #e5f0fc;
+	text-decoration: none
+}
+
+.desNavigation p span em {
+	float: left;
+	margin-right: 2px
+}
+
+.desNavigation p span em.current {
+	height: 27px;
+	overflow: hidden;
+	padding: 0 10px;
+	border: 0;
+	line-height: 27px;
+	display: inline-block;
+	border-radius: 4px
+}
+
+.desNavigation p span .left_arrow {
+	padding: 0 10px;
+	background: #e5f0fc
+}
+
+.desNavigation p span .left_arrow:hover {
+	background: #6ac0eb;
+	color: #fff;
+	border-radius: 4px
+}
+
+.desNavigation p span .right_arrow {
+	float: left;
+	color: #999;
+	height: 27px;
+	border: none 0;
+	line-height: 27px;
+	background: #efefef;
+	border-radius: 4px;
+	padding: 0 10px
+}
+
+.desNavigation p span b {
+	float: left;
+	border: none 0;
+	height: 27px;
+	line-height: 27px
+}
+
+.desNavigation p span b a:hover {
+	background: 0
+}
+
+.popup_win {
+	border: 1px solid #c9c9c9;
+	position: fixed;
+	_position: absolute;
+	z-index: 9999;
+	background: #fff;
+	border-radius: 10px
+}
+
+.popup_win_bg {
+	position: fixed;
+	_position: absolute;
+	z-index: 110;
+	background: #000;
+	opacity: .5;
+	filter: alpha(opacity=50);
+	left: 0;
+	top: 0;
+	z-index: 8888;
+	width: 100%;
+	height: 100%
+}
+
+.popup_win_close {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	z-index: 99;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/popup_close.png?t=aa85fce9c3698150eb6273b747371718) no-repeat;
+	width: 13px;
+	height: 15px;
+	display: block;
+	text-indent: 10em;
+	overflow: hidden
+}
+
+.popup_loading {
+	padding: 25px 40px
+}
+
+.new-login-tips {
+	position: relative;
+	z-index: 10;
+	text-align: left
+}
+
+.new-login-tips .tips-wrap {
+	position: absolute;
+	left: -160px;
+	top: 11px;
+	top: 0\9;
+	*top: 11px;
+	padding-top: 8px;
+	display: none
+}
+
+.new-login-tips .tips-wrap .tip-con {
+	background: #fff8e7;
+	border: 1px solid #dee8f2;
+	border-color: #fae8b1 #999 #999 #fae8b1;
+	padding: 5px 5px 5px 10px;
+	color: #656565;
+	width: 270px
+}
+
+.new-login-tips .tips-wrap .aw {
+	position: absolute;
+	top: 4px;
+	left: 168px;
+	display: block;
+	width: 8px;
+	height: 5px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon_global110608.png?t=27d9592da16e4ba03fe6f484cc8c84f5) no-repeat -14px -329px;
+	overflow: hidden
+}
+
+#divloginId .new-login-tips .tips-wrap .tip-con {
+	text-align: left
+}
+
+#color-newlogin-tip {
+	line-height: 1em;
+	margin-top: 3px!important;
+	font-size: 11px
+}
+
+.email-suggest {
+	width: 190px;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 3px 2px;
+	color: #999;
+	overflow: hidden
+}
+
+.email-suggest .cur {
+	background: #eff6ff
+}
+
+.email-suggest li {
+	cursor: pointer
+}
+
+.sign-fldset .fldset {
+	margin-bottom: 10px
+}
+
+.sign-fldset .fldset p {
+	margin-bottom: 5px
+}
+
+.sign-fldset .tips {
+	margin-left: 5px;
+	color: #666
+}
+
+.sign-fldset .error {
+	color: Red
+}
+
+.sign-fldset .ok {
+	color: green;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon_global110608.png?t=27d9592da16e4ba03fe6f484cc8c84f5) no-repeat 0 -469px;
+	height: 13px;
+	padding: 1px 8px;
+	width: auto;
+	vertical-align: middle
+}
+
+.box-sign-t {
+	font-size: 14px;
+	color: #333;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 0 5px;
+	background: 0
+}
+
+.box-txt-input {
+	width: 190px;
+	border: solid #c9c9c9 1px;
+	padding: 3px 2px;
+	height: 20px;
+	border-radius: 3px;
+	line-height: 20px
+}
+
+.box-txt-code {
+	width: 85px
+}
+
+.box-txt-btn {
+	color: #fff;
+	background: #f0b108;
+	padding: 4px 20px;
+	*padding: 4px 10px 0;
+	border-radius: 3px;
+	border: 1px solid #f0b108;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto
+}
+
+.box-txt-btn-gray {
+	background: #edf0f1;
+	color: #333;
+	font-weight: normal;
+	border-color: #d6d6d6
+}
+
+.box-reg-sec-con {
+	padding: 15px 20px;
+	width: 485px
+}
+
+#friendsTrend {
+	display: none
+}
+
+.mod-cityguide {
+	margin-bottom: 35px
+}
+
+.mod-cityguide img {
+	display: block
+}
+
+.global-feedback {
+	position: fixed;
+	top: 40%;
+	left: 50%;
+	margin-left: 495px;
+	background: #c5c5ae;
+	border-radius: 10px;
+	_position: absolute;
+	_margin-top: expression(eval(document.documentElement.scrollTop));
+	opacity: 0;
+	filter: alpha(opacity=0);
+	width: 60px;
+	text-align: center;
+	line-height: 20px;
+	padding: 10px 0
+}
+
+.global-feedback a {
+	display: block;
+	color: #fff;
+	font-size: 14px
+}
+
+.global-feedback a:hover {
+	background: 0
+}
+
+#new-vison-instro {
+	width: 510px;
+	height: 506px;
+	position: absolute;
+	left: 50%;
+	margin-left: -255px;
+	top: 150px;
+	z-index: 1000
+}
+
+#new-vison-instro .close {
+	right: 15px;
+	top: 15px;
+	position: absolute;
+	z-index: 1001;
+	height: 15px;
+	line-height: 15px;
+	padding-right: 17px;
+	cursor: pointer;
+	color: #ea7508
+}
+
+#new-vison-instro .close i {
+	width: 15px;
+	height: 15px;
+	overflow: hidden;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/bg-qactivity.png?t=a9d7f0193939ae14b310018906e336dd) -16px -13px no-repeat;
+	cursor: pointer;
+	position: absolute;
+	right: 0
+}
+
+#new-vison-instro .close:hover i {
+	background-position: -31px -13px
+}
+
+#new-vison-instro .shadow {
+	width: 510px;
+	height: 506px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #333;
+	opacity: .3;
+	filter: alpha(opacity=30);
+	border-radius: 5px
+}
+
+.new-vison-instro-content {
+	width: 480px;
+	height: 456px;
+	top: 5px;
+	left: 5px;
+	position: relative;
+	background: #fff url(http://pages.c-ctrip.com/gs_static/common/img/lp_newvison_bg.jpg?t=3c0096eef1338cd5ea0a3806ba427094) no-repeat;
+	padding: 30px 10px 10px
+}
+
+.new-vison-instro-content p {
+	padding-bottom: 12px
+}
+
+.new-vison-instro-content h6 {
+	font-size: 12px;
+	padding-bottom: 5px
+}
+
+.header_message_number {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/letter.gif?t=0ec323f6e381da3a010f545b22e85637) no-repeat 0 3px;
+	padding-left: 19px
+}
+
+.lp-newvison-tips {
+	background: #fefad7;
+	position: absolute;
+	border: 1px solid #fede92;
+	width: 250px;
+	z-index: 10;
+	border-radius: 3px
+}
+
+.lp-newvison-tips i {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/tmp_tips_bg.png?t=95d805932a17688419553628b5546fcf) no-repeat;
+	display: block;
+	width: 9px;
+	height: 6px;
+	position: absolute;
+	top: -6px;
+	left: 10px
+}
+
+.lp-newvison-tips .bd {
+	padding: 10px
+}
+
+.lp-newvison-tips .close-b {
+	text-align: right
+}
+
+.content {
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 20px
+}
+
+.main {
+	width: 680px;
+	float: right
+}
+
+.side {
+	width: 270px;
+	float: left
+}
+
+.mod {
+	padding-bottom: 40px
+}
+
+.hd {
+	font: 18px/34px "Microsoft YaHei",SimHei;
+	color: #666;
+	word-break: break-all;
+	word-wrap: break-word
+}
+
+.bd {
+	padding-top: 10px
+}
+
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis
+}
+
+.gs_tianqi_mini {
+	color: #4ea6e1;
+	font: 18px/24px "Microsoft YaHei",SimHei;
+	padding-right: 6px;
+	float: left;
+	width: 125px;
+	padding-right: 35px;
+	margin-top: 5px
+}
+
+.gs_tianqi_mini img {
+	vertical-align: -10%
+}
+
+.gs-page {
+	border-top: 1px solid #ededed;
+	margin-top: 40px;
+	padding-top: 40px;
+	text-align: center
+}
+
+.gs-page a {
+	color: #999;
+	padding: 5px 20px;
+	background: #e4f0fc;
+	border-radius: 5px
+}
+
+#gs_feedback_gotop {
+	_display: none
+}
+
+#gs_feedback_gotop .side_fixed {
+	position: fixed;
+	right: 5px;
+	bottom: 50px;
+	z-index: 140
+}
+
+#gs_feedback_gotop .to_top {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 0;
+	margin-left: -8px;
+	margin-bottom: 2px;
+	padding-top: 35px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs-common.png?t=cdd11ba7b2eae77000a8e9fa498f4429) no-repeat 0 -39px;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 2;
+	visibility: hidden
+}
+
+#gs_feedback_gotop .to_top:hover {
+	background-position: -36px -39px
+}
+
+#gs_feedback_gotop .c_fq,#gs_feedback_gotop .c_qs,#gs_feedback_gotop .c_os {
+	display: block;
+	width: 35px;
+	height: 0;
+	margin-left: -8px;
+	padding-top: 35px;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 2;
+	margin-bottom: 2px;
+	position: relative;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs-common.png?t=cdd11ba7b2eae77000a8e9fa498f4429) no-repeat
+}
+
+#gs_feedback_gotop .c_fq {
+	background-position: 0 -77px
+}
+
+#gs_feedback_gotop .c_fq:hover {
+	background-position: -36px -77px
+}
+
+#gs_feedback_gotop .c_qs {
+	background-position: 0 -115px
+}
+
+#gs_feedback_gotop .c_qs:hover {
+	background-position: -36px -115px
+}
+
+h1.nostyle,h2.nostyle,h3.nostyle,h4.nostyle,h5.nostyle {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.hd h2 {
+	font-size: 18px;
+	color: #333;
+	display: inline-block;
+	line-height: 1;
+	*line-height: normal;
+	font-weight: normal
+}
+
+.hotgroup a {
+	width: 253px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.hotgroup a.gsn-btnmore {
+	width: auto;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+	bottom: 5px
+}
+
+.footblue {
+	width: 100%;
+	border-bottom: 1px dashed #9fcbf9;
+	padding-bottom: 40px
+}
+
+.footbg {
+	padding: 20px 0;
+	background: #6ebeea;
+	overflow: hidden
+}
+
+.footblue .footinner {
+	width: 1000px;
+	padding-left: 20px;
+	margin: 0 auto
+}
+
+.footblue .footinner dl {
+	width: 180px;
+	overflow: hidden;
+	float: left;
+	padding-right: 20px
+}
+
+.footblue .footinner dt {
+	color: #fff;
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: MicroSoft YaHei
+}
+
+.footblue .footinner dd {
+	line-height: 22px
+}
+
+.footblue .footinner a {
+	color: #fff
+}
+
+i.ico-sinawb {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon.png?t=4c33a7b291c693ffab61d44185b185ad) 0 -347px;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	display: inline-block
+}
+
+.gs_affiche {
+	float: right;
+	width: 250px;
+	height: 25px;
+	padding-left: 20px;
+	box-shadow: 2px 2px 0 0 #efefef
+}
+
+.gs_affiche .gs_affiche_tit {
+	float: left;
+	width: 25px;
+	height: 25px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs_affiche_icon.png?t=b627b1b262740eb7762526563bcbee94) no-repeat;
+	font-style: normal;
+	color: #fff;
+	line-height: 25px;
+	padding-left: 19px;
+	margin-left: -26px
+}
+
+.gs_affiche .close {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs_affiche_icon.png?t=b627b1b262740eb7762526563bcbee94) -33px -28px no-repeat;
+	float: left;
+	width: 13px;
+	height: 13px;
+	display: block;
+	margin: 6px 0 0 -18px
+}
+
+.gs_affiche ul {
+	height: 23px;
+	border: 1px solid #ddd;
+	border-left: none;
+	float: left;
+	overflow: hidden;
+	padding-right: 20px
+}
+
+.gs_affiche ul li {
+	width: 195px;
+	padding: 0 8px;
+	line-height: 23px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.gs_affiche ul li a {
+	color: #666
+}
+
+.gs_affiche ul li a span {
+	color: #ff5a26
+}
+
+.gs_activity {
+	z-index: 5
+}
+
+.noderoll {
+	position: relative;
+	overflow: hidden
+}
+
+.gs_activity_tab a.cannot-click.prev {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs_affiche_icon.png?t=b627b1b262740eb7762526563bcbee94) no-repeat scroll 0 -79px transparent
+}
+
+.gs_activity_tab a.cannot-click.next {
+	margin-left: 1px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs_affiche_icon.png?t=b627b1b262740eb7762526563bcbee94) no-repeat scroll -15px -79px transparent
+}
+
+.noderoll .noderoll-inner {
+	padding: 5px 0
+}
+
+.noderoll .noderoll-inner .item {
+	display: none
+}
+
+.noderoll .noderoll-inner .item.active {
+	display: block
+}
+
+.gs_activity {
+	border: 1px solid #ddd;
+	background-color: #fff
+}
+
+.gs_activity h3 {
+	background: #eee;
+	line-height: 28px;
+	height: 28px;
+	color: #666;
+	padding-left: 10px;
+	font-size: 12px;
+	position: relative
+}
+
+.gs_activity_tab {
+	width: 33px;
+	height: 14px;
+	position: absolute;
+	top: 6px;
+	right: 8px
+}
+
+.gs_activity_tab a {
+	width: 16px;
+	height: 14px;
+	display: block;
+	float: left
+}
+
+.gs_activity_tab a.prev {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs_affiche_icon.png?t=b627b1b262740eb7762526563bcbee94) no-repeat scroll 0 -28px transparent
+}
+
+.gs_activity_tab a.next {
+	margin-left: 1px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs_affiche_icon.png?t=b627b1b262740eb7762526563bcbee94) no-repeat scroll -15px -28px transparent
+}
+
+.gs_activity_tabbox div {
+	display: none
+}
+
+.gs_activity_tabbox div img {
+	width: 250px;
+	height: 92px;
+	margin: auto
+}
+
+.gs_activity_tabbox div .line {
+	font-size: 0;
+	line-height: 0;
+	height: 5px;
+	margin: 0 10px
+}
+
+.gs_strategy {
+	width: 206px;
+	height: 135px;
+	padding: 130px 0 0 45px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs_affiche_bg.png?t=42ce98f94910b5300e1a0f08031830b8) no-repeat;
+	position: relative
+}
+
+.gs_strategy .close {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gs_affiche_icon.png?t=b627b1b262740eb7762526563bcbee94) 0 -45px no-repeat;
+	width: 28px;
+	height: 28px;
+	display: block;
+	position: absolute;
+	right: 20px;
+	top: 30px;
+	z-index: 1
+}
+
+.gs_strategy .img {
+	width: 70px;
+	height: 96px;
+	float: left;
+	padding-right: 10px
+}
+
+.gs_strategy h3 {
+	margin-top: 15px
+}
+
+.gs_strategy p {
+	margin: 10px 0;
+	color: #999
+}
+
+.gs_strategy .download {
+	display: block;
+	width: 80px;
+	height: 25px;
+	background: #fe6a08;
+	color: #fff;
+	font-weight: bold;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	line-height: 25px;
+	font-size: 14px
+}
+
+.q-content .q-side a {
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	overflow: hidden;
+	width: 60px
+}
+
+.hotgroup .bd li {
+	*width: 270px;
+	*overflow: hidden
+}
+
+a.gsn_btn_report {
+	color: #aaa
+}
+
+.guide-list li span.pdf-img {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/nopic_120170.png?t=74eab6b1e7b9b81cee484d9691eeeebb) no-repeat -20px -30px
+}
+
+.guide-list li span.pdf-img img {
+	vertical-align: top
+}
+
+.nopic180120 {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/nopic_180120.png?t=abae722a447f8d34d2cde2492af66c69) no-repeat;
+	width: 180px;
+	height: 120px;
+	overflow: hidden;
+	border-radius: 5px;
+	display: block
+}
+
+.nopic100100 {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/nopic_100.png?t=8373707d021e641156951697b66264fd) no-repeat;
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	overflow: hidden;
+	display: block
+}
+
+body,html {
+	height: 100%:
+}
+
+.gsn-layer {
+	padding: 25px 30px;
+	border: 1px solid #d0d0d0;
+	box-shadow: 0 0 3px 0 #ccc;
+	background: #fff
+}
+
+.gsn-layer .close {
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/icon.png?t=4c33a7b291c693ffab61d44185b185ad) no-repeat -120px -347px
+}
+
+.gsn-layer .close:hover {
+	background-position: -158px -347px
+}
+
+.gs_SHUCOVER_V1 {
+	background-color: #0ff;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	filter: alpha(opacity=50);
+	opacity: .5;
+	z-index: 141;
+	_position: absolute;
+	_top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat'))
+}
+
+.gs_SHUCOVER_IFRAME_V1 {
+	position: fixed;
+	_position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	left: 0;
+	top: 0;
+	z-index: -1
+}
+
+.gs_LAYER_PARENT_V1 {
+	top: 50%;
+	left: 50%;
+	position: fixed;
+	z-index: 142;
+	_position: absolute;
+	_top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat'))
+}
+
+.gs_hide {
+	display: none
+}
+
+.head-popbox {
+	width: 350px;
+	font-size: 14px
+}
+
+.head-popbox dt {
+	color: #066ba1
+}
+
+.head-popbox dd.head-bg {
+	width: 346px;
+	height: 138px;
+	position: relative;
+	overflow: hidden;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/head-sculpture.png?t=632a42ceaba6a2610a7d289fb7e3c6ce) no-repeat 95px 30px
+}
+
+.head-popbox p {
+	padding-top: 40px;
+	text-align: right
+}
+
+.head-popbox p a {
+	margin-left: 12px
+}
+
+.head-bg span {
+	display: inline-block;
+	position: absolute;
+	overflow: hidden
+}
+
+.head-bg span.nametext {
+	width: 70px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	font-size: 12px;
+	color: #aaa;
+	top: 68px;
+	left: 96px
+}
+
+.head-bg span.headpic {
+	left: 185px;
+	top: 30px;
+	width: 55px;
+	height: 55px
+}
+
+.head-bg span.headpic img {
+	width: 55px;
+	height: 55px;
+	border-radius: 28px
+}
+
+.gsn-btn-20,.gsn-btn-21 {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/normal-button.png?t=d68fa58685ad909ea3bdce9b793124d7) no-repeat scroll 0 0 transparent;
+	cursor: pointer;
+	display: inline-block;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none
+}
+
+.gsn-btn-20 {
+	background-position: 0 -292px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	width: 95px
+}
+
+.gsn-btn-21 {
+	background-position: -512px -295px;
+	color: #333;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	width: 95px
+}
+
+.ctrip360 {
+	width: 980px;
+	position: fixed;
+	_position: absolute;
+	bottom: 0;
+	margin-left: 50%
+}
+
+.ctrip360 .inner {
+	margin-left: -50%;
+	width: 980px;
+	position: relative
+}
+
+.ctrip360 .close360 {
+	width: 15px;
+	height: 15px;
+	display: block;
+	position: relative;
+	margin-left: 965px;
+	z-index: 3;
+	background: #024ba7;
+	color: #fff;
+	line-height: 14px;
+	overflow: hidden;
+	font-weight: bold;
+	text-align: center;
+	font-size: 10px
+}
+
+.ctrip360 .a360 {
+	display: block;
+	width: 980px;
+	margin-top: -15px
+}
+
+.gs-nav li a.gstips_supcount,a.gstips_supcount {
+	background: #fe7e3d;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	font-family: arial;
+	padding: 0 4px;
+	height: 10px;
+	line-height: 10px;
+	border-radius: 3px
+}
+
+.gs-nav li .tipsbox_outer {
+	position: absolute;
+	top: -6px;
+	display: inline-block;
+	right: -14px;
+	width: 30px;
+	overflow: hidden;
+	text-align: left
+}
+
+.gs-nav li .tipsbox_outer a.gstips_supcount {
+	background: #ff9913;
+	font-weight: normal;
+	height: 15px;
+	line-height: 15px;
+	border-radius: 20px;
+	padding: 0 4px;
+	border-bottom: 0;
+	vertical-align: top
+}
+
+.gs-nav li a.gstips_supcount:hover,a.gstips_supcount:hover {
+	background: #fe6517;
+	color: #fff;
+	text-decoration: none
+}
+
+.gs-notice {
+	left: -34px;
+	top: 8px;
+	position: absolute;
+	z-index: 11
+}
+
+.gs-notice a.ico_linkpbox {
+	position: relative;
+	width: 22px;
+	height: 17px;
+	cursor: pointer;
+	display: inline-block;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gshead_messgae_icon.png?t=51de6ae746b8b8e3fc7045add6f43114) left top no-repeat
+}
+
+.gs-notice a.ico_linkpbox i {
+	position: absolute;
+	display: block;
+	height: 15px;
+	line-height: 15px;
+	overflow: hidden;
+	font-size: 12px;
+	color: #fff;
+	background: #ff9913;
+	padding: 0 4px;
+	border-radius: 20px;
+	top: -8px;
+	right: -8px
+}
+
+.gs-notice .populist {
+	z-index: 22;
+	*font-family: Microsoft Yahei
+}
+
+.gs-notice .populist li {
+	line-height: 18px;
+	font-size: 12px;
+	padding: 12px 20px 11px 19px;
+	border-bottom: solid #eee 1px;
+	color: #999;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden
+}
+
+.gs-notice .populist li.gs_headcheck_more {
+	border-bottom: 0;
+	background: #f4f4f4;
+	text-align: center;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	padding: 0
+}
+
+.gs-notice .populist li.gs_headcheck_more a {
+	display: block;
+	padding: 12px 20px 11px 19px
+}
+
+.gs-notice .populist li.gs_headcheck_more a:hover {
+	color: #00a7e1;
+	background: #f4f4f4
+}
+
+.gs-notice .populist li.gs_messages_none {
+	font-size: 12px;
+	color: #ccc;
+	text-align: center;
+	height: 48px;
+	line-height: 48px
+}
+
+.gs-notice .populist li a {
+	color: #666;
+	margin: 0 3px
+}
+
+.gs-notice .populist li a:hover {
+	text-decoration: none
+}
+
+.gs-notice .populist li.mes_unread a {
+	color: #00a7e1
+}
+
+.gs-notice .populist li.cur {
+	background: #e5f6fc
+}
+
+.gs-notice .npoptip-arrow {
+	position: absolute;
+	z-index: 12;
+	width: 12px;
+	height: 6px;
+	overflow: hidden;
+	display: inline-block;
+	left: 31px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gshead_messgae_icon.png?t=51de6ae746b8b8e3fc7045add6f43114) no-repeat left -32px;
+	top: 0;
+	*top: 5px!important
+}
+
+.gs-notice .glistbox {
+	display: none;
+	width: 240px;
+	margin-left: -25px;
+	position: relative
+}
+
+.gs-notice .glistbox .ulouter {
+	width: 238px;
+	position: absolute;
+	top: 5px;
+	*top: 10px!important;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	box-shadow: 0 1px 3px 2px rgba(0,0,0,.1)
+}
+
+textarea.gs_async {
+	display: none
+}
+
+@-webkit-keyframes myfirst {
+	0% {
+		top: 180px
+	}
+
+	25% {
+		top: 175px
+	}
+
+	50% {
+		top: 180px
+	}
+
+	75% {
+		top: 185px
+	}
+
+	100% {
+		top: 180px
+	}
+}
+
+@keyframes myfirst {
+	0% {
+		top: 180px
+	}
+
+	25% {
+		top: 175px
+	}
+
+	50% {
+		top: 180px
+	}
+
+	75% {
+		top: 185px
+	}
+
+	100% {
+		top: 180px
+	}
+}
+
+@-moz-keyframes myfirst {
+	0% {
+		top: 180px
+	}
+
+	25% {
+		top: 175px
+	}
+
+	50% {
+		top: 180px
+	}
+
+	75% {
+		top: 185px
+	}
+
+	100% {
+		top: 180px
+	}
+}
+
+@-webkit-keyframes myfirst {
+	0% {
+		top: 180px
+	}
+
+	25% {
+		top: 175px
+	}
+
+	50% {
+		top: 180px
+	}
+
+	75% {
+		top: 185px
+	}
+
+	100% {
+		top: 180px
+	}
+}
+
+@-o-keyframes myfirst {
+	0% {
+		top: 180px
+	}
+
+	25% {
+		top: 175px
+	}
+
+	50% {
+		top: 180px
+	}
+
+	75% {
+		top: 185px
+	}
+
+	100% {
+		top: 180px
+	}
+}
+
+.gsoperateright {
+	width: 980px;
+	margin: 0 auto;
+	text-align: left
+}
+
+.gs_operate_right_fix {
+	width: 95px;
+	height: 303px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/operate_right_fix.png?t=bef707c5d0fab022e39472dde0da420f) 0 0 no-repeat;
+	position: fixed;
+	_position: absolute;
+	margin-left: 1000px;
+	top: 180px;
+	z-index: 21;
+	animation: myfirst 1s ease-in 4s;
+	-moz-animation: myfirst 1s ease-in 4s;
+	-webkit-animation: myfirst 1s ease-in 4s;
+	-o-animation: myfirst 1s ease-in 4s
+}
+
+.gs_operate_right_fix a.one {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00a7df;
+	height: 262px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 10px
+}
+
+.gs_operate_right_fix a.one span {
+	color: #ff9a00;
+	display: block
+}
+
+.gs_operate_right_fix a.close {
+	width: 16px;
+	height: 16px;
+	font-size: 0;
+	float: right;
+	margin: 2px 2px 0 0;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/operate_right_fix.png?t=bef707c5d0fab022e39472dde0da420f) -116px -1px no-repeat
+}
+
+.gs_operate_right_fix a:hover.close {
+	background-position: -100px -1px
+}
+
+.app_wrap input,.app_wrap p {
+	margin: 0;
+	padding: 0
+}
+
+.app_wrap a {
+	color: #06c;
+	text-decoration: none
+}
+
+.app_wrap a:hover {
+	text-decoration: underline
+}
+
+.app_wrap .s_btn,.app_wrap .s_btn_disabled {
+	width: 145px;
+	height: 33px;
+	color: #fff;
+	font-size: 16px;
+	font-family: "Microsoft YaHei",SimSun,Tahoma,Verdana,Arial,sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: .4em;
+	text-indent: .4em;
+	box-shadow: 0 1px 0 rgba(95,50,0,0.7);
+	border-radius: 3px;
+	*filter: chroma(color=#000000)
+}
+
+.app_wrap .s_btn {
+	text-shadow: 1px 1px 0 #cf7000;
+	background-color: #ffb000;
+	border: solid 1px #e77c00
+}
+
+.app_wrap .s_btn_disabled {
+	color: #999;
+	background-color: #efefef;
+	border: solid 1px #ccc;
+	cursor: default
+}
+
+.s_item input,.s_item2 input,.s_item3 input {
+	width: 140px;
+	padding-left: 3px;
+	margin-left: 10px;
+	border-color: #bbb #ddd #ddd #bbb;
+	border-style: solid;
+	border-width: 1px;
+	height: 28px;
+	font: 14px/28px "Microsoft YaHei",SimSun,Tahoma,Verdana,Arial,sans-serif;
+	*vertical-align: middle;
+	outline: 0;
+	color: #333;
+	box-shadow: 1px 1px 1px #ddd inset
+}
+
+.app_wrap {
+	position: fixed;
+	z-index: 999;
+	top: auto;
+	bottom: 0;
+	width: 100%;
+	height: 222px;
+	background: url(http://pic.c-ctrip.com/index/bg_mask20131029.png) repeat-x 0 -225px;
+	_position: absolute;
+	_background: #1e2939
+}
+
+.app_box {
+	position: relative;
+	z-index: 1;
+	width: 980px;
+	height: 185px;
+	margin: 0 auto;
+	font: 12px/1.5 arial,Simsun,sans-serif;
+	color: #333
+}
+
+.pic_phone,.ico_success,.ico_alert {
+	background: url(http://pic.c-ctrip.com/index/un_app.png) no-repeat
+}
+
+.ico_success,.ico_alert {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 3px;
+	vertical-align: middle
+}
+
+.ico_success {
+	background-position: -25px -210px
+}
+
+.ico_alert {
+	background-position: -45px -210px
+}
+
+.pic_phone {
+	position: absolute;
+	top: -20px;
+	left: 0;
+	width: 145px;
+	height: 198px;
+	background-position: 0 0
+}
+
+.app_wrap .app_close {
+	position: absolute;
+	top: 10px;
+	right: 0;
+	font: normal 38px Simsun;
+	color: #9aa1a8;
+	outline: 0 none
+}
+
+.app_wrap .app_close:hover {
+	text-decoration: none
+}
+
+.app_text {
+	position: absolute;
+	top: 23px;
+	left: 155px;
+	width: 340px;
+	font-family: 'microsoft yahei';
+	color: #FFF
+}
+
+.app_text .t {
+	font-size: 38px
+}
+
+.app_text .t strong {
+	margin-left: 10px
+}
+
+.app_text .t2 {
+	font-size: 30px
+}
+
+.app_text .t2 strong {
+	margin-left: 15px
+}
+
+.app_text .c {
+	line-height: 1.2;
+	font-size: 26px
+}
+
+.app_text .c span {
+	margin-left: 10px;
+	color: #ff8300
+}
+
+.app_text .c dfn {
+	font-style: normal;
+	font-size: 28px;
+	font-family: Tahoma
+}
+
+.app_text .c .emphasis {
+	vertical-align: -2px;
+	font-size: 32px
+}
+
+.app_text .c2 {
+	margin: -65px 0 -20px;
+	font-size: 36px;
+	color: #ff8300
+}
+
+.app_text .c2 span {
+	font-weight: bold;
+	font-size: 90px;
+	font-style: italic;
+	font-family: Tahoma
+}
+
+.app_text .c3 {
+	font: 18px "Microsoft Yahei";
+	color: #899cb8
+}
+
+.app_cont {
+	position: absolute;
+	top: 0;
+	left: 495px;
+	width: 385px;
+	height: 170px;
+	padding: 15px 25px 0 30px;
+	color: #FFF;
+	background: url(http://pic.c-ctrip.com/index/bg_mask20131029.png) repeat-x 0 -35px;
+	_background: #49535f
+}
+
+.app_form {
+	float: left;
+	width: 270px
+}
+
+.app_form .t {
+	margin-bottom: 8px;
+	font: normal 16px "Microsoft Yahei"
+}
+
+.app_form .t a {
+	margin-left: 10px;
+	font-size: 12px;
+	font-family: Tahoma;
+	color: #FFF
+}
+
+.app_form .t a span {
+	font-size: 14px
+}
+
+.app_form .s_item {
+	width: auto;
+	margin: 3px 0
+}
+
+.app_form .s_item input {
+	margin: 0 10px 0 0;
+	vertical-align: middle
+}
+
+.app_wrap .btn01,.app_wrap .btn01_disabled {
+	display: inline-block;
+	padding: 0 15px;
+	height: 26px;
+	line-height: 26px;
+	vertical-align: middle;
+	background: #27c;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 #0d2e6f;
+	font-family: 'simsun';
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer
+}
+
+.app_wrap .btn01:hover {
+	background: #29f;
+	text-decoration: none
+}
+
+.app_wrap .btn01_disabled,.app_wrap .btn01_disabled:hover {
+	text-decoration: none;
+	cursor: default;
+	background-color: #d1d1d1;
+	box-shadow: 0 1px 0 #333
+}
+
+.app_download {
+	position: relative;
+	margin-top: 3px;
+	_zoom: 1
+}
+
+.app_download .btn_d {
+	display: inline-block;
+	padding: 3px 15px;
+	margin-right: 8px;
+	vertical-align: middle;
+	font: normal 16px Tahoma;
+	color: #FFF;
+	border: 1px solid #FFF;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 #09214a
+}
+
+.app_download .btn_d:hover {
+	text-decoration: none;
+	color: #555e6b;
+	background-color: #FFF
+}
+
+.app_tip {
+	margin-bottom: 3px;
+	color: #b1b1b1
+}
+
+.app_android {
+	position: absolute;
+	left: 82px;
+	bottom: -7px;
+	*left: 84px;
+	width: 80px;
+	padding: 0 10px 10px;
+	text-align: center;
+	font: normal 16px Tahoma;
+	color: #555e6b;
+	border: 1px solid #d6d6d6;
+	background-color: #FFF
+}
+
+.app_android a {
+	display: block;
+	height: 26px;
+	margin-top: 10px;
+	line-height: 26px;
+	border: 1px solid #d1d1d1;
+	border-radius: 3px;
+	background-color: #fcfcfc;
+	color: #2577e3;
+	text-align: center;
+	box-shadow: 0 1px 1px #d1d1d1;
+	font-size: 12px;
+	font-family: SimSun;
+	cursor: pointer;
+	*filter: chroma(color=#000000)
+}
+
+.app_android a:hover {
+	text-decoration: none;
+	background-color: #06c;
+	color: #fff;
+	border-color: #06c
+}
+
+.app_android span {
+	display: block;
+	margin-top: 10px
+}
+
+.app_code {
+	float: right;
+	padding-top: 20px
+}
+
+.app_code p {
+	margin-bottom: 3px
+}
+
+.app_collect {
+	height: 38px;
+	text-align: center;
+	font: normal 16px/38px "Microsoft Yahei",Tahoma;
+	color: #FFF;
+	background-color: #000
+}
+
+.app_collect .s_btn {
+	height: 26px;
+	margin-left: 15px;
+	padding: 0 10px;
+	line-height: 26px;
+	letter-spacing: 0;
+	font-weight: normal;
+	font-size: 15px;
+	text-shadow: none
+}
+
+.app_collect .s_btn:hover {
+	text-decoration: none
+}
+
+.gs_outside_partner {
+	background: #fff;
+	font-family: simsun;
+	font-size: 12px;
+	border: 1px solid #dedede;
+	line-height: 22px;
+	text-align: left;
+	width: 938px;
+	overflow: hidden;
+	margin: 20px auto;
+	padding: 10px 20px
+}
+
+.gs_outside_partner dl {
+	line-height: 22px;
+	overflow: hidden;
+	height: 22px
+}
+
+.gs_outside_partner dt {
+	margin-right: 5px;
+	display: inline;
+	line-height: 20px;
+	font-weight: bold;
+	color: #999
+}
+
+.gs_outside_partner dd {
+	margin-right: 4px;
+	display: inline;
+	line-height: 20px;
+	white-space: nowrap;
+	*zoom: 1
+}
+
+.gs_outside_partner dd a {
+	color: #999;
+	text-decoration: none
+}
+
+#cui_hd,#cui_nav .cui_nav {
+	max-width: 990px
+}
+
+a.h2seostyle {
+	color: #333!important
+}
+
+a.h2seostyle:hover {
+	color: #333!important;
+	text-decoration: none
+}
+
+.clearboth {
+	clear: both;
+	font-size: 0;
+	height: 0
+}
+
+.fixIe6Box {
+	width: 100%;
+	color: #333;
+	border: 1px solid #dedede;
+	text-align: left;
+	background: #fff;
+	padding: .5em 0;
+	text-indent: 1em;
+	color: #333
+}
+
+.fixIe6Box .close {
+	font-size: 12px;
+	height: 16px;
+	width: 16px;
+	float: right;
+	margin-right: 10px
+}
+
+:-ms-input-placeholder {
+	color: #aaa
+}
+
+::-ms-input-placeholder {
+	color: #aaa
+}
+
+.pic-tagico-1,.pic-tagico-2,.pic-tagico-3,.pic-tagico-4 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	display: block;
+	z-index: 2;
+	background: url(http://pages.c-ctrip.com/gs_static/travels/img/icon_ctd_bg.png?t=503df08415beb17e3b1553d8bda287a4) no-repeat 0 -96px
+}
+
+.pic-tagico-2 {
+	background-position: -86px -96px
+}
+
+.pic-tagico-3 {
+	background-position: -43px -96px
+}
+
+.pic-tagico-4 {
+	background-position: -129px -96px
+}
+
+.footerseo {
+	background: #f2f2f2;
+	width: 100%;
+	color: #666;
+	padding: 30px 0 0
+}
+
+.footerseo .footerseo_con {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0 0 30px
+}
+
+.footerseo .footerseo_con a {
+	color: #666
+}
+
+.footerseo_con .seo_title {
+	height: 16px;
+	line-height: 16px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5px
+}
+
+.footerseo_con .seo_title .seotitle1 {
+	float: left;
+	font-size: 14px;
+	font-weight: bold
+}
+
+.footerseo_con .seo_title .seotitle2 {
+	float: left;
+	font-size: 12px;
+	font-weight: bold
+}
+
+.footerseo_con .seo_title .seo1title_r {
+	float: right
+}
+
+.footerseo_con .seo_title .seo1title_r h3 {
+	font-size: 12px;
+	font-weight: bold;
+	display: inline;
+	*zoom: 1
+}
+
+.footerseo_con .seo_title .seo1title_r a {
+	margin: 0 5px
+}
+
+.footerseo_con .seo_title .more {
+	float: right
+}
+
+.footerseo_con p {
+	line-height: 18px
+}
+
+.footerseo_con .seotitle3 {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 20px 0 6px
+}
+
+.seojs2line .seojscon {
+	height: 36px;
+	overflow: hidden
+}
+
+.seojs3line .seojscon {
+	height: 54px;
+	overflow: hidden
+}
+
+.footerseo_con ul li {
+	float: left;
+	width: 84px;
+	padding-right: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.seojs2line ul li {
+	width: auto
+}
+
+.footerseo_con ul.seomb10 {
+	margin-bottom: 10px
+}
+
+.footerseo .linklist {
+	line-height: 18px
+}
+
+.footerseo .linklist a {
+	margin-right: 15px;
+	white-space: nowrap;
+	display: inline-block;
+	*zoom: 1
+}
+
+.footerseo .footerseo_con1 {
+	line-height: 18px;
+	height: 18px;
+	width: 100%;
+	overflow: hidden
+}
+
+.footerseo .footerseo_con1 ul {
+	overflow: hidden
+}
+
+.footerseo .footerseo_con1 ul li {
+	width: auto;
+	float: left;
+	margin-right: 20px
+}
+
+.footerseo .footerseo_con1 a {
+	margin-right: 20px;
+	white-space: nowrap
+}
+
+.footgray {
+	width: 100%;
+	padding: 30px 0;
+	background: #666;
+	margin: 0 0 15px
+}
+
+.footgray .footinner {
+	width: 980px;
+	margin: 0 auto
+}
+
+.footgray .footinner dl {
+	width: 151px;
+	overflow: hidden;
+	float: left;
+	padding-right: 20px
+}
+
+.footgray .footinner dl.ftabout {
+	width: 150px
+}
+
+.footgray .footinner dl.ftguanzhu {
+	float: right;
+	width: 296px;
+	padding: 0
+}
+
+.footgray .footinner dt {
+	color: #fff;
+	padding-bottom: 24px;
+	font-size: 18px
+}
+
+.footgray .footinner dd {
+	line-height: 24px;
+	font-size: 14px
+}
+
+.footgray .footinner a {
+	color: #fff
+}
+
+.footgray .ftguanzhu .youguanzhu .ftweixin {
+	float: left;
+	width: 286px;
+	height: 87px;
+	margin-right: 30px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/img_footer_crcode.png?t=ab59b0ea881a8cc8caa3711a3ca957ed) 0 0 no-repeat
+}
+
+.footgray .ftguanzhu .youguanzhu .ftweibo {
+	float: left;
+	width: 88px;
+	height: 118px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/img_footer_wb.png?t=5dddc604a02593f5970deed261f16b62) -89px 0 no-repeat
+}
+
+.footgray .ftguanzhu .youguanzhu .ftweibo:hover {
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/img_footer_wb.png?t=5dddc604a02593f5970deed261f16b62) -178px 0 no-repeat
+}
+
+.breadbar_v1 {
+	color: #999;
+	margin-bottom: 15px;
+	*z-index: 100;
+	*position: relative
+}
+
+.breadbar_v1 a {
+	color: #333
+}
+
+.breadbar_v1 h1 {
+	font-size: 12px!important;
+	line-height: 18px!important;
+	font-weight: normal!important;
+	margin-bottom: 0!important
+}
+
+.breadbar_v1 li {
+	float: left;
+	position: relative;
+	text-align: center
+}
+
+.breadbar_v1 i.arrow {
+	display: inline-block;
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	border-top: 4px solid #999;
+	border-bottom: 0;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	vertical-align: middle;
+	margin-left: 3px
+}
+
+.breadbar_v1 i.icon_gt {
+	font-family: simsun;
+	color: #333;
+	display: inline-block;
+	width: 28px;
+	text-align: center
+}
+
+.breadbar_v1 .bread_hover {
+	border: 1px solid #ccc;
+	position: absolute;
+	background: #fff;
+	left: -20px;
+	*top: 18px;
+	z-index: 100;
+	display: none
+}
+
+.breadbar_v1 .bread_hover li a {
+	width: 87px;
+	height: 24px;
+	text-align: left;
+	line-height: 24px;
+	display: inline-block;
+	padding-left: 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: top
+}
+
+.breadbar_v1 .bread_hover li a:hover {
+	background: #e5f6fc;
+	text-decoration: none;
+	color: #00a7e1
+}
+
+.breadbar_v1 .b_continent,.breadbar_v1 .b_province {
+	padding: 14px 0
+}
+
+.breadbar_v1 .b_continent li,.breadbar_v1 .b_country li,.breadbar_v1 .b_province li {
+	float: none;
+	width: 112px
+}
+
+.breadbar_v1 .b_city li {
+	width: 112px
+}
+
+.breadbar_v1 .b_country,.breadbar_v1 .b_city {
+	width: 224px;
+	padding: 14px 0
+}
+
+.breadbar_v1 .b_country ul {
+	float: left
+}
+
+.breadbar_v1 .b_country li.b_title,.breadbar_v1 .b_province li.b_title {
+	padding-bottom: 7px;
+	text-align: left;
+	padding-left: 20px;
+	width: 92px;
+	line-height: 24px
+}
+
+.breadbar_v1 .b_poiname {
+	width: 226px;
+	padding-bottom: 14px
+}
+
+.breadbar_v1 .b_poiname li {
+	float: none;
+	width: 226px
+}
+
+.breadbar_v1 .b_poiname li a {
+	width: 180px;
+	padding-left: 36px
+}
+
+.breadbar_v1 .b_country .b_morelink,.breadbar_v1 .b_province .b_morelink {
+	padding-top: 6px
+}
+
+.breadbar_v1 .b_poiname .point_title {
+	margin: 14px 20px 10px 20px;
+	width: 186px;
+	height: 8px;
+	text-align: left;
+	border-bottom: 1px dotted #ccc;
+	position: relative
+}
+
+.breadbar_v1 .b_poiname .point_title .spantitle {
+	display: inline-block;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding-right: 5px
+}
+
+.breadbar_v1 i.sight,.breadbar_v1 i.restaurant,.breadbar_v1 i.shopping,.breadbar_v1 i.amusement {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	overflow: hidden;
+	margin-right: 5px;
+	vertical-align: top;
+	*vertical-align: middle;
+	background: url(http://pages.c-ctrip.com/gs_static/components/img/map_icon.png?t=020811c076d9183ea674335e3519e025) no-repeat 0 -112px
+}
+
+.breadbar_v1 i.restaurant {
+	background-position: -36px -112px
+}
+
+.breadbar_v1 i.shopping {
+	background-position: -54px -112px
+}
+
+.breadbar_v1 i.amusement {
+	background-position: -72px -112px
+}
+
+.breadbar_v1 li:hover .bread_hover {
+	display: block
+}
+
+.breadbar_v1 li:hover i.arrow {
+	border-top: 4px solid #999;
+	border-bottom: 0;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent;
+	border-top: 0\9;
+	border-bottom: 4px solid #999\9;
+	border-right: 4px solid transparent\9;
+	border-left: 4px solid transparent\9;
+	transform: rotate(180deg);
+	transition: transform 250ms;
+	-webkit-transform: rotate(180deg);
+	-webkit-transition: -webkit-transform 250ms;
+	-webkit-backface-visibility: hidden
+}
+
+.breadbar {
+	color: #333;
+	margin-bottom: 15px
+}
+
+.breadbar i,.breadbar font {
+	font-family: simsun;
+	font-size: 12px;
+	padding: 0 5px
+}
+
+.j-picsroller-numbox {
+	bottom: 15px!important;
+	right: 10px!important
+}
+
+.gs-nav li .gs_xclist2015 {
+	background: url(http://pages.c-ctrip.com/gs_static/ttd2/img/xclist.png?t=10bbfd142a3565be08f7637cd11ba8ba) no-repeat -37px -270px;
+	display: inline-block;
+	height: 15px;
+	overflow: hidden;
+	position: absolute;
+	right: 6px;
+	top: -15px;
+	width: 23px;
+	z-index: 10
+}
+
+#cui_hd i.cui_ico_new {
+	display: none
+}
+
+.gltextdown_blk {
+	display: inline-block;
+	color: #00a7e1;
+	font-size: 15px;
+	height: 27px;
+	line-height: 27px;
+	text-align: left;
+	white-space: nowrap
+}
+
+.gltextdown_blk a {
+	display: inline-block;
+	color: #00a7e1;
+	cursor: pointer
+}
+
+.gltextdown_blk a:hover {
+	text-decoration: none
+}
+
+.gltextdown_blk em.text_clue {
+	display: inline-block;
+	height: 27px;
+	line-height: 27px;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gltextdown_icon.png?t=8cd826873f737c9ddbf4321acc6c432f) -20px top no-repeat;
+	padding: 0 5px 0 33px
+}
+
+.gltextdown_blk i.rt_corner {
+	display: inline-block;
+	width: 14px;
+	height: 27px;
+	overflow: hidden;
+	background: url(http://pages.c-ctrip.com/gs_static/common/img/gltextdown_icon.png?t=8cd826873f737c9ddbf4321acc6c432f) no-repeat;
+	vertical-align: top
+}
+
+.gl_kdguides_blk em.text_clue {
+	background-position: -20px -28px
+}
+
+.gl_recom_clue em.text_clue {
+	background: url(http://pages.c-ctrip.com/gs_static/travels/img/gltextdown_icon_tuijian.png?t=6b81d2b93cc6c4f829b0708c21b8abc4) -20px top no-repeat
+}
+
+.gl_recom_clue i.rt_corner {
+	background: url(http://pages.c-ctrip.com/gs_static/travels/img/gltextdown_icon_tuijian.png?t=6b81d2b93cc6c4f829b0708c21b8abc4) left top no-repeat
+}
+
+.gs_bottombar {
+	position: fixed;
+	bottom: 0;
+	height: 30px;
+	border-top: 1px solid #ddd;
+	background: #f4f4f4;
+	width: 100%;
+	z-index: 11;
+	_display: none
+}
+
+.gs_bottombar ul {
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden
+}
+
+.gs_bottombar li {
+	float: left;
+	width: 33%;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px
+}
+
+.gs_bottombar li a {
+	color: #666
+}
+
+.gs_bottombar li span {
+	float: right;
+	width: 1px;
+	height: 18px;
+	margin-top: 6px;
+	*margin-top: -24px;
+	background: #ddd
+}
+
+#base_ft {
+	margin-bottom: 50px!important
+}
